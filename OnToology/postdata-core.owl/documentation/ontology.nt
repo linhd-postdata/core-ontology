@@ -1191,7 +1191,6 @@ _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression
 <http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> <http://www.w3.org/2002/07/owl#equivalentClass> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Agent
 <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1574,6 +1573,7 @@ _:genid114 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/X
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid115 .
 _:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid115 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> .

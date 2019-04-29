@@ -1462,10 +1462,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -1867,6 +1864,8 @@
     "@value" : "Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"
+  }, {
     "@id" : "_:genid115"
   }, {
     "@id" : "_:genid116"

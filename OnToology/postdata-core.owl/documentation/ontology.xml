@@ -1960,9 +1960,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
     <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression -->
 
 
-    <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression">
-        <owl:equivalentClass rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"/>
     
 
 
@@ -2528,6 +2526,7 @@ Eg.: D. Quijote de la Mancha</rdfs:comment>
 
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#mentions"/>

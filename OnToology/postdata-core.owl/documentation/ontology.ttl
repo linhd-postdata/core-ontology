@@ -1267,8 +1267,7 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
 
 
 ###  http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression
-<http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> rdf:type owl:Class ;
-                                                                            owl:equivalentClass <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+<http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> rdf:type owl:Class .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#Agent
@@ -1665,7 +1664,8 @@ Eg.: D. Quijote de la Mancha"""@en ;
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> rdf:type owl:Class ;
-                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 rdfs:subClassOf <http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> ,
+                                                                                 [ rdf:type owl:Restriction ;
                                                                                    owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
                                                                                    owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                                                                    owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
