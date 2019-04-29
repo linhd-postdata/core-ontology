@@ -38,7 +38,7 @@ It also provides transversal information that is ussefull in different specific 
 The concepts dealt with are Person, Organization, Event, Place and Role</dc:description>
         <dc:description xml:lang="en">http://postdata.linhd.uned.es/ontology/logo.png</dc:description>
         <dc:title xml:lang="en">POSTDATA core ontology</dc:title>
-        <terms:publisher xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
+        <terms:publisher xml:lang="en">POSTDATA Project “This project has   received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
         Principal Investigator. Elena González Blanco -- &lt;https://orcid.org/0000-0002-0448-1812&gt;
         Technical Director. Salvador Ros Muñoz -- &lt;https://orcid.org/0000-0001-6330-4958&gt;</terms:publisher>
         <vann:preferredNamespacePrefix xml:lang="en">pdcore</vann:preferredNamespacePrefix>
