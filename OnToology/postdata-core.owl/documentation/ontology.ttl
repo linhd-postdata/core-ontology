@@ -1,0 +1,1943 @@
+@prefix : <http://postdata.linhd.uned.es/ontology/POSTDATA-core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://postdata.linhd.uned.es/ontology/POSTDATA-core> .
+
+<http://postdata.linhd.uned.es/ontology/POSTDATA-core> rdf:type owl:Ontology ;
+                                                        owl:imports <http://postdata.linhd.uned.es/ontology/POSTDATA-dates> ,
+                                                                    <http://purl.org/ontology/olo/core#> ,
+                                                                    <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> ,
+                                                                    <http://www.ontologydesignpatterns.org/cp/owl/partof.owl> ;
+                                                        <http://creativecommons.org/ns#license> "http://creativecommons.org/licenses/by-sa/3.0/"@en ,
+                                                                                                "http://www.gnu.org/copyleft/fdl.html"@en ;
+                                                        <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel  -- <https://orcid.org/0000-0001-7782-206X>"@en ,
+                                                                                                  "Mª Luisa Díez Platas --< https://orcid.org/0000-0002-9416-3147>"@en ;
+                                                        <http://purl.org/dc/elements/1.1/date> "2019"@en ;
+                                                        <http://purl.org/dc/elements/1.1/description> """This ontological module contains classes and properties that provide information related to poetic works and their characteristics.
+It also provides transversal information that is ussefull in different specific domains related and covers different aspects to complete tehe information related with the poetic opus
+The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
+                                                                                                      "http://postdata.linhd.uned.es/ontology/logo.png"@en ;
+                                                        <http://purl.org/dc/elements/1.1/title> "POSTDATA core ontology"@en ;
+                                                        <http://purl.org/dc/terms/publisher> """POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
+        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>
+        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"""@en ;
+                                                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdcore"@en ;
+                                                        <http://schema.org/image> "http://postdata.linhd.uned.es/ontology/logo.png"@en ;
+                                                        owl:versionInfo "V1.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://postdata.linhd.uned.es/ontology/POSTDATA-dates.owl/property#isExpressedAs
+<http://postdata.linhd.uned.es/ontology/POSTDATA-dates.owl/property#isExpressedAs> rdf:type owl:AnnotationProperty ;
+                                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/POSTDATA-dates.owl/class#DateEntity> .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/image
+<http://schema.org/image> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-audienceEducationLevel
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-audienceEducationLevel> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-authorEducationLevel
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-authorEducationLevel> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-birthPlaceCertainty
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-birthPlaceCertainty> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-gender
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-gender> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-literaryPeriod
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-literaryPeriod> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-poeticType
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-poeticType> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-religiousAffiliation
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-religiousAffiliation> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-roleFunction
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-roleFunction> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-school
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-school> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-socialStatus
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-socialStatus> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfCharacter
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfCharacter> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfDesignation
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfDesignation> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfEvent
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfEvent> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfPlace
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfPlace> rdf:type rdfs:Datatype .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfRedaction
+<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfRedaction> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://postdata.linhd.uned.es/ontology/POSTDATA-core/DataType#hasTextUnit
+<http://postdata.linhd.uned.es/ontology/POSTDATA-core/DataType#hasTextUnit> rdf:type owl:ObjectProperty ;
+                                                                            rdfs:subPropertyOf <http://purl.org/ontology/olo/core#slot> ;
+                                                                            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
+                                                                            rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#affects
+<http://postdata.linhd.uned.es/ontology/postdata-core#affects> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                                               owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
+                                                               rdfs:comment "This property points to an instance of Person who is affected by the current function (e.g. the person who benefits from a patronage)"@en ,
+                                                                            "This property points to an instance of Role who is affected by the current function (e.g. the role performed by an actress)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#date
+<http://postdata.linhd.uned.es/ontology/postdata-core#date> rdf:type owl:ObjectProperty ;
+                                                            rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> ;
+                                                            rdfs:comment "A particular point or period of time at which something happened or existed, or is expected to happen"@en ;
+                                                            rdfs:label "date"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#diedIn
+<http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> rdf:type owl:ObjectProperty ;
+                                                              owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> ;
+                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                              rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                              rdfs:comment "This property points to the instance of Place where the current Person has died"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#eventDate
+<http://postdata.linhd.uned.es/ontology/postdata-core#eventDate> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#floruit
+<http://postdata.linhd.uned.es/ontology/postdata-core#floruit> rdf:type owl:ObjectProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain [ rdf:type owl:Class ;
+                                                                              owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                            <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                          )
+                                                                            ] ;
+                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                rdfs:comment "This property points to a function (an instance of Role) that has somehow affected the item at hand (e.g. sponsor)"@en ;
+                                                                rdfs:label "hasAgent"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                    rdfs:comment "This property points to a group of characters, an instance of Agent( Organisation or Person) depicted in the text"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:domain [ rdf:type owl:Class ;
+                                                                                owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                              <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                            )
+                                                                              ] ;
+                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
+                                                                  rdfs:comment "This property points to the entity Creator that has created the current work under analysis"@en ;
+                                                                  rdfs:label "hasCreator"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:domain [ rdf:type owl:Class ;
+                                                                               owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble>
+                                                                                             <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                           )
+                                                                             ] ;
+                                                                 rdfs:range <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> ;
+                                                                 rdfs:comment "This property points to the Person who has edited the current instance of the Ensemble o Opus"@en ;
+                                                                 rdfs:label "hasEditor"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf <http://purl.org/ontology/olo/core#slot> ;
+                                                                    owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasMember
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
+                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                 rdfs:comment "This property points to one of the persons (instance of Person) who belongs to the current Organisation"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedText
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedText> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:subPropertyOf <http://purl.org/ontology/olo/core#ordered_list> ;
+                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
+                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasPart
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> ;
+                                                               owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isPart> ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
+                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                               rdfs:comment "This property points to one of the works (an instance of Opus) which form the current element under analysis"@en ;
+                                                               rdfs:label "hasPart"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#hasRole
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasRole> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole> ;
+                                                               owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isRoleOf> ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                               rdfs:comment "This property points to one of the roles (an instance of Role) performed by the current Person or Organisation"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#involves
+<http://postdata.linhd.uned.es/ontology/postdata-core#involves> rdf:type owl:ObjectProperty ;
+                                                                owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
+                                                                rdfs:range [ rdf:type owl:Class ;
+                                                                             owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation>
+                                                                                           <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                           <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                                         )
+                                                                           ] ;
+                                                                rdfs:comment "This property points to a Organisation, Person or Place  which are related to the current instance of Event"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                    rdfs:comment "This property points to an instance of Role that affects the current role (e.g. actress who performs the role at hand)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                 rdfs:comment "This property points to the work (instance of Opus) which depicts the Role at hand in relation to its contents. When the Role at hand is related to the agents that participated in the transmission of the work (e.g. sponsor), this property points to the entity affected by the current function"@en ;
+                                                                 rdfs:label "isAgentOf"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> ;
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                   rdfs:comment "his property points to the text in which the current instance of Person or Organisatrion is a character"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace
+<http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                    rdfs:comment "This property points to a Person who died in the current instance of Place"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo
+<http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                     rdfs:comment "This peroperty points to one of the persons (an instance of Person) to whom the current text was dedicated"@en ;
+                                                                     rdfs:label "isDedicatedTo"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:subPropertyOf <http://purl.org/ontology/olo/core#ordered_list> ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
+                                                                   rdfs:comment "This property points to the container (an instance of Redaction) of which the item at hand is its first part"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isFrom
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain [ rdf:type owl:Class ;
+                                                                            owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation>
+                                                                                          <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                        )
+                                                                          ] ;
+                                                              rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                              rdfs:comment "This property points to the Place which is the provenance of the current instance of Organisation or Person"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn
+<http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain [ rdf:type owl:Class ;
+                                                                                  owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Agent>
+                                                                                                <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                                              )
+                                                                                ] ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isMember
+<http://postdata.linhd.uned.es/ontology/postdata-core#isMember> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
+                                                                rdfs:comment "This property points to the instance of Organisation to which the Person at hand belongs"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn
+<http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> rdf:type owl:ObjectProperty ;
+                                                                     owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
+                                                                     rdfs:domain <http://www.europeana.eu/schemas/edm/Event> ;
+                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                     rdfs:comment "This  property points to the text (an instance of Redaction) that records the current item under analysis"@en ;
+                                                                     rdfs:label "isMentionedIn"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isPart
+<http://postdata.linhd.uned.es/ontology/postdata-core#isPart> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> ;
+                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                              rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
+                                                              rdfs:comment "This property points to the instance of Ensemble to which the Opus at hand belongs"@en ;
+                                                              rdfs:label "isPart"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough
+<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> rdf:type owl:ObjectProperty ;
+                                                                         owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#realises> ;
+                                                                         rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                         rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                         rdfs:comment "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"@en ;
+                                                                         rdfs:label "isRealisedThrough"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isRoleOf
+<http://postdata.linhd.uned.es/ontology/postdata-core#isRoleOf> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf> ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
+                                                                rdfs:comment "This property points to an instance of Organisation that performs the current Role"@en ,
+                                                                             "This property points to one of the persons (instance of Person) to whom the current Role belongs"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis
+<http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis> rdf:type owl:ObjectProperty ;
+                                                                   owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                   rdfs:comment "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"@en ,
+                                                                                "isSynthesis"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin
+<http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.europeana.eu/schemas/edm/Place> ;
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                   rdfs:comment "This property points to the Entity whose provenance corresponds to the current instance of Place"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated
+<http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> rdf:type owl:ObjectProperty ;
+                                                                    owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                    rdfs:comment "This property points to another work (an instance of Redaction) from which the current item being analysed was translated"@en ;
+                                                                    rdfs:label "isTranslated"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation
+<http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                     rdfs:comment "This property points to another version (an instance of Redaction) which is a translation of the current item being analysed"@en ;
+                                                                     rdfs:label "isTranslation"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#mentions
+<http://postdata.linhd.uned.es/ontology/postdata-core#mentions> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                rdfs:range [ rdf:type owl:Class ;
+                                                                             owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation>
+                                                                                           <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                           <http://www.europeana.eu/schemas/edm/Event>
+                                                                                           <http://www.europeana.eu/schemas/edm/Place>
+                                                                                         )
+                                                                           ] ;
+                                                                rdfs:comment "This property points to an instance of Event  or Person or Organisation or Place that is referred in the current under analysis"@en ;
+                                                                rdfs:label "mentions"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#nextPart
+<http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf <http://purl.org/ontology/olo/core#next> ;
+                                                                owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
+                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#placeDate
+<http://postdata.linhd.uned.es/ontology/postdata-core#placeDate> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#previousPart
+<http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf <http://purl.org/ontology/olo/core#previous> ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom
+<http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> rdf:type owl:ObjectProperty ,
+                                                                               owl:FunctionalProperty ;
+                                                                      rdfs:domain [ rdf:type owl:Class ;
+                                                                                    owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble>
+                                                                                                  <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                                )
+                                                                                  ] ;
+                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                                      rdfs:comment "This property points to the Place which is the provenance of the current instance of Ensamble or Opus"@en ;
+                                                                      rdfs:label "provenanceFrom"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#realises
+<http://postdata.linhd.uned.es/ontology/postdata-core#realises> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                rdfs:comment "This property points to the work (an instance of Opus) of which the text at hand (the current Redaction) is a materialisation"@en ;
+                                                                rdfs:label "realises"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#roleDate
+<http://postdata.linhd.uned.es/ontology/postdata-core#roleDate> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis
+<http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                        rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                        rdfs:comment "This property points to another text (an instance of Redaction) which is a synthesis of the version at hand (the current Redaction)"@en ,
+                                                                                     "usedForSynthesis"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://postdata.linhd.uned.es/ontology/POSTDATA-structuralElements.owl/property#birthDate
+<http://postdata.linhd.uned.es/ontology/POSTDATA-structuralElements.owl/property#birthDate> rdf:type owl:DatatypeProperty ;
+                                                                                            rdfs:subPropertyOf <http://schema.org/birthDate> ;
+                                                                                            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
+
+
+###  http://postdata.linhd.uned.es/ontology/POSTDATA-structuralElements.owl/property#deathDate
+<http://postdata.linhd.uned.es/ontology/POSTDATA-structuralElements.owl/property#deathDate> rdf:type owl:DatatypeProperty ;
+                                                                                            rdfs:subPropertyOf <http://schema.org/deathDate> ;
+                                                                                            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#addName
+<http://postdata.linhd.uned.es/ontology/postdata-core#addName> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                               rdfs:range xsd:string ;
+                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                               rdfs:comment "It contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile
+<http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                      rdfs:range xsd:anyURI ;
+                                                                      rdfs:comment "A file (XML, PFD, plain text) which contains the Redaction and, likely, other type of analytical information"@en ;
+                                                                      rdfs:label "additionalFile"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#address
+<http://postdata.linhd.uned.es/ontology/postdata-core#address> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
+                                                               rdfs:range xsd:string ;
+                                                               rdfs:comment "Contains a postal address, for example of a publisher, an organisation, or an individual"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#altName
+<http://postdata.linhd.uned.es/ontology/postdata-core#altName> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                               rdfs:range xsd:string ;
+                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                               rdfs:comment "Alternative name that references the current item"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#altTitle
+<http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:range xsd:string ;
+                                                                rdfs:comment "Alternative name, other known denominations of a text or tune"@en ;
+                                                                rdfs:label "altTitle"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#altitude
+<http://postdata.linhd.uned.es/ontology/postdata-core#altitude> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                                rdfs:range xsd:decimal ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                rdfs:comment "Altitude expressed in decimal degrees (WGS84)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#audience
+<http://postdata.linhd.uned.es/ontology/postdata-core#audience> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                rdfs:range xsd:string ;
+                                                                rdfs:comment "The meant readership, viewers or listeners of a cultural product"@en ;
+                                                                rdfs:label "audience"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel
+<http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                              rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-audienceEducationLevel> ;
+                                                                              rdfs:comment "Level of education of the recipients of a text/song"@en ;
+                                                                              rdfs:label "audienceEducationLevel"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel
+<http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel> rdf:type owl:DatatypeProperty ,
+                                                                                     owl:FunctionalProperty ;
+                                                                            rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-authorEducationLevel> ;
+                                                                            rdfs:comment "Level of education of the creator of a text/song (this property has as Domain \"Opus\" and not \"Person\" since the education level of a person changes during time. This is the education level of the author in the moment of writing the poem)"@en ;
+                                                                            rdfs:label "authorEducationLevel"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#biography
+<http://postdata.linhd.uned.es/ontology/postdata-core#biography> rdf:type owl:DatatypeProperty ;
+                                                                 owl:equivalentProperty <http://purl.org/vocab/bio/0.1/biography> ;
+                                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                 rdfs:range xsd:string ;
+                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                 rdfs:comment "An account of a person's life written, composed, or produced by another"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty
+<http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                                                           rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                           rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-birthPlaceCertainty> ;
+                                                                           <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                           <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                           rdfs:comment "Certainty of the place of origin"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#commentary
+<http://postdata.linhd.uned.es/ontology/postdata-core#commentary> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:range xsd:string ;
+                                                                  rdfs:comment "An explanatory series of notes or comments; an explanatory essay or treatise on a text"@en ;
+                                                                  rdfs:label "commentary"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#domain
+<http://postdata.linhd.uned.es/ontology/postdata-core#domain> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                              rdfs:range xsd:string ;
+                                                              rdfs:comment "The literary tradition assigned to a composition"@en ;
+                                                              rdfs:label "domain"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity
+<http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                 rdfs:range xsd:string ;
+                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                 rdfs:comment "An ethnic group; a social group that shares a common and distinctive culture, religion, language, or the like"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration
+<http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
+                                                                      rdfs:range xsd:string ;
+                                                                      rdfs:comment "Text that narrates the event, that is, an excerpt of the Redaction"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#explicit
+<http://postdata.linhd.uned.es/ontology/postdata-core#explicit> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                rdfs:range xsd:string ;
+                                                                rdfs:comment "The closing words of the composition (usually, the last verse)"@en ;
+                                                                rdfs:label "explicit"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#firstLines
+<http://postdata.linhd.uned.es/ontology/postdata-core#firstLines> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                  rdfs:range xsd:string ;
+                                                                  rdfs:comment "Initial verses of the composition"@en ;
+                                                                  rdfs:label "firstLines"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#forename
+<http://postdata.linhd.uned.es/ontology/postdata-core#forename> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                rdfs:range xsd:string ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                rdfs:comment "It contains a forename, given or baptismal name"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#function
+<http://postdata.linhd.uned.es/ontology/postdata-core#function> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdfs:domain [ rdf:type owl:Class ;
+                                                                              owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                            <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                          )
+                                                                            ] ;
+                                                                rdfs:range xsd:string ;
+                                                                rdfs:comment "Purpose of the work (e.g. prayer, spell, curse)"@en ;
+                                                                rdfs:label "function"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#genName
+<http://postdata.linhd.uned.es/ontology/postdata-core#genName> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                               rdfs:range xsd:string ;
+                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                               rdfs:comment "It contains a name component used to distinguish otherwise similar names on the basis of the relative ages or generations of the persons named"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#gender
+<http://postdata.linhd.uned.es/ontology/postdata-core#gender> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                              rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-gender> ;
+                                                              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                              <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                              rdfs:comment "The gender of the Person"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#genre
+<http://postdata.linhd.uned.es/ontology/postdata-core#genre> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain [ rdf:type owl:Class ;
+                                                                           owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                         <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                       )
+                                                                         ] ;
+                                                             rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre> ;
+                                                             rdfs:comment "Type of art, literature or music characterized by a specific form, content and style"@en ;
+                                                             rdfs:label "genre"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#incipit
+<http://postdata.linhd.uned.es/ontology/postdata-core#incipit> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                               rdfs:range xsd:string ;
+                                                               rdfs:comment "The first line of the work"@en ;
+                                                               rdfs:label "incipit"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isASong
+<http://postdata.linhd.uned.es/ontology/postdata-core#isASong> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain [ rdf:type owl:Class ;
+                                                                             owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                           <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                         )
+                                                                           ] ;
+                                                               rdfs:range xsd:boolean ;
+                                                               rdfs:comment "Whether the Redaction was composed to be sung"@en ;
+                                                               rdfs:label "isASong"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
+                                                                   rdfs:range xsd:boolean ;
+                                                                   rdfs:comment "In case the identity of current instance of Creator is unknown"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                   rdfs:range xsd:boolean ;
+                                                                   rdfs:comment "A calligram is a text visually arranged in a way that it forms an image associated with the text’s contents"@en ;
+                                                                   rdfs:label "isCalligram"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isFictional
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                   rdfs:range xsd:boolean ;
+                                                                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                   rdfs:comment "Whether the person under analysis is a fictional character"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution
+<http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
+                                                                          rdfs:range xsd:boolean ;
+                                                                          rdfs:comment "In case the identity of the current instance of Creator is certainly a wrong attribution"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#keyword
+<http://postdata.linhd.uned.es/ontology/postdata-core#keyword> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:range xsd:string ;
+                                                               rdfs:comment "A significant or descriptive word. Usually, a word used as a reference point for finding other words or information"@en ;
+                                                               rdfs:label "keyword"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#language
+<http://postdata.linhd.uned.es/ontology/postdata-core#language> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:range xsd:language ;
+                                                                rdfs:comment "Language of the text"@en ;
+                                                                rdfs:label "language"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#lastLines
+<http://postdata.linhd.uned.es/ontology/postdata-core#lastLines> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                 rdfs:range xsd:string ;
+                                                                 rdfs:comment "Final verses of the composition"@en ;
+                                                                 rdfs:label "lastLines"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#latitude
+<http://postdata.linhd.uned.es/ontology/postdata-core#latitude> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                                rdfs:range xsd:decimal ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                rdfs:comment "Latitude expressed in decimal degrees (WGS84)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#layout
+<http://postdata.linhd.uned.es/ontology/postdata-core#layout> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                              rdfs:range xsd:string ;
+                                                              rdfs:comment "The arrangement of textual materials (images included) on a page"@en ;
+                                                              rdfs:label "layout"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod
+<http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-literaryPeriod> ;
+                                                                      rdfs:comment "Label of a timeframe to group together certain works. Cfr. “school”"@en ;
+                                                                      rdfs:label "literaryPeriod"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition
+<http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> rdf:type owl:DatatypeProperty .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#longitude
+<http://postdata.linhd.uned.es/ontology/postdata-core#longitude> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                                 rdfs:range xsd:decimal ;
+                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                 rdfs:comment "Longitude expressed in decimal degrees (WGS84)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#name
+<http://postdata.linhd.uned.es/ontology/postdata-core#name> rdf:type owl:DatatypeProperty ;
+                                                            owl:equivalentProperty <http://xmlns.com/foaf/0.1/name> ;
+                                                            rdfs:subPropertyOf owl:topDataProperty ;
+                                                            rdfs:range xsd:string ;
+                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                            rdfs:comment "Contains a proper noun or noun phrase that refers the current agent"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#nameLink
+<http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                rdfs:range xsd:string ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                rdfs:comment "Contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#nationality
+<http://postdata.linhd.uned.es/ontology/postdata-core#nationality> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                   rdfs:range xsd:string ;
+                                                                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                   rdfs:comment "An ethnic group forming a part of one or more political nations"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#notes
+<http://postdata.linhd.uned.es/ontology/postdata-core#notes> rdf:type owl:DatatypeProperty ;
+                                                             owl:equivalentProperty <http://purl.org/net/nknouf/ns/bibtex#hasNote> ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdfs:range xsd:string ;
+                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                             rdfs:comment "Comment or explanations" ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
+                                                             rdfs:seeAlso "http://62.204.199.36:8080/lode/extract?url=http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> rdf:type owl:DatatypeProperty .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> rdf:type owl:DatatypeProperty .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> rdf:type owl:DatatypeProperty .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                             rdfs:range xsd:integer ;
+                                                                             rdfs:comment "Number of PrimarySources used in the elaboration of an edition"@en ;
+                                                                             rdfs:label "numberOfWitnessesUsed"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage
+<http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                        rdfs:range xsd:language ;
+                                                                        rdfs:comment "The language from which the Redaction/Opus is a translation"@en ;
+                                                                        rdfs:label "originalLanguage"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#originalName
+<http://postdata.linhd.uned.es/ontology/postdata-core#originalName> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain [ rdf:type owl:Class ;
+                                                                                  owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                                <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                                              )
+                                                                                ] ;
+                                                                    rdfs:range xsd:string ;
+                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                    rdfs:comment "Name of the place as it appears in the source text"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle
+<http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain [ rdf:type owl:Class ;
+                                                                                   owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble>
+                                                                                                 <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                                 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                               )
+                                                                                 ] ;
+                                                                     rdfs:range xsd:string ;
+                                                                     rdfs:comment "The identifying name of a text or tune as it appears in its PrimarySource"@en ;
+                                                                     rdfs:label "originalTitle"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis
+<http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                   rdfs:range xsd:string ;
+                                                                   rdfs:comment "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"@en ;
+                                                                   rdfs:label "paraphrasis"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#penName
+<http://postdata.linhd.uned.es/ontology/postdata-core#penName> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
+                                                               rdfs:range xsd:string ;
+                                                               rdfs:comment "A fictitious name, especially a pen name. A variant name"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#poeticType
+<http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> ;
+                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-poeticType> ;
+                                                                  rdfs:comment "Major literary genre of the composition, that is, drama or poetry"@en ;
+                                                                  rdfs:label "poeticType"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#portrait
+<http://postdata.linhd.uned.es/ontology/postdata-core#portrait> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                rdfs:range xsd:anyURI ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                rdfs:comment "URL to a digital image file that depicts the person"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#positionName
+<http://postdata.linhd.uned.es/ontology/postdata-core#positionName> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                    rdfs:range xsd:string ;
+                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                    rdfs:comment "contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation
+<http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf owl:topDataProperty ;
+                                                                            rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-religiousAffiliation> ;
+                                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                            rdfs:comment "Association of a person or a text with a religion, denomination or sub–denominational religious group"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#role
+<http://postdata.linhd.uned.es/ontology/postdata-core#role> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf owl:topDataProperty ;
+                                                            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                            rdfs:range xsd:string ;
+                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                            rdfs:comment "Function of a person or character. In a play, it is the part played by a performer"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#roleDescription
+<http://postdata.linhd.uned.es/ontology/postdata-core#roleDescription> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                                       rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                       rdfs:range xsd:string ;
+                                                                       <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                       <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                       rdfs:comment "A statement or an account characterising the role under analysis"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction
+<http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-roleFunction> ;
+                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                    rdfs:comment "Job performed by some agent (e.g. sponsor, actor, collector, singer, arranger, transcriptor)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#sampleText
+<http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                  rdfs:range xsd:string ;
+                                                                  rdfs:comment "Excerpt"@en ;
+                                                                  rdfs:label "sampleText"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#school
+<http://postdata.linhd.uned.es/ontology/postdata-core#school> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                              rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-school> ;
+                                                              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                              <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                              rdfs:comment "Literary movement/school of the author"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#setting
+<http://postdata.linhd.uned.es/ontology/postdata-core#setting> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain [ rdf:type owl:Class ;
+                                                                             owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                           <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                         )
+                                                                           ] ;
+                                                               rdfs:range xsd:string ;
+                                                               rdfs:comment "Location of the narrative"@en ;
+                                                               rdfs:label "setting"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus
+<http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-socialStatus> ;
+                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                    rdfs:comment "The social status of the Person, that is the position or rank of a Person within the society"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote
+<http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                  rdfs:range xsd:string ;
+                                                                  <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                  <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                  rdfs:comment "Note about the source used to give a particular piece of information"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#subtitle
+<http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> rdf:type owl:DatatypeProperty ;
+                                                                owl:equivalentProperty <http://purl.org/spar/fabio/hasSubtitle> ;
+                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                rdf:type owl:FunctionalProperty ;
+                                                                rdfs:range xsd:string ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:20Z"^^xsd:dateTime ;
+                                                                rdfs:comment "A secondary, usually explanatory title"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
+                                                                rdfs:seeAlso "http://62.204.199.36:8080/lode/extract?url=http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#summary
+<http://postdata.linhd.uned.es/ontology/postdata-core#summary> rdf:type owl:DatatypeProperty ;
+                                                               owl:equivalentProperty <http://purl.org/dc/terms/abstract> ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:range xsd:string ;
+                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                               rdfs:comment "Abstract, synopsis, brief outline" ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
+                                                               rdfs:seeAlso "http://62.204.199.36:8080/lode/extract?url=http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#surname
+<http://postdata.linhd.uned.es/ontology/postdata-core#surname> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                               rdfs:range xsd:string ;
+                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                               rdfs:comment "Contains a family (inherited) name, as opposed to a given, baptismal, or nick name"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#text
+<http://postdata.linhd.uned.es/ontology/postdata-core#text> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                            rdfs:range xsd:anyURI ;
+                                                            rdfs:comment "Reference to textual contents in an unstructured manner. The contents of this property do not allow finer analysis by stanza or line. It can be a text of a diplomatic edition, semidiplomatic edition or of a critical edition (among others) or even a translation. The property typeOfRedaction defines the type of Edition or if it is a translation"@en ;
+                                                            rdfs:label "text"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#textualUnit
+<http://postdata.linhd.uned.es/ontology/postdata-core#textualUnit> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                   rdfs:range xsd:string ;
+                                                                   rdfs:comment "The type of textual element (e.g. part of a greater ensemble; part of a composed collection of poems; prologue of a work; epilogue of a work; a chapter of a work...)"@en ;
+                                                                   rdfs:label "textualUnit"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#theme
+<http://postdata.linhd.uned.es/ontology/postdata-core#theme> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:range xsd:string ;
+                                                             rdfs:comment "Subject of a text, song or image"@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
+                                                             rdfs:seeAlso "http://62.204.199.36:8080/lode/extract?url=http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#title
+<http://postdata.linhd.uned.es/ontology/postdata-core#title> rdf:type owl:DatatypeProperty ;
+                                                             owl:equivalentProperty <http://purl.org/dc/elements/1.1/title> ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdfs:range xsd:string ;
+                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                             rdfs:comment "An identifying name given to a text or tune"@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
+                                                             rdfs:seeAlso "http://62.204.199.36:8080/lode/extract?url=http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                                       rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                       rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfCharacter> ;
+                                                                       <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                       <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                       rdfs:comment "Type of character (eg. “main”, “antagonist”, etc.)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                                         rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
+                                                                         rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfDesignation> ;
+                                                                         <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                         <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                         rdfs:comment "Type of designation/name. E.g. pseudonym, heteronym, allonym, orthonym variant"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfEvent> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfPlace> ;
+                                                                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                                   rdfs:comment "Type of place (e.g. fictional)"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                       rdfs:range xsd:string ;
+                                                                       rdfs:comment """The type of the text provided in the Redaction 
+Eg.: Diplomatic edition, critical edition, translation"""@en ;
+                                                                       rdfs:label "typeOfRedaction"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource
+<http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain [ rdf:type owl:Class ;
+                                                                                        owl:unionOf ( <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                                      <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                                    )
+                                                                                      ] ;
+                                                                          rdfs:range xsd:string ;
+                                                                          rdfs:comment "There are references that mentioned a PrimarySource for the text at hand but the real textual artefact has not been identified"@en ;
+                                                                          rdfs:label "unidentifiedSource"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#uri
+<http://postdata.linhd.uned.es/ontology/postdata-core#uri> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                                           rdfs:range xsd:anyURI ;
+                                                           <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                           <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
+                                                           rdfs:comment "URI to a Linked Open Data resource"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed
+<http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                        rdfs:range xsd:string ;
+                                                                        rdfs:comment "Primary sources of the text excluded during the elaboration of an edition (usually, dependent witnesses)"@en ;
+                                                                        rdfs:label "witnessesNotUsed"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#workNumber
+<http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                                                                  rdfs:range xsd:string ;
+                                                                  rdfs:comment "Number that identifies the text, for instance, inside a collection"@en ;
+                                                                  rdfs:label "workNumber"@en .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/net/nknouf/ns/bibtex#hasNote
+<http://purl.org/net/nknouf/ns/bibtex#hasNote> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/spar/fabio/hasSubtitle
+<http://purl.org/spar/fabio/hasSubtitle> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/vocab/bio/0.1/biography
+<http://purl.org/vocab/bio/0.1/biography> rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/birthDate
+<http://schema.org/birthDate> rdf:type owl:DatatypeProperty ;
+                              rdfs:range xsd:date .
+
+
+###  http://schema.org/deathDate
+<http://schema.org/deathDate> rdf:type owl:DatatypeProperty ;
+                              rdfs:range xsd:date .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Opus> .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://id.loc.gov/ontologies/bibframe/Event
+<http://id.loc.gov/ontologies/bibframe/Event> rdf:type owl:Class ;
+                                              owl:equivalentClass <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F17_Aggregation_Work
+<http://iflastandards.info/ns/fr/frbr/frbroo/F17_Aggregation_Work> rdf:type owl:Class .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work
+<http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work> rdf:type owl:Class .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression
+<http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> rdf:type owl:Class ;
+                                                                            owl:equivalentClass <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Agent
+<http://postdata.linhd.uned.es/ontology/postdata-core#Agent> rdf:type owl:Class ;
+                                                             owl:equivalentClass <http://www.europeana.eu/schemas/edm/Agent> ,
+                                                                                 <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> ;
+                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> ;
+                                                                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Event>
+                                                                             ] ;
+                                                             rdfs:label "Agent"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole
+<http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> ;
+                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                     owl:onDataRange xsd:boolean
+                                                                                   ] ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> ;
+                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                     owl:onDataRange xsd:boolean
+                                                                                   ] ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#penName> ;
+                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                     owl:onDataRange xsd:string
+                                                                                   ] ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> ;
+                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                     owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfDesignation>
+                                                                                   ] ;
+                                                                   rdfs:label "CreatorRole"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble
+<http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://iflastandards.info/ns/fr/frbr/frbroo/F17_Aggregation_Work> ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> ;
+                                                                                  owl:someValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> ;
+                                                                                  owl:someValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> ;
+                                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                  owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole>
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> ;
+                                                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                  owl:onDataRange xsd:integer
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> ;
+                                                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                  owl:onDataRange xsd:integer
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> ;
+                                                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                  owl:onDataRange xsd:integer
+                                                                                ] ;
+                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                                rdfs:comment """An abstract work that contains more than one Opus. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Opus)
+Eg.: Les fleurs du mal"""@en ;
+                                                                rdfs:label "Ensemble"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Event
+<http://postdata.linhd.uned.es/ontology/postdata-core#Event> rdf:type owl:Class ;
+                                                             owl:equivalentClass <http://www.europeana.eu/schemas/edm/Event> ;
+                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> ;
+                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:string
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#name> ;
+                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:string
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> ;
+                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfEvent>
+                                                                             ] ;
+                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                             rdfs:comment "A thing that happens or takes place"@en ;
+                                                             rdfs:label "Event"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Opus
+<http://postdata.linhd.uned.es/ontology/postdata-core#Opus> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work> ,
+                                                                            <http://www.europeana.eu/schemas/edm/ProvidedCHO> ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> ;
+                                                                              owl:someValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
+                                                                              owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isPart> ;
+                                                                              owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> ;
+                                                                              owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#genre> ;
+                                                                              owl:someValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#language> ;
+                                                                              owl:someValuesFrom xsd:language
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel> ;
+                                                                              owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#vc-authorEducationLevel>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> ;
+                                                                              owl:allValuesFrom xsd:string
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> ;
+                                                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange xsd:string
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> ;
+                                                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-poeticType>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#setting> ;
+                                                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange xsd:string
+                                                                            ] ;
+                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                            rdfs:comment """Abstract concept of an artistic creation. In POSTDATA these creations must be in verse (poem, play, song)
+Eg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries"""@en ;
+                                                            rdfs:label "Opus"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList
+<http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Organisation
+<http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> rdf:type owl:Class ;
+                                                                    owl:equivalentClass <http://xmlns.com/foaf/0.1/Organization> ;
+                                                                    rdfs:subClassOf <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> ;
+                                                                                      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                      owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                    ] ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasRole> ;
+                                                                                      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                      owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
+                                                                                    ] ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> ;
+                                                                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                      owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                                    ] ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#name> ;
+                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                      owl:onDataRange xsd:string
+                                                                                    ] ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#address> ;
+                                                                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                      owl:onDataRange xsd:string
+                                                                                    ] ;
+                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                                    rdfs:comment """Named collection of people regarded as a single unit
+Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ and businesses such as ‘Google’ but also racial or ethnic groupings or political factions where these are regarded as forming a single agency such as ‘the Carthaginians’ or ‘the Communists’"""@en ;
+                                                                    rdfs:label "Organisation"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Person
+<http://postdata.linhd.uned.es/ontology/postdata-core#Person> rdf:type owl:Class ;
+                                                              owl:equivalentClass <http://xmlns.com/foaf/0.1/Person> ;
+                                                              rdfs:subClassOf <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasRole> ;
+                                                                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> ;
+                                                                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus> ;
+                                                                                owl:someValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#vc-socialStatus>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#altName> ;
+                                                                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#nationality> ;
+                                                                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> ;
+                                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#portrait> ;
+                                                                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/POSTDATA-structuralElements.owl/property#birthDate> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:date
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/POSTDATA-structuralElements.owl/property#deathDate> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:date
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#forename> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:boolean
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#name> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#surname> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#addName> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#biography> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#genName> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#gender> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-gender>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#positionName> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#school> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-school>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onDataRange xsd:string
+                                                                              ] ;
+                                                              rdfs:comment """A human being regarded as an individual. This person could have existed in real life or it may be fictional.
+Eg.: D. Quijote de la Mancha"""@en ;
+                                                              rdfs:label "Person"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Place
+<http://postdata.linhd.uned.es/ontology/postdata-core#Place> rdf:type owl:Class ;
+                                                             owl:equivalentClass <http://www.europeana.eu/schemas/edm/Place> ,
+                                                                                 <http://www.geonames.org/ontology#Feature> ;
+                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> ;
+                                                                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> ;
+                                                                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Event>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> ;
+                                                                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Agent>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> ;
+                                                                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:string
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#name> ;
+                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:string
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> ;
+                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfPlace>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#altitude> ;
+                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:decimal
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#latitude> ;
+                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:decimal
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#longitude> ;
+                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onDataRange xsd:decimal
+                                                                             ] ;
+                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                             rdfs:comment "A particular position, point, or area in space; a location"@en ;
+                                                             rdfs:label "Place"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> ;
+                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedText> ;
+                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#realises> ;
+                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Opus>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#language> ;
+                                                                                   owl:someValuesFrom xsd:language
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#title> ;
+                                                                                   owl:someValuesFrom xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-audienceEducationLevel>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#commentary> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#genre> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#keyword> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#layout> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> ;
+                                                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfRedaction>
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#text> ;
+                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#textualUnit> ;
+                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:anyURI
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#audience> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#explicit> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#firstLines> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#incipit> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#lastLines> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:integer
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#setting> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> ;
+                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                   owl:onDataRange xsd:string
+                                                                                 ] ;
+                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                                 rdfs:comment """Representatives of a work, that is, of an Opus. Each version of a work is its own redaction.
+Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Opus"""@en ;
+                                                                 rdfs:label "Redaction"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Role
+<http://postdata.linhd.uned.es/ontology/postdata-core#Role> rdf:type owl:Class ;
+                                                            owl:equivalentClass <http://schema.org/Role> ,
+                                                                                <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> ;
+                                                            rdfs:subClassOf [ rdf:type owl:Class ;
+                                                                              owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#role> ;
+                                                                                              owl:someValuesFrom xsd:string
+                                                                                            ]
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction> ;
+                                                                                              owl:someValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#vc-roleFunction>
+                                                                                            ]
+                                                                                          )
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#affects> ;
+                                                                              owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> ;
+                                                                              owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isRoleOf> ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://postdata.linhd.uned.es/ontology/postdata-core#Person>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter> ;
+                                                                              owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange <http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfCharacter>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#roleDescription> ;
+                                                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange xsd:string
+                                                                            ] ;
+                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
+                                                            rdfs:comment "Function of a person or character" ;
+                                                            rdfs:label "Role"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit
+<http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> rdf:type owl:Class .
+
+
+###  http://schema.org/Role
+<http://schema.org/Role> rdf:type owl:Class .
+
+
+###  http://www.europeana.eu/schemas/edm/Agent
+<http://www.europeana.eu/schemas/edm/Agent> rdf:type owl:Class .
+
+
+###  http://www.europeana.eu/schemas/edm/Event
+<http://www.europeana.eu/schemas/edm/Event> rdf:type owl:Class .
+
+
+###  http://www.europeana.eu/schemas/edm/Place
+<http://www.europeana.eu/schemas/edm/Place> rdf:type owl:Class .
+
+
+###  http://www.europeana.eu/schemas/edm/ProvidedCHO
+<http://www.europeana.eu/schemas/edm/ProvidedCHO> rdf:type owl:Class .
+
+
+###  http://www.geonames.org/ontology#Feature
+<http://www.geonames.org/ontology#Feature> rdf:type owl:Class .
+
+
+###  http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> rdf:type owl:Class .
+
+
+###  http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role
+
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateCertainty> rdfs:label "dateCertainty"@en .
+
+
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> rdfs:label "dateNote"@en .
+
+
+<http://postdata.linhd.uned.es/ontology/postdata-dates#from> rdfs:label "from"@en .
+
+
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> rdfs:label "notAfter"@en .
+
+
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> rdfs:label "notBefore"@en .
+
+
+<http://postdata.linhd.uned.es/ontology/postdata-dates#to> rdfs:label "to"@en .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
