@@ -21,7 +21,7 @@ It also provides transversal information that is ussefull in different specific 
 The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                                       "http://postdata.linhd.uned.es/ontology/logo.png"@en ;
                                                         <http://purl.org/dc/elements/1.1/title> "POSTDATA core ontology"@en ;
-                                                        <http://purl.org/dc/terms/publisher> """POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
+                                                        <http://purl.org/dc/terms/publisher> """POSTDATA Project “This project has   received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
         Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>
         Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"""@en ;
                                                         <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdcore"@en ;
@@ -354,7 +354,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> rdf:type owl:ObjectProperty ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
-                                                                rdfs:comment "This property points to the instance of Organisation to which the Person at hand belongs"@en .
+                                                                rdfs:comment "This property  points to the instance of Organisation to which the Person at hand belongs"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn

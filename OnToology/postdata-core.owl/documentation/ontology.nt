@@ -11,7 +11,7 @@
 <http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/description> "This ontological module contains classes and properties that provide information related to poetic works and their characteristics.\nIt also provides transversal information that is ussefull in different specific domains related and covers different aspects to complete tehe information related with the poetic opus\nThe concepts dealt with are Person, Organization, Event, Place and Role"@en .
 <http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/description> "http://postdata.linhd.uned.es/ontology/logo.png"@en .
 <http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/title> "POSTDATA core ontology"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/terms/publisher> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"@en .
+<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/terms/publisher> "POSTDATA Project “This project has   received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"@en .
 <http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdcore"@en .
 <http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://schema.org/image> "http://postdata.linhd.uned.es/ontology/logo.png"@en .
 <http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/2002/07/owl#versionInfo> "V1.0" .
@@ -334,7 +334,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the instance of Organisation to which the Person at hand belongs"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This property  points to the instance of Organisation to which the Person at hand belongs"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .

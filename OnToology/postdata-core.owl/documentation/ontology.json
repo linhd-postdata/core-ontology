@@ -1497,7 +1497,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"
+    "@value" : "POSTDATA Project “This project has   received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@language" : "en",
@@ -2831,7 +2831,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property points to the instance of Organisation to which the Person at hand belongs"
+    "@value" : "This property  points to the instance of Organisation to which the Person at hand belongs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
