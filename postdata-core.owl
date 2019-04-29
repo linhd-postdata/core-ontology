@@ -537,7 +537,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role</dc:desc
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isMember">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"/>
-        <rdfs:comment xml:lang="en">This property points to the instance of Organisation to which the Person at hand belongs</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property  points to the instance of Organisation to which the Person at hand belongs</rdfs:comment>
     </owl:ObjectProperty>
     
 
