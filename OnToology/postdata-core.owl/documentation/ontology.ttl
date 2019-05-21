@@ -11,13 +11,12 @@
                                                                     <http://purl.org/ontology/olo/core#> ,
                                                                     <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> ,
                                                                     <http://www.ontologydesignpatterns.org/cp/owl/partof.owl> ;
-                                                        <http://creativecommons.org/ns#license> "http://creativecommons.org/licenses/by-sa/3.0/"@en ,
-                                                                                                "http://www.gnu.org/copyleft/fdl.html"@en ;
+                                                        <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by/4.0/"@en ;
                                                         <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel  -- <https://orcid.org/0000-0001-7782-206X>"@en ,
                                                                                                   "Mª Luisa Díez Platas --< https://orcid.org/0000-0002-9416-3147>"@en ;
                                                         <http://purl.org/dc/elements/1.1/date> "2019"@en ;
                                                         <http://purl.org/dc/elements/1.1/description> """This ontological module contains classes and properties that provide information related to poetic works and their characteristics.
-It also provides transversal information that is ussefull in different specific domains related and covers different aspects to complete tehe information related with the poetic opus
+It also provides transversal information that is ussefull in different specific domains related and covers different aspects to complete tehe information related with the poetic work
 The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                                       "http://postdata.linhd.uned.es/ontology/logo.png"@en ;
                                                         <http://purl.org/dc/elements/1.1/title> "POSTDATA core ontology"@en ;
@@ -34,15 +33,6 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 
 ###  http://creativecommons.org/ns#license
 <http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
-
-
-###  http://postdata.linhd.uned.es/ontology/POSTDATA-dates.owl/property#isExpressedAs
-<http://postdata.linhd.uned.es/ontology/POSTDATA-dates.owl/property#isExpressedAs> rdf:type owl:AnnotationProperty ;
-                                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/POSTDATA-dates.owl/class#DateEntity> .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-dates#content
-<http://postdata.linhd.uned.es/ontology/postdata-dates#content> rdf:type owl:AnnotationProperty .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs
@@ -78,74 +68,6 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 
 
 #################################################################
-#    Datatypes
-#################################################################
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-audienceEducationLevel
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-audienceEducationLevel> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-authorEducationLevel
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-authorEducationLevel> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-birthPlaceCertainty
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-birthPlaceCertainty> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-certainty
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-certainty> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-gender
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-gender> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-genre> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-literaryPeriod
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-literaryPeriod> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-poeticType
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-poeticType> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-roleFunction
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-roleFunction> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-school
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-school> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-socialStatus
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-socialStatus> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfCharacter
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfCharacter> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfDesignation
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfDesignation> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfEvent
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfEvent> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfPlace
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfPlace> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfRedaction
-<http://postdata.linhd.uned.es/ontology/postdata-core#vc-typeOfRedaction> rdf:type rdfs:Datatype .
-
-
-#################################################################
 #    Object Properties
 #################################################################
 
@@ -155,9 +77,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> ;
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
-                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
                                                                rdfs:comment "This property points to an instance of Role who is affected by the current function (e.g. the role performed by an actress)"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "affects"@en .
 
 
@@ -170,6 +91,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                          owl:hasValue <http://postdata.linhd.uned.es/kos/author-educationLevel>
                                                                                        ] ;
                                                                             rdfs:comment "Level of education of the creator of a text/song (this property has as Domain \"PoeticWork\" and not \"Person\" since the education level of a person changes during time. This is the education level of the author in the moment of writing the poem)"@en ;
+                                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                             rdfs:label "authorEducationLevel"@en .
 
 
@@ -179,6 +101,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                        rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                        rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                        rdfs:comment "This property points to one of the persons (an instance of Person) who has edited the work of the under analysis (the current instance of Person)"@en ;
+                                                                       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                        rdfs:label "authorHasEditor"@en .
 
 
@@ -187,6 +110,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                         rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                         rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
                                                                         rdfs:comment "This property points to the specific location in a bibliographic item (an instance of Location) of the current author under analysis"@en ;
+                                                                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                         rdfs:label "authorIseditedIn"@en .
 
 
@@ -196,7 +120,17 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> ;
                                                                  rdfs:comment "Date of birth"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "birthDate"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace
+<http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> ;
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
+                                                                  rdfs:comment "This property points to the Place which is the provenance of the current instance of Person"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
+                                                                  rdfs:label "birthPlace"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty
@@ -209,6 +143,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                         owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
                                                                                       ] ;
                                                                            rdfs:comment "Certainty of the date of birth"@en ;
+                                                                           rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                            rdfs:label "birthPlaceCertainty"@en .
 
 
@@ -220,6 +155,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                               owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
                                                                             ] ;
                                                                  rdfs:comment "Level of confidence regarding the correspondent function"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "certainty"@en .
 
 
@@ -227,6 +163,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> rdf:type owl:ObjectProperty ;
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "Person or Organisation who play the role"@en ,
                                                                                 "correspondsTo"@en .
 
@@ -234,44 +171,16 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#creates
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> rdf:type owl:ObjectProperty ;
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
-                                                               rdfs:comment "This property points to an item which was authored by the current Creator"@en ;
+                                                               rdfs:comment "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "creates"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#createsEnsemble
-<http://postdata.linhd.uned.es/ontology/postdata-core#createsEnsemble> rdf:type owl:ObjectProperty ;
-                                                                       rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#creates> ;
-                                                                       rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
-                                                                       rdfs:comment "This property points to a collection of works (an instance of Ensemble) which was authored by the current Person"@en ;
-                                                                       rdfs:label "createsEnsemble"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#createsPoeticWork
-<http://postdata.linhd.uned.es/ontology/postdata-core#createsPoeticWork> rdf:type owl:ObjectProperty ;
-                                                                         rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#creates> ;
-                                                                         rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
-                                                                         rdfs:comment "This property points to a work (an instance of Opus) which was authored by the current Creator"@en ;
-                                                                         rdfs:label "createsPoeticWork"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#createsRedaction
-<http://postdata.linhd.uned.es/ontology/postdata-core#createsRedaction> rdf:type owl:ObjectProperty ;
-                                                                        rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#creates> ;
-                                                                        rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
-                                                                        rdfs:comment "This property points to a text (an instance of Redaction) which was authored by the current Creator"@en ;
-                                                                        rdfs:label "createsRedaction"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#creatorRoleCertainty
-<http://postdata.linhd.uned.es/ontology/postdata-core#creatorRoleCertainty> rdf:type owl:ObjectProperty ;
-                                                                            rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#roleCertainty> ;
-                                                                            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#date
 <http://postdata.linhd.uned.es/ontology/postdata-core#date> rdf:type owl:ObjectProperty ;
                                                             rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> ;
                                                             rdfs:comment "This property points to an date entity that represents a particular point or period of time at which something happened or existed, or is expected to happen"@en ;
+                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                             rdfs:label "date"@en .
 
 
@@ -281,6 +190,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> ;
                                                                  rdfs:comment "Date of death"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "deathDate"@en .
 
 
@@ -290,6 +200,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
                                                               rdfs:comment "This property points to the instance of Place where the current Person has died"@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                               rdfs:label "diedIn"@en .
 
 
@@ -298,15 +209,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                    rdfs:comment "This property points to an author (instance of Person) who was edited by the the current Person"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "editsAuthor"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#eventDate
-<http://postdata.linhd.uned.es/ontology/postdata-core#eventDate> rdf:type owl:ObjectProperty ;
-                                                                 rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
-                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
-                                                                 rdfs:comment "This property points to an date entity that represents a particular point or period of time at which something happened"@en ;
-                                                                 rdfs:label "eventDate"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#floruit
@@ -314,6 +218,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> ;
                                                                rdfs:comment "A person’s period of activity (to use when a range cannot be stablished; eg. “3rd century”)"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "floruit"@en .
 
 
@@ -326,6 +231,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                            owl:hasValue <http://postdata.linhd.uned.es/kos/gender>
                                                                          ] ;
                                                               rdfs:comment "The gender of the Person"@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                               rdfs:label "gender"@en .
 
 
@@ -338,6 +244,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                           owl:hasValue <http://postdata.linhd.uned.es/kos/genre>
                                                                         ] ;
                                                              rdfs:comment "Type of art, literature or music characterized by a specific form, content and style"@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                              rdfs:label "genre"@en .
 
 
@@ -345,6 +252,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> rdf:type owl:ObjectProperty ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                                 rdfs:comment "This property points to a function (an instance of Role) that has somehow affected the item at hand (e.g. sponsor)"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "hasAgent"@en .
 
 
@@ -353,6 +261,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
                                                                     rdfs:comment "This property points to a group of characters, an instance of Agent( Organisation or Person) depicted in the text"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "hasCharacter"@en .
 
 
@@ -360,6 +269,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> rdf:type owl:ObjectProperty ;
                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
                                                                   rdfs:comment "This property points to the entity Creator that has created the current work under analysis"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "hasCreator"@en .
 
 
@@ -369,6 +279,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                      rdfs:comment "This property points to the text (an instance of Redaction) which was dedicated to the current Person"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "hasDedication"@en .
 
 
@@ -378,6 +289,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                  rdfs:comment "This property points to the Person who has edited the current instance of Redaction"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "hasEditor"@en .
 
 
@@ -388,6 +300,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
                                                                     rdfs:comment "This property points to the first text unit (an instance of Redaction) which form the current element under analysis"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "hasFirstPart"@en .
 
 
@@ -397,6 +310,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                        rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                        rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-additionalsElements#Illustration> ;
                                                                        rdfs:comment "This property points to the image that acompanies the text"@en ;
+                                                                       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                        rdfs:label "hasIllustration"@en .
 
 
@@ -407,6 +321,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                           rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
                                                                           rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
                                                                           rdfs:comment "An ordered list of a textual units"@en ;
+                                                                          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                           rdfs:label "hasListOrderedText"@en .
 
 
@@ -416,6 +331,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                  rdfs:comment "This property points to one of the persons (instance of Person) who belongs to the current Organisation"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "hasMember"@en .
 
 
@@ -424,6 +340,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                           rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                           rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
                                                                           rdfs:comment "List of  text units that form the redaction"@en ;
+                                                                          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                           rdfs:label "hasOrderedList"@en .
 
 
@@ -434,6 +351,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                                rdfs:comment "This property points to one of the works (an instance of PoeticWork) which form the current element under analysis"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "hasPart"@en .
 
 
@@ -444,6 +362,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
                                                                rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                                rdfs:comment "This property points to one of the roles (an instance of Role) performed by the current Person or Organisation"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "hasRole"@en .
 
 
@@ -453,6 +372,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> ;
                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
                                                                    rdfs:comment "A text unit in an ordered list."@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "hasTextUnit"@en .
 
 
@@ -461,6 +381,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                       rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                       rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
                                                                       rdfs:comment "This property points to the specific location in a bibliographic item (an instance of Location) which contains a translation of the text at hand"@en ;
+                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                       rdfs:label "hasTranslation"@en .
 
 
@@ -469,21 +390,15 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
                                                                 rdfs:comment "This property points to a Organisation, Person or Place  which are related to the current instance of Event"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "involves"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#isACreator
-<http://postdata.linhd.uned.es/ontology/postdata-core#isACreator> rdf:type owl:ObjectProperty ;
-                                                                  owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#participateAsCreator> ;
-                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
-                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
-                                                                  rdfs:comment "This property points to an Agent that corresponds the current Creator"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> rdf:type owl:ObjectProperty ;
                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
-                                                                    rdfs:comment "This property points to an instance of Role that affects the current role (e.g. actress who performs the role at hand)"@en .
+                                                                    rdfs:comment "This property points to an instance of Role that affects the current role (e.g. actress who performs the role at hand)"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf
@@ -491,6 +406,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                                  rdfs:comment "This property points to the work (instance of Opus) which depicts the Role at hand in relation to its contents. When the Role at hand is related to the agents that participated in the transmission of the work (e.g. sponsor), this property points to the entity affected by the current function"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "isAgentOf"@en .
 
 
@@ -498,21 +414,33 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> rdf:type owl:ObjectProperty ;
                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
-                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> rdf:type owl:ObjectProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
-                                                                   rdfs:comment "his property points to the text in which the current instance of Person or Organisatrion is a character"@en .
+                                                                   rdfs:comment "his property points to the text in which the current instance of Person or Organisatrion is a character"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#isCreator
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCreator> rdf:type owl:ObjectProperty ;
+                                                                 owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#participateAsCreator> ;
+                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
+                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
+                                                                 rdfs:comment "This property points to an Agent that corresponds the current Creator"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> rdf:type owl:ObjectProperty ;
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
-                                                                    rdfs:comment "This property points to a Person who died in the current instance of Place"@en .
+                                                                    rdfs:comment "This property points to a Person who died in the current instance of Place"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo
@@ -520,17 +448,20 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                      rdfs:comment "This peroperty points to one of the persons (an instance of Person) to whom the current text was dedicated"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "isDedicatedTo"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> rdf:type owl:ObjectProperty ;
-                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
+                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> rdf:type owl:ObjectProperty ;
-                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
+                                                                  rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isEditor
@@ -538,6 +469,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                 rdfs:comment "This property points to an instance of Redaction which was edited by the the current Person"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "isEditor"@en .
 
 
@@ -547,25 +479,29 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                    rdfs:comment "This property points to the container (an instance of Redaction) of which the item at hand is its first part"@en ,
-                                                                                "isFirstpart"@en .
+                                                                                "isFirstpart"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isFrom
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> rdf:type owl:ObjectProperty ;
                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                              rdfs:comment "This property points to the Place which is the provenance of the current instance of Organisation or Person"@en .
+                                                              rdfs:comment "This property points to the Place which is the provenance of the current instance of the item"@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> rdf:type owl:ObjectProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
-                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
+                                                                   rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> rdf:type owl:ObjectProperty ;
                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
                                                                     rdfs:comment "This property points to the Event in which the current instance of Organisation, Person or Place is referenced"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "isInvolvedIn"@en .
 
 
@@ -574,6 +510,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
                                                                 rdfs:comment "This property points to the instance of Organisation to which the Person at hand belongs"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "isMember"@en .
 
 
@@ -582,6 +519,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      owl:inverseOf <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                      rdfs:comment "This  property points to the text (an instance of Redaction) that records the current item under analysis"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "isMentionedIn"@en .
 
 
@@ -591,6 +529,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
                                                               rdfs:comment "This property points to the instance of Ensemble to which the PoeticWork at hand belongs"@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                               rdfs:label "isPart"@en .
 
 
@@ -600,18 +539,21 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                          rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                                          rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                          rdfs:comment "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"@en ;
+                                                                         rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                          rdfs:label "isRealisedThrough"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> rdf:type owl:ObjectProperty ;
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
-                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> rdf:type owl:ObjectProperty ;
-                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
+                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
+                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isRoleOf
@@ -619,10 +561,9 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf> ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
                                                                 rdfs:comment "This property points to an instance of Organisation that performs the current Role"@en ,
                                                                              "This property points to one of the persons (instance of Person) to whom the current Role belongs"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "isRoleOf"@en .
 
 
@@ -632,13 +573,15 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                    rdfs:comment "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"@en ,
-                                                                                "isSynthesis"@en .
+                                                                                "isSynthesis"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> rdf:type owl:ObjectProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                                   rdfs:comment "This property points to the Entity whose provenance corresponds to the current instance of Place"@en .
+                                                                   rdfs:comment "This property points to the Entity whose provenance corresponds to the current instance of Place"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated
@@ -647,6 +590,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                     rdfs:comment "This property points to another work (an instance of Redaction) from which the current item being analysed was translated"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "isTranslated"@en .
 
 
@@ -655,6 +599,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                      rdfs:comment "This property points to another version (an instance of Redaction) which is a translation of the current item being analysed"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "isTranslation"@en .
 
 
@@ -665,38 +610,16 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                  [ rdf:type owl:Restriction ;
                                                                                    owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
                                                                                    owl:hasValue <http://postdata.linhd.uned.es/kos/literary-period>
-                                                                                 ] .
+                                                                                 ] ;
+                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#mentions
 <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> rdf:type owl:ObjectProperty ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                 rdfs:comment "This property points to an instance of Event  or Person or Organisation or Place that is referred in the current under analysis"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "mentions"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#mentionsAgent
-<http://postdata.linhd.uned.es/ontology/postdata-core#mentionsAgent> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
-                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
-                                                                     rdfs:comment "This property points to an instance of  Person or Organisation  that is referred in the current under analysis"@en ;
-                                                                     rdfs:label "mentionsAgent"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#mentionsEvent
-<http://postdata.linhd.uned.es/ontology/postdata-core#mentionsEvent> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
-                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
-                                                                     rdfs:comment "This property points to an instance of Event that is referred in the current under analysis"@en ;
-                                                                     rdfs:label "mentionsEvent"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#mentionsPlace
-<http://postdata.linhd.uned.es/ontology/postdata-core#mentionsPlace> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> ;
-                                                                     rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                                     rdfs:comment "This property points to an instance of Place that is referred in the current under analysis"@en ;
-                                                                     rdfs:label "mentionsPlace"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#nextPart
@@ -706,6 +629,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
                                                                 rdfs:comment "This property points to the next text unit  which, together with the current item, form the same redaction"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "nextPart"@en .
 
 
@@ -714,6 +638,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                                      rdfs:comment "This property points to the instance of Role that identifies the current Agent as the creator of a cultural product"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "participateAs"@en .
 
 
@@ -722,15 +647,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                             rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#participateAs> ;
                                                                             rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
                                                                             rdfs:comment "This property points to the instance of CreatorRole that identifies the current Agent as the creator of a cultural product"@en ;
+                                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                             rdfs:label "particpateAsCreator"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#placeDate
-<http://postdata.linhd.uned.es/ontology/postdata-core#placeDate> rdf:type owl:ObjectProperty ;
-                                                                 rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
-                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                                 rdfs:comment "This property points to an date entity that represents a particular point or period of time at which a place exist"@en ;
-                                                                 rdfs:label "placeDate"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#poeticType
@@ -742,6 +660,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                owl:hasValue <http://postdata.linhd.uned.es/kos/poetic-type>
                                                                              ] ;
                                                                   rdfs:comment "Major literary genre of the composition, that is, drama or poetry"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "poeticType"@en .
 
 
@@ -749,7 +668,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> rdf:type owl:ObjectProperty ;
                                                                     rdfs:subPropertyOf <http://purl.org/ontology/olo/core#previous> ;
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
-                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
+                                                                    rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom
@@ -757,6 +677,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                owl:FunctionalProperty ;
                                                                       rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
                                                                       rdfs:comment "This property points to the Place which is the provenance of the current instance of Ensamble or Poetic Work"@en ;
+                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                       rdfs:label "provenanceFrom"@en .
 
 
@@ -765,6 +686,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                                 rdfs:comment "This property points to the work (an instance of Opus) of which the text at hand (the current Redaction) is a materialisation"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "realises"@en .
 
 
@@ -777,6 +699,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                          owl:hasValue <http://postdata.linhd.uned.es/kos/religious-affiliation>
                                                                                        ] ;
                                                                             rdfs:comment "Association of a person with a religion, denomination or sub–denominational religious group"@en ;
+                                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                             rdfs:label "religiousAffiliation"@en .
 
 
@@ -785,28 +708,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                      rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> ;
                                                                      rdfs:comment "This property points to the specific location in a bibliographic item (an instance of Location) which contains the edition used as the base of text at hand"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "retrievesText"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#roleCertainty
-<http://postdata.linhd.uned.es/ontology/postdata-core#roleCertainty> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#certainty> ;
-                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
-                                                                     rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ,
-                                                                                [ rdf:type owl:Restriction ;
-                                                                                  owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                                  owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
-                                                                                ] ;
-                                                                     rdfs:comment "Level of confidence regarding the function"@en ;
-                                                                     rdfs:label "roleCertainty"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#roleDate
-<http://postdata.linhd.uned.es/ontology/postdata-core#roleDate> rdf:type owl:ObjectProperty ;
-                                                                rdfs:subPropertyOf <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
-                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
-                                                                rdfs:comment "This property points to an date entity that represents a particular point or period of time at which a role begins"@en ;
-                                                                rdfs:label "roleDate"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction
@@ -818,6 +721,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                  owl:hasValue <http://postdata.linhd.uned.es/kos/role-function>
                                                                                ] ;
                                                                     rdfs:comment "Job performed by some agent (e.g. sponsor, actor, collector, singer, arranger, transcriptor)"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "roleFunction"@en .
 
 
@@ -830,6 +734,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                            owl:hasValue <http://postdata.linhd.uned.es/kos/school>
                                                                          ] ;
                                                               rdfs:comment "Literary movement/school of the author"@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                               rdfs:label "school"@en .
 
 
@@ -842,6 +747,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                  owl:hasValue <http://postdata.linhd.uned.es/kos/social-status>
                                                                                ] ;
                                                                     rdfs:comment "The social status of the Person, that is the position or rank of a Person within the society"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "socialStatus"@en .
 
 
@@ -854,6 +760,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                     owl:hasValue <http://postdata.linhd.uned.es/kos/character-type>
                                                                                   ] ;
                                                                        rdfs:comment "Type of character (eg. “main”, “antagonist”, etc.)"@en ;
+                                                                       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                        rdfs:label "typeOfCharacter"@en .
 
 
@@ -866,6 +773,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                       owl:hasValue <http://postdata.linhd.uned.es/kos/designation-type>
                                                                                     ] ;
                                                                          rdfs:comment "Type of designation/name. E.g. pseudonym, heteronym, allonym, orthonym variant"@en ;
+                                                                         rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                          rdfs:label "typeOfDesignation"@en .
 
 
@@ -878,6 +786,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                          owl:hasValue <http://postdata.linhd.uned.es/kos/textualElement-type>
                                                                                        ] ;
                                                                             rdfs:comment "The type of textual element (e.g. part of a greater ensemble; part of a composed collection of poems; prologue of a work; epilogue of a work; a chapter of a work...)"@en ;
+                                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                             rdfs:label "typeOfTextualElement"@en .
 
 
@@ -886,7 +795,14 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                         rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                         rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                         rdfs:comment "This property points to another text (an instance of Redaction) which is a synthesis of the version at hand (the current Redaction)"@en ,
-                                                                                     "usedForSynthesis"@en .
+                                                                                     "usedForSynthesis"@en ;
+                                                                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+
+
+###  http://schema.org/altitude
+<http://schema.org/altitude> rdf:type owl:ObjectProperty ;
+                             rdfs:comment "The altitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."@en ;
+                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://schema.org/birthDate
@@ -897,6 +813,18 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://schema.org/deathDate> rdf:type owl:ObjectProperty .
 
 
+###  http://schema.org/latitude
+<http://schema.org/latitude> rdf:type owl:ObjectProperty ;
+                             rdfs:comment "The latitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."@en ;
+                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+
+
+###  http://schema.org/longitude
+<http://schema.org/longitude> rdf:type owl:ObjectProperty ;
+                              rdfs:comment "The longitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."@en ;
+                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+
+
 ###  http://www.w3.org/2004/02/skos/core#inScheme
 <http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:ObjectProperty .
 
@@ -905,18 +833,13 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 #    Data properties
 #################################################################
 
-###  http://dbpedia.org/ontology/viafId
-<http://dbpedia.org/ontology/viafId> rdf:type owl:DatatypeProperty .
-
-
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#addName
 <http://postdata.linhd.uned.es/ontology/postdata-core#addName> rdf:type owl:DatatypeProperty ;
                                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                rdfs:range xsd:string ;
-                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                rdfs:comment "It contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "addName"@en .
 
 
@@ -925,6 +848,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                       rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                       rdfs:range xsd:anyURI ;
                                                                       rdfs:comment "A file (XML, PFD, plain text) which contains the Redaction and, likely, other type of analytical information"@en ;
+                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                       rdfs:label "additionalFile"@en .
 
 
@@ -933,6 +857,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> ;
                                                                rdfs:range xsd:string ;
                                                                rdfs:comment "Contains a postal address, for example of a publisher, an organisation, or an individual"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "address"@en .
 
 
@@ -941,9 +866,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                rdfs:range xsd:string ;
-                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                rdfs:comment "Alternative name that references the current item"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "altName"@en .
 
 
@@ -951,18 +875,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> rdf:type owl:DatatypeProperty ;
                                                                 rdfs:range xsd:string ;
                                                                 rdfs:comment "Alternative name, other known denominations of a text or tune"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "altTitle"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#altitude
-<http://postdata.linhd.uned.es/ontology/postdata-core#altitude> rdf:type owl:DatatypeProperty ;
-                                                                rdfs:subPropertyOf owl:topDataProperty ;
-                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                                rdfs:range xsd:decimal ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                rdfs:comment "Altitude expressed in decimal degrees (WGS84)"@en ;
-                                                                rdfs:label "altitude"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#audience
@@ -970,6 +884,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                 rdfs:range xsd:string ;
                                                                 rdfs:comment "The meant readership, viewers or listeners of a cultural product"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "audience"@en .
 
 
@@ -978,6 +893,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                               rdfs:range xsd:string ;
                                                                               rdfs:comment "Level of education of the recipients of a text/song"@en ;
+                                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                               rdfs:label "audienceEducationLevel"@en .
 
 
@@ -987,9 +903,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                     owl:topDataProperty ;
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                  rdfs:range xsd:string ;
-                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                  rdfs:comment "An account of a person's life written, composed, or produced by another"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "biography"@en .
 
 
@@ -997,14 +912,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#commentary> rdf:type owl:DatatypeProperty ;
                                                                   rdfs:range xsd:string ;
                                                                   rdfs:comment "An explanatory series of notes or comments; an explanatory essay or treatise on a text"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "commentary"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#description
-<http://postdata.linhd.uned.es/ontology/postdata-core#description> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/dc/elements/1.1/description> ;
-                                                                   rdfs:comment "A statement or an account characterising some entity or resource. For example, description of the event mentioned in the text, for instance, a paraphrasis of the contents, or the explanation of the historical facts depicted"@en ;
-                                                                   rdfs:label "description"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity
@@ -1012,16 +921,16 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                  rdfs:subPropertyOf owl:topDataProperty ;
                                                                  rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                  rdfs:range xsd:string ;
-                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                 rdfs:comment "An ethnic group; a social group that shares a common and distinctive culture, religion, language, or the like"@en .
+                                                                 rdfs:comment "An ethnic group; a social group that shares a common and distinctive culture, religion, language, or the like"@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration
 <http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> rdf:type owl:DatatypeProperty ;
                                                                       rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
                                                                       rdfs:range xsd:string ;
-                                                                      rdfs:comment "Text that narrates the event, that is, an excerpt of the Redaction"@en .
+                                                                      rdfs:comment "Text that narrates the event, that is, an excerpt of the Redaction"@en ;
+                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#explicit
@@ -1029,6 +938,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                 rdfs:range xsd:string ;
                                                                 rdfs:comment "The closing words of the composition (usually, the last verse)"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "explicit"@en .
 
 
@@ -1037,9 +947,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:subPropertyOf owl:topDataProperty ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                 rdfs:range xsd:string ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                rdfs:comment "It contains a forename, given or baptismal name"@en .
+                                                                rdfs:comment "It contains a forename, given or baptismal name"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#function
@@ -1052,6 +961,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                             ] ;
                                                                 rdfs:range xsd:string ;
                                                                 rdfs:comment "Purpose of the work (e.g. prayer, spell, curse)"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "function"@en .
 
 
@@ -1060,9 +970,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                rdfs:range xsd:string ;
-                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                               rdfs:comment "It contains a name component used to distinguish otherwise similar names on the basis of the relative ages or generations of the persons named"@en .
+                                                               rdfs:comment "It contains a name component used to distinguish otherwise similar names on the basis of the relative ages or generations of the persons named"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#incipit
@@ -1070,6 +979,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                rdfs:range xsd:string ;
                                                                rdfs:comment "The first line of the work"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "incipit"@en .
 
 
@@ -1082,6 +992,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                            ] ;
                                                                rdfs:range xsd:boolean ;
                                                                rdfs:comment "Whether the Redaction was composed to be sung"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "isASong"@en .
 
 
@@ -1089,7 +1000,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> rdf:type owl:DatatypeProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
                                                                    rdfs:range xsd:boolean ;
-                                                                   rdfs:comment "In case the identity of current instance of Creator is unknown"@en .
+                                                                   rdfs:comment "In case the identity of current instance of Creator is unknown"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram
@@ -1097,6 +1009,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                                    rdfs:range xsd:boolean ;
                                                                    rdfs:comment "A calligram is a text visually arranged in a way that it forms an image associated with the text’s contents"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "isCalligram"@en .
 
 
@@ -1105,22 +1018,23 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:subPropertyOf owl:topDataProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                    rdfs:range xsd:boolean ;
-                                                                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                   rdfs:comment "Whether the person under analysis is a fictional character"@en .
+                                                                   rdfs:comment "Whether the person under analysis is a fictional character"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution
 <http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> rdf:type owl:DatatypeProperty ;
                                                                           rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
                                                                           rdfs:range xsd:boolean ;
-                                                                          rdfs:comment "In case the identity of the current instance of Creator is certainly a wrong attribution"@en .
+                                                                          rdfs:comment "In case the identity of the current instance of Creator is certainly a wrong attribution"@en ;
+                                                                          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#keyword
 <http://postdata.linhd.uned.es/ontology/postdata-core#keyword> rdf:type owl:DatatypeProperty ;
                                                                rdfs:range xsd:string ;
                                                                rdfs:comment "A significant or descriptive word. Usually, a word used as a reference point for finding other words or information"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "keyword"@en .
 
 
@@ -1132,18 +1046,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                          )
                                                                            ] ;
                                                                 rdfs:comment "Language of the text"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "language"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#latitude
-<http://postdata.linhd.uned.es/ontology/postdata-core#latitude> rdf:type owl:DatatypeProperty ;
-                                                                rdfs:subPropertyOf owl:topDataProperty ;
-                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                                rdfs:range xsd:decimal ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                rdfs:comment "Latitude expressed in decimal degrees (WGS84)"@en ;
-                                                                rdfs:label "latitude"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#layout
@@ -1151,6 +1055,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                               rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                               rdfs:range xsd:string ;
                                                               rdfs:comment "The arrangement of textual materials (images included) on a page"@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                               rdfs:label "layout"@en .
 
 
@@ -1159,18 +1064,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                          rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> ;
                                                                          rdfs:range xsd:string ;
                                                                          rdfs:comment "The literary tradition assigned to a composition"@en ;
+                                                                         rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                          rdfs:label "literaryTradition"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#longitude
-<http://postdata.linhd.uned.es/ontology/postdata-core#longitude> rdf:type owl:DatatypeProperty ;
-                                                                 rdfs:subPropertyOf owl:topDataProperty ;
-                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
-                                                                 rdfs:range xsd:decimal ;
-                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                 rdfs:comment "Longitude expressed in decimal degrees (WGS84)"@en ;
-                                                                 rdfs:label "longitude"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#name
@@ -1178,9 +1073,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                             rdfs:subPropertyOf owl:topDataProperty ,
                                                                                <http://xmlns.com/foaf/0.1/name> ;
                                                             rdfs:range xsd:string ;
-                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                             rdfs:comment "Contains a proper noun or noun phrase that refers the current agent"@en ;
+                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                             rdfs:label "name"@en .
 
 
@@ -1189,15 +1083,15 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:subPropertyOf owl:topDataProperty ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                 rdfs:range xsd:string ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                rdfs:comment "Contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of"@en .
+                                                                rdfs:comment "Contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation
 <http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> rdf:type owl:DatatypeProperty ;
                                                                          rdfs:range xsd:string ;
                                                                          rdfs:comment "Location of the narrative"@en ;
+                                                                         rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                          rdfs:label "narrativeLocation"@en .
 
 
@@ -1206,9 +1100,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:subPropertyOf owl:topDataProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                    rdfs:range xsd:string ;
-                                                                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                    rdfs:comment "An ethnic group forming a part of one or more political nations"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "nationality"@en .
 
 
@@ -1217,10 +1110,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                              rdfs:subPropertyOf <http://purl.org/net/nknouf/ns/bibtex#hasNote> ,
                                                                                 owl:topDataProperty ;
                                                              rdfs:range xsd:string ;
-                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                              rdfs:comment "Comment or explanations" ;
-                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                              rdfs:label "notes"@en .
 
 
@@ -1229,6 +1120,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
                                                                      rdfs:range xsd:integer ;
                                                                      rdfs:comment "Number of lines in item"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "numberOfLines"@en .
 
 
@@ -1237,6 +1129,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
                                                                      rdfs:range xsd:int ;
                                                                      rdfs:comment "Number of plays in item"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "numberOfPlays"@en .
 
 
@@ -1245,6 +1138,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                      rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> ;
                                                                      rdfs:range xsd:integer ;
                                                                      rdfs:comment "Number of poems in item"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "numberOfPoems"@en .
 
 
@@ -1253,6 +1147,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                              rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                              rdfs:range xsd:integer ;
                                                                              rdfs:comment "Number of PrimarySources used in the elaboration of an edition"@en ;
+                                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                              rdfs:label "numberOfWitnessesUsed"@en .
 
 
@@ -1265,6 +1160,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                                  )
                                                                                    ] ;
                                                                         rdfs:comment "The language from which the Redaction/Poetic Work is a translation"@en ;
+                                                                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                         rdfs:label "originalLanguage"@en .
 
 
@@ -1272,15 +1168,15 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
                                                                     rdfs:range xsd:string ;
-                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                    rdfs:comment "Name of the place as it appears in the source text"@en .
+                                                                    rdfs:comment "Name of the place as it appears in the source text"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> rdf:type owl:DatatypeProperty ;
                                                                      rdfs:range xsd:string ;
                                                                      rdfs:comment "The identifying name of a text or tune as it appears in its PrimarySource"@en ;
+                                                                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                      rdfs:label "originalTitle"@en .
 
 
@@ -1289,6 +1185,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                    rdfs:range xsd:string ;
                                                                    rdfs:comment "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "paraphrasis"@en .
 
 
@@ -1297,6 +1194,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> ;
                                                                rdfs:range xsd:string ;
                                                                rdfs:comment "A fictitious name, especially a pen name. A variant name"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "penName"@en .
 
 
@@ -1305,9 +1203,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                 rdfs:subPropertyOf owl:topDataProperty ;
                                                                 rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                 rdfs:range xsd:anyURI ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                 rdfs:comment "URL to a digital image file that depicts the person"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "portrait"@en .
 
 
@@ -1316,9 +1213,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
                                                                     rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                     rdfs:range xsd:string ;
-                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                     rdfs:comment "Contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank"@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "positionName"@en .
 
 
@@ -1327,9 +1223,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                             rdfs:subPropertyOf owl:topDataProperty ;
                                                             rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                             rdfs:range xsd:string ;
-                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                             rdfs:comment "Function of a person or character. In a play, it is the part played by a performer"@en ;
+                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                             rdfs:label "role"@en .
 
 
@@ -1338,6 +1233,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                   rdfs:range xsd:string ;
                                                                   rdfs:comment "Excerpt"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "sampleText"@en .
 
 
@@ -1346,9 +1242,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                   rdfs:subPropertyOf owl:topDataProperty ;
                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                   rdfs:range xsd:string ;
-                                                                  <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                  <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                   rdfs:comment "Note about the source used to give a particular piece of information"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "sourceNote"@en .
 
 
@@ -1358,10 +1253,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                                    owl:topDataProperty ;
                                                                 rdf:type owl:FunctionalProperty ;
                                                                 rdfs:range xsd:string ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:20Z"^^xsd:dateTime ;
                                                                 rdfs:comment "A secondary, usually explanatory title"@en ;
-                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "subtitle"@en .
 
 
@@ -1370,10 +1263,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                owl:equivalentProperty <http://purl.org/dc/terms/abstract> ;
                                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                                rdfs:range xsd:string ;
-                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                rdfs:comment "Abstract, synopsis, brief outline" ;
-                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "summary" .
 
 
@@ -1382,9 +1273,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Person> ;
                                                                rdfs:range xsd:string ;
-                                                               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                               <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                                rdfs:comment "Contains a family (inherited) name, as opposed to a given, baptismal, or nick name"@en ;
+                                                               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                rdfs:label "surname"@en .
 
 
@@ -1393,6 +1283,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                             rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                             rdfs:range xsd:anyURI ;
                                                             rdfs:comment "Reference to textual contents . The contents of this property do not allow finer analysis by stanza or line. It can be a text of a diplomatic edition, semidiplomatic edition or of a critical edition (among others) or even a translation. The property typeOfRedaction defines the type of Edition or if it is a translation"@en ;
+                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                             rdfs:label "text"@en .
 
 
@@ -1400,7 +1291,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
 <http://postdata.linhd.uned.es/ontology/postdata-core#theme> rdf:type owl:DatatypeProperty ;
                                                              rdfs:range xsd:string ;
                                                              rdfs:comment "Subject of a text, song or image"@en ;
-                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                              rdfs:label "theme"@en .
 
 
@@ -1409,10 +1300,9 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                              owl:equivalentProperty <http://purl.org/dc/elements/1.1/title> ;
                                                              rdfs:subPropertyOf owl:topDataProperty ;
                                                              rdfs:range xsd:string ;
-                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                                                              rdfs:comment "An identifying name given to a text or tune"@en ;
-                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ,
+                                                                              "http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" ;
                                                              rdfs:label "title"@en ;
                                                              rdfs:seeAlso "http://62.204.199.36:8080/lode/extract?url=http://postdata.linhd.uned.es/ontology/postdata-commonDataProperties.owl" .
 
@@ -1422,6 +1312,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Event> ;
                                                                    rdfs:range xsd:string ;
                                                                    rdfs:comment "Type of event, for instance its modality (real, fictional...)"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "typeOfEvent"@en .
 
 
@@ -1430,9 +1321,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                    rdfs:subPropertyOf owl:topDataProperty ;
                                                                    rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
                                                                    rdfs:range xsd:string ;
-                                                                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                                   rdfs:comment "Type of place (e.g. fictional)"@en .
+                                                                   rdfs:comment "Type of place (e.g. fictional)"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction
@@ -1441,6 +1331,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ,
                                                                        rdfs:range xsd:string ;
                                                                        rdfs:comment """The type of the text provided in the Redaction 
 Eg.: Diplomatic edition, critical edition, translation"""@en ;
+                                                                       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                        rdfs:label "typeOfRedaction"@en .
 
 
@@ -1453,24 +1344,8 @@ Eg.: Diplomatic edition, critical edition, translation"""@en ;
                                                                                       ] ;
                                                                           rdfs:range xsd:string ;
                                                                           rdfs:comment "There are references that mentioned a PrimarySource for the text at hand but the real textual artefact has not been identified"@en ;
+                                                                          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                           rdfs:label "unidentifiedSource"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#uri
-<http://postdata.linhd.uned.es/ontology/postdata-core#uri> rdf:type owl:DatatypeProperty ;
-                                                           rdfs:subPropertyOf owl:topDataProperty ;
-                                                           rdfs:range xsd:anyURI ;
-                                                           <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                           <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                                                           rdfs:comment "URI to a Linked Open Data resource"@en ;
-                                                           rdfs:label "uri"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#url
-<http://postdata.linhd.uned.es/ontology/postdata-core#url> rdf:type owl:DatatypeProperty ;
-                                                           rdfs:range xsd:anyURI ;
-                                                           rdfs:comment "Reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it"@en ;
-                                                           rdfs:label "url"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed
@@ -1478,6 +1353,7 @@ Eg.: Diplomatic edition, critical edition, translation"""@en ;
                                                                         rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                         rdfs:range xsd:string ;
                                                                         rdfs:comment "Primary sources of the text excluded during the elaboration of an edition (usually, dependent witnesses)"@en ;
+                                                                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                         rdfs:label "witnessesNotUsed"@en .
 
 
@@ -1486,6 +1362,7 @@ Eg.: Diplomatic edition, critical edition, translation"""@en ;
                                                                   rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
                                                                   rdfs:range xsd:string ;
                                                                   rdfs:comment "Number that identifies the text, for instance, inside a collection"@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "workNumber"@en .
 
 
@@ -1498,7 +1375,8 @@ Eg.: Diplomatic edition, critical edition, translation"""@en ;
 
 
 ###  http://purl.org/dc/terms/abstract
-<http://purl.org/dc/terms/abstract> rdf:type owl:DatatypeProperty .
+<http://purl.org/dc/terms/abstract> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "A summary of the resource."@en .
 
 
 ###  http://purl.org/net/nknouf/ns/bibtex#hasNote
@@ -1514,8 +1392,13 @@ Eg.: Diplomatic edition, critical edition, translation"""@en ;
 
 
 ###  http://schema.org/deathDate
-<http://schema.org/deathDate> rdf:type owl:DatatypeProperty ;
-                              rdfs:range xsd:date .
+<http://schema.org/deathDate> rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/url
+<http://schema.org/url> rdf:type owl:DatatypeProperty ;
+                        rdfs:range xsd:anyURI ;
+                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
 
 
 ###  http://www.w3.org/2002/07/owl#topDataProperty
@@ -1543,11 +1426,7 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
 
 
 ###  http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression
-<http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> rdf:type owl:Class ;
-                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> ;
-                                                                                              owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location>
-                                                                                            ] .
+<http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression> rdf:type owl:Class .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-additionalsElements#Illustration
@@ -1565,8 +1444,13 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
                                                                              [ rdf:type owl:Restriction ;
                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> ;
                                                                                owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#participateAs> ;
+                                                                               owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
                                                                              ] ;
                                                              rdfs:comment "Any agentive Object , either physical, or social."@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                              rdfs:label "Agent"@en .
 
 
@@ -1587,6 +1471,18 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
                                                                                                         ]
                                                                                    ] ,
                                                                                    [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#certainty> ;
+                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                     owl:onClass [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                          owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                                                                          owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
+                                                                                                                        ]
+                                                                                                                      ) ;
+                                                                                                   rdf:type owl:Class
+                                                                                                 ]
+                                                                                   ] ,
+                                                                                   [ rdf:type owl:Restriction ;
                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> ;
                                                                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                      owl:onClass [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
@@ -1604,6 +1500,8 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
                                                                                      owl:onDataRange xsd:string
                                                                                    ] ;
                                                                    rdfs:comment "Function of a person or organization in the creation of a poetic work, redaction or other transmission element"@en ;
+                                                                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"@en ,
+                                                                                    "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                    rdfs:label "CreatorRole"@en .
 
 
@@ -1621,6 +1519,10 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
                                                                                 [ rdf:type owl:Restriction ;
                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> ;
                                                                                   owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole>
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> ;
+                                                                                  owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork>
                                                                                 ] ,
                                                                                 [ rdf:type owl:Restriction ;
                                                                                   owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> ;
@@ -1659,10 +1561,9 @@ owl:topDataProperty rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata
                                                                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                   owl:onDataRange xsd:string
                                                                                 ] ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                                 rdfs:comment """An abstract work that contains more than one Poetic Work. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Poetic Work)
 Eg.: Les fleurs du mal"""@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "Ensemble"@en .
 
 
@@ -1679,18 +1580,13 @@ Eg.: Les fleurs du mal"""@en ;
                                                                                owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
                                                                              ] ,
                                                                              [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#description> ;
+                                                                               owl:onProperty <http://purl.org/dc/elements/1.1/description> ;
                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                owl:onDataRange xsd:string
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#uri> ;
-                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                               owl:onDataRange xsd:anyURI
                                                                              ] ;
-                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                              rdfs:comment "A thing that happens or takes place"@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"@en ,
+                                                                              "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                              rdfs:label "Event"@en .
 
 
@@ -1698,6 +1594,8 @@ Eg.: Les fleurs du mal"""@en ;
 <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> rdf:type owl:Class ;
                                                                            rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> ;
                                                                            rdfs:comment "An ordered list of text units with a given length and indexed elements."@en ;
+                                                                           rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"@en ,
+                                                                                            "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                            rdfs:label "OrderedTextUnitList"@en .
 
 
@@ -1706,26 +1604,16 @@ Eg.: Les fleurs du mal"""@en ;
                                                                     rdfs:subClassOf <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> ,
                                                                                     <http://xmlns.com/foaf/0.1/Organization> ,
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isACreator> ;
+                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isCreator> ;
                                                                                       owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole>
                                                                                     ] ,
                                                                                     [ rdf:type owl:Restriction ;
                                                                                       owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> ;
                                                                                       owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
-                                                                                    ] ,
-                                                                                    [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#participateAs> ;
-                                                                                      owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
-                                                                                    ] ,
-                                                                                    [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#uri> ;
-                                                                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                      owl:onDataRange xsd:anyURI
                                                                                     ] ;
-                                                                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                    <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                                     rdfs:comment """Named collection of people regarded as a single unit
 Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ and businesses such as ‘Google’ but also racial or ethnic groupings or political factions where these are regarded as forming a single agency such as ‘the Carthaginians’ or ‘the Communists’"""@en ;
+                                                                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                     rdfs:label "Organisation"@en .
 
 
@@ -1736,6 +1624,10 @@ Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ a
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> ;
                                                                                 owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> ;
+                                                                                owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
                                                                               ] ,
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> ;
@@ -1772,10 +1664,6 @@ Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ a
                                                                                 owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
                                                                               ] ,
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> ;
-                                                                                owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Place>
-                                                                              ] ,
-                                                                              [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> ;
                                                                                 owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
                                                                               ] ,
@@ -1793,10 +1681,6 @@ Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ a
                                                                                                                        ) ;
                                                                                                     rdf:type owl:Class
                                                                                                   ]
-                                                                              ] ,
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#participateAs> ;
-                                                                                owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Role>
                                                                               ] ,
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> ;
@@ -1832,6 +1716,18 @@ Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ a
                                                                                                   ]
                                                                               ] ,
                                                                               [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> ;
+                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onClass [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                                                                     owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
+                                                                                                                   ]
+                                                                                                                 ) ;
+                                                                                              rdf:type owl:Class
+                                                                                            ]
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#forename> ;
                                                                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                 owl:onDataRange xsd:string
@@ -1855,20 +1751,17 @@ Eg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ a
                                                                                 owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#surname> ;
                                                                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                 owl:onDataRange xsd:string
-                                                                              ] ,
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#uri> ;
-                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                owl:onDataRange xsd:anyURI
                                                                               ] ;
                                                               rdfs:comment """A human being regarded as an individual. This person could have existed in real life or it may be fictional.
 Eg.: D. Quijote de la Mancha"""@en ;
+                                                              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                               rdfs:label "Person"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#Place
 <http://postdata.linhd.uned.es/ontology/postdata-core#Place> rdf:type owl:Class ;
-                                                             rdfs:subClassOf <http://www.europeana.eu/schemas/edm/Place> ,
+                                                             rdfs:subClassOf <http://schema.org/Place> ,
+                                                                             <http://www.europeana.eu/schemas/edm/Place> ,
                                                                              <http://www.geonames.org/ontology#Feature> ,
                                                                              [ rdf:type owl:Restriction ;
                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#date> ;
@@ -1879,33 +1772,12 @@ Eg.: D. Quijote de la Mancha"""@en ;
                                                                                owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction>
                                                                              ] ,
                                                                              [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#altitude> ;
-                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                               owl:onDataRange xsd:decimal
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#latitude> ;
-                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                               owl:onDataRange xsd:decimal
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#longitude> ;
-                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                               owl:onDataRange xsd:decimal
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
                                                                                owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> ;
                                                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                owl:onDataRange xsd:string
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#uri> ;
-                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                               owl:onDataRange xsd:string
                                                                              ] ;
-                                                             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                              rdfs:comment "A particular position, point, or area in space; a location"@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                              rdfs:label "Place"@en .
 
 
@@ -2007,14 +1879,13 @@ Eg.: D. Quijote de la Mancha"""@en ;
                                                                                     owl:onDataRange xsd:string
                                                                                   ] ,
                                                                                   [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#summary> ;
+                                                                                    owl:onProperty <http://purl.org/dc/terms/abstract> ;
                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                     owl:onDataRange xsd:string
                                                                                   ] ;
-                                                                  <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                  <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                                   rdfs:comment """Abstract concept of an artistic creation. In POSTDATA these creations must be in verse (poem, play, song)
 Eg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries"""@en ;
+                                                                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                   rdfs:label "PoeticWork"@en .
 
 
@@ -2147,10 +2018,9 @@ Eg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te d
                                                                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                    owl:onDataRange xsd:string
                                                                                  ] ;
-                                                                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                                  rdfs:comment """Representatives of a work, that is, of an Poetic Work. Each version of a work is its own redaction.
 Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work"""@en ;
+                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                  rdfs:label "Redaction"@en .
 
 
@@ -2174,18 +2044,30 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
                                                                               owl:allValuesFrom <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity>
                                                                             ] ,
                                                                             [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#description> ;
+                                                                              owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#certainty> ;
                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                              owl:onDataRange xsd:string
+                                                                              owl:onClass [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                                                                   owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
+                                                                                                                 ]
+                                                                                                               ) ;
+                                                                                            rdf:type owl:Class
+                                                                                          ]
                                                                             ] ,
                                                                             [ rdf:type owl:Restriction ;
                                                                               owl:onProperty <http://postdata.linhd.uned.es/ontology/postdata-core#role> ;
                                                                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                               owl:onDataRange xsd:string
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://purl.org/dc/elements/1.1/description> ;
+                                                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange xsd:string
                                                                             ] ;
-                                                            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                                                            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
                                                             rdfs:comment "Function of a person or character"@en ;
+                                                            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"@en ,
+                                                                             "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                             rdfs:label "Role"@en .
 
 
@@ -2193,6 +2075,8 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
 <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> rdf:type owl:Class ;
                                                                 rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> ;
                                                                 rdfs:comment "Text unit on an ordered list"@en ;
+                                                                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"@en ,
+                                                                                 "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
                                                                 rdfs:label "TextUnit"@en .
 
 
@@ -2206,6 +2090,10 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-transmission#Location
 <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> rdf:type owl:Class .
+
+
+###  http://schema.org/Place
+<http://schema.org/Place> rdf:type owl:Class .
 
 
 ###  http://schema.org/Role
