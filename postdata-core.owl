@@ -2538,6 +2538,16 @@ Eg.: D. Quijote de la Mancha</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+
+        <rdfs:comment xml:lang="en">A particular position, point, or area in space; a location</rdfs:comment>
+        <rdfs:label xml:lang="en">Place</rdfs:label>
+    </owl:Class>
+    
+
+    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Redaction -->
+
+    <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
