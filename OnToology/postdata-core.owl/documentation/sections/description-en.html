@@ -1,6 +1,146 @@
 <html>
 <h2 id="desc" class="list">POSTDATA core ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+<p>As previously mentioned, the objective of this ontology is to represent the necessary knowledge to represent the characteristics related to poetic works and their manifestations.<br/>
+It is important to note that some classes are  alienated from the ontology <a href="http://www.europeana.eu/schemas/edm/" target="new">edm </a></p> 
+<p>Therefore it has  been modeled:</p>
+<ul><li>
+ The class <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork">PoeticWork</a>, abstract concept of an artistic creation.<br/> In POSTDATA these creations must be in verse (poem, play, song)<br/>
+For example: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries.<br/>This class is in turn alienated from the ontology <a href="http://www.europeana.eu/schemas/edm/" target="new">edm </a> as a class specialization <a src="http://www.europeana.eu/schemas/edm/ProvidedCHO" target="new">ProvidedCHO</a> and also a class specialization <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">F1_Work</a>.</li>
+<li>La clase <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">Redaction</a>, covers representatives or manifestations of a work, that is, of an Poetic Work. Each version of a PoeticWork is its own redaction.<br/>
+For example: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work.<br/>
+This class is a specialization of the class <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">F22_Self-Contained_Expression</a></li>
+<li>The <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble">Ensamble</a> class, is an abstract work that contains more than one Poetic Work. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Poetic Work)<br/>
+Eg: Les fleurs du mal<br/>
+This class is a specialization of the class <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">F17_Aggregation_Work</a></li></ul>
+<p>This ontology also models classes necessary to cover aspects necessary to deal with authorship, associated agents, places of origin and related events or dealt with in the redactions.</p>
+<p>These classes have been aligned with other ontologies.</p>
+<ul><li><p>These are the <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Person">Person</a> class and the <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Organisation">Organisation</a> class, which are hierarchically dependent on the Agent class, as they share many functionalities. They have specialized from the class <a href="http://xmlns.com/foaf/0.1/Person" target="new">foaf:Person</a> and from the class <a href="http://xmlns.com/foaf/0.1/Organization" target="new">foaf:Organisation</a>, respectively.</p></li>
 
+<li><p>The <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Place">Place</a> class, specialization of <a href="http://www.europeana.eu/schemas/edm/Place" target="new">edm:Place</a> and <a href="http://www.geonames.org/ontology#Feature">geonames:Feature</a>, represents a particular position, point, or area in space; a location.</p></li>
+<li><p>The class <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Event">Event</a>, a specialization of <a href="http://www.europeana.eu/schemas/edm/Event" target="new">edm:Event</a>, represents a thing that happens or takes place and that can be mentioned in the Redaction of a PoeticWork.</p></li>
+<li><p>It is important to indicate in the ontology core that there are two classes, the <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Role">Role</a> class and <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">CreatorRole</a> class, a specialization of the previous one.<br/> <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Role">Role</a> is used to represent the role of the agents related to PoeticWork, its manifestations, its transmissions and other related elements.<br/> <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">CreatorRole</a> is used for the function of a person or organization in the creation of a poetic work, redaction or other transmission element. This class also covers anonymous authorships and incorrect attributions. The <a href="#examples">following examples</a> will show the use of this class, specifically to model a multiple authorship.</p></li>
+
+<p>Also in the core there are properties of habitual use in different classes of the ontology because their semantics are the same for all of them. Many of these properties are defined through the reuse of some belonging to the vocabularies <a href="http://purl.org/dc/elements/1.1/" target="new"> dc</a> and <a href="http://purl.org/dc/terms/" target="new">dcterms</a>, and to <a href="http://schema.org/" target="new"> schema</a> , for example, <a href="http://purl.org/dc/elements/1.1/title" target="new"> dc:title</a>, <a href="http://schema.org/url" target="new">schema:url</a> or others like <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#commentary">pdcore:commentary</a></p><br/>
+
+<p><strong>The core ontology will be imported by the rest of the ontologies of the <a href="http://postdata-prototype.linhd.uned.es/ontology.php" target="_new">POSTDATA ontology network</a></strong>.
+
+<a name="examples"></a>
+<div id="examples">
+<h3 id="ns" class="list">Use examples</h3>
+<p>In order to facilitate the understanding of the use of some classes and properties of this vocabulary, some examples are provided below.</p>
+<h4>Example 1. Authorship</h4>
+<p>The example presented corresponds to the representation of the authorship part of the cantiga "Pedr' Amigo, quer' ora ũa ren' by
+Johan Baveca & Pedr' Friend of Sevilha", whose information is extracted from <a href="http://bernal.cirp.gal/ords/f?p=129:8:::NO::P8_IDC,P8_CONTAINS:0683,%5C%5C" target="new">MedDB
+
+Lírica Profana Galego-Portuguesa database. Nettle Number 064022 </a></p>
+
+<p>
+	<div style="border:1px dashed #000000; padding: 1%">
+<h4> Example description</h4>
+The troubadours Johan Baveca & Pedr' Friend of Sevilha are the creators (<a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">pdcore:CreatorRole</a>) of the cantiga that is modeled as a <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork">PoeticWork </a> and its title is(<a href="http://purl.org/dc/elements/1.1/title" target="new">PoeticWork1.title</a> = “Pedr' Amigo, quer' ora ũa ren”). </p>
+<p>However, this type of composition was, allegedly, an improvisation similar to the freestyle battles in rap. This means that also each Stanza needs to be linked to the correspondent <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">CreatorRole</a>.
+<p>This question is modelled in such a way that the CretorRole of the Cantiga <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/correspondsTo#CreatorRole" >pdcore:correspondsTo</a> two persons:<ul><li>
+<a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#name">Person1.name</a> = “Johan Baveca”</li>
+<li><a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#name">Person2.name</a> = “Pedr’ Amigo de Sevilha”</li></ul></p>
+
+<p>The text presented is the <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">Redaction</a>:
+•	PoeticWork1 – <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough">isRealisedThrough</a> – Redaction1</p>
+
+<p>In regards to the editions, multiple references are cited. The most important one is the so-called “Seguida” (followed) which would be represented as:<ul><li>
+Redaction1 -- <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText">retrievesText</a>Location1</li> 
+</ul>
+</p>
+
+</p>
+
+</div>
+<p>We will show the RDF codes generated with the data of this example. It should be noted that the instances will be represented by their URIs created according to the following structure <strong>&lt;http://postdata.linhd.uned.es/resource/{Class}/{UUID}&gt;</strong>.<br/>
+For example, the Person1 is identified by <strong>&lt;http://postdata.linhd.uned.es/resource/Person/ccc591fe0-7f10-11e9-ac29-f2189886299d&gt;</strong></p>
+
+In the next block of RDF code the modeling of multiple authorship is shown first.<br/>
+<style>.padre {
+  background-color: #fafafa;
+  margin: 0auto;
+  padding: 1rem;
+  border: 1px dashed #ccc;
+  width:80%;
+  /* IMPORTANTE */
+  text-align: center;
+}
+.padre dt{
+text-align: left;
+font-weight: lighter;
+
+}
+.padre dd{
+text-align: left;
+font-weight: lighter;
+
+}
+</style>
+
+	<div class="padre"  ><div>
+		
+	<dt style="text-align: left">&lt;http://postdata.linhd.uned.es/resource/Person/ccc591fe0-7f10-11e9-ac29-f2189886299d&gt; a pdcore:Person;</dt>
+	<dd>pdcore:name "Johan ";</dd>
+	<dd>pdcore:surname "Baveca".</dd>
+<dt>&lt;http://postdata.linhd.uned.es/resource/Person/cd23ea5a6-7f10-11e9-ac29-f2189886299e&gt; a pdcore:Person;</dt>
+	<dd>pdcore:name "Pedr’ Amigo de Sevilha".</dd>
+<dt>&lt;http://postdata.linhd.uned.es/resource/CreatorRole/c41b20c6-7f10-11e9-ac29-f2189886299d&gt;</dt>
+	<dd>a pdcore:CreatorRole;</dd>
+	<dd>pdcore:hasCreatorAssociated &lt;http://postdata.linhd.uned.es/resource/Person/ccc591fe0-7f10-11e9-ac29-f2189886299d&gt;;</dd>
+	<dd>pdcore:hasCreatorAssociated  &lt;http://postdata.linhd.uned.es/resource/Person/cd23ea5a6-7f10-11e9-ac29-f2189886299e&gt;.</dd>
+</div>
+
+
+
+
+</div>
+
+<p>The complete code of the example is shown below. <br/>It should be noted that this code shows the relationship of <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork">PoeticWork</a> with <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">CreatorRole</a> <br/>On the other hand the relationship with its <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">Redaction</a> through <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough">pdcore:isRealisedThrough</a>. </p>
+
+
+<div class="padre"  ><div>
+
+<dt>@prefix  rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .</dt>
+<dt>@prefix  owl: &lt;http://www.w3.org/2002/07/owl#&gt; .</dt>
+<dt>@prefix  xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</dt>
+<dt>@prefix  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .</dt>
+<dt>@prefix  pdcore: &lt;http://postdata.linhd.uned.es/ontology/postdata-core#&gt; .</dt>
+<dt>@prefix  foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .</dt>
+<dt>@prefix  dc: &lt;http://purl.org/dc/elements/1.1/&gt; .</dt>
+
+
+<dt>&lt;http://postdata.linhd.uned.es/resource/PoeticWork/c41b20c6-7f10-11e9-ac29-f2189886299d&gt; a pdcore:PoeticWork;</dt>
+	<dd>dc:title "Pedr' Amigo, quer' ora ũa ren" ;</dd>
+	<dd>pdcore:hasCreator &lt;http://postdata.linhd.uned.es/resource/CreatorRole/c41b20c6-7f10-11e9-ac29-f2189886299d&gt; ;</dd>
+	<dd>pdcore:isRealisedThrough &lt;http://postdata.linhd.uned.es/resource/Redaction/d77ed2e8-7f10-11e9-ac29-f2189886299d&gt; .</dd>
+
+<dt>&lt;http://postdata.linhd.uned.es/resource/Redaction/d77ed2e8-7f10-11e9-ac29-f2189886299d&gt; a pdcore:Redaction.</dt>
+
+
+<dt>&lt;http://postdata.linhd.uned.es/resource/Person/ccc591fe0-7f10-11e9-ac29-f2189886299d&gt; a pdcore:Person;</dt>
+	<dd>pdcore:name "Johan " ;</dd>
+	<dd>pdcore:surname "Baveca" .</dd>
+
+<dt>&lt;http://postdata.linhd.uned.es/resource/Person/cd23ea5a6-7f10-11e9-ac29-f2189886299e&gt; a pdcore:Person;</dt>
+	<dd>pdcore:name "Pedr’ Amigo de Sevilha" .</dd>
+
+
+<dt>&lt;http://postdata.linhd.uned.es/resource/CreatorRole/c41b20c6-7f10-11e9-ac29-f2189886299d&gt; a pdcore:CreatorRole;</dt>
+	<dd>pdcore:hasCreatorAssociated&lt;http://postdata.linhd.uned.es/resource/Person/ccc591fe0-7f10-11e9-ac29-f2189886299d&gt; ;</dd>
+	<dd>pdcore:hasCreatorAssociated &lt;http://postdata.linhd.uned.es/resource/Person/cd23ea5a6-7f10-11e9-ac29-f2189886299e&gt; .</dd>
+
+<dt>&lt;http://postdata.linhd.uned.es/resource/CreatorRole/dae21332-7f10-11e9-ac29-f2189886299d&gt; a pdcore:CreatorRole;</dt>
+	<dd>pdcore:isCreator &lt;http://postdata.linhd.uned.es/resource/Person/db818818-7f10-11e9-ac29-f2189886299d&gt; .</dd>
+
+	</div></div>
+	<p>The representation of the example is shown in the image below
+</p>
+<img src="http://postdata.linhd.uned.es/ontology/creatorRole.png" width="100%" />
+
+
+
+
+</div>
 </html>
