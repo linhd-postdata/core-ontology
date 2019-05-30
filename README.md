@@ -8,4 +8,4 @@
 <li><a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Place">Place</a> and <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-core/documentation/index.html#http://postdata.linhd.uned.es/ontology/postdata-core#Event">Event</a>, to represent places of origin and mentioned events.</li></ul></P>
 <p>The core ontology, would be imported by the rest of ontologies of the network, for this reason besides containing the mentioned classes, it also provides a set of common properties that have the same semantics in all the classes in which they are defined. In this way it is possible to express semantics in an unambiguous way for properties that from this point of view represent conceptually the same thing.  </p> 
 
-The core-ontology specification is in http://postdata.linhd.uned.es/ontology/postdata-core
+The core-ontology specification is in http://postdata.linhd.uned.es/ontology/POSTDATA-core/
