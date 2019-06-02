@@ -84,12 +84,12 @@ This section provides details for each class and property defined by POSTDATA co
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
-               title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">hasRole</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf"
+            <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf">isAgentOf</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter">isCharacter</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
+               title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">performs</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -101,7 +101,7 @@ This section provides details for each class and property defined by POSTDATA co
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo">isAssignedTo</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
-               title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isRoleOf</a>
+               title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isPerformedBy</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -646,7 +646,7 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted">isDepicted</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
-               title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isRoleOf</a>
+               title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isPerformedBy</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#roleName"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#roleName">role</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction"
@@ -661,10 +661,10 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
                title="http://postdata.linhd.uned.es/ontology/postdata-core#affects">affects</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent">hasAgent</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
-               title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">hasRole</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy">isAffectedBy</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
+               title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">performs</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -825,10 +825,6 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
             title="http://postdata.linhd.uned.es/ontology/postdata-core#hasPart">hasPart</a>
       </li>
       <li>
-         <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
-            title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">hasRole</a>
-      </li>
-      <li>
          <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit"
             title="http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit">hasTextUnit</a>
       </li>
@@ -913,6 +909,10 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
             title="http://postdata.linhd.uned.es/ontology/postdata-core#isPart">isPart</a>
       </li>
       <li>
+         <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
+            title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isPerformedBy</a>
+      </li>
+      <li>
          <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough"
             title="http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough">isRealisedThrough</a>
       </li>
@@ -923,10 +923,6 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
       <li>
          <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn"
             title="http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn">isReferencedIn</a>
-      </li>
-      <li>
-         <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
-            title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isRoleOf</a>
       </li>
       <li>
          <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin"
@@ -961,6 +957,10 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
       <li>
          <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#nextPart"
             title="http://postdata.linhd.uned.es/ontology/postdata-core#nextPart">nextPart</a>
+      </li>
+      <li>
+         <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
+            title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">performs</a>
       </li>
       <li>
          <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#poeticType"
@@ -1873,48 +1873,6 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://postdata.linhd.uned.es/ontology/postdata-core#performs">
-      <h3>hasRole<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://postdata.linhd.uned.es/ontology/postdata-core#performs</p>
-      <div class="comment">
-         <span class="markdown">This property points to one of the roles (an instance of Role) performed by the current Person or Organisation</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>http://postdata.linhd.uned.es/ontology/POSTDATA-core</dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <span class="dotted"
-                     title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</span>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">Agent</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Role"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Role">Role</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isRoleOf</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit">
       <h3>hasTextUnit<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -2580,6 +2538,48 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
          </dl>
       </div>
    </div>
+   <div class="entity" id="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">
+      <h3>isPerformedBy<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy</p>
+      <div class="comment">
+         <span class="markdown">This property points to an instance of Organisation that performs the current Role</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://postdata.linhd.uned.es/ontology/POSTDATA-core</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf">is role of</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Role"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">performs</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough">
       <h3>isRealisedThrough<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -2669,48 +2669,6 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
                <span class="dotted"
                      title="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location">location</span>
                <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">
-      <h3>isRoleOf<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy</p>
-      <div class="comment">
-         <span class="markdown">This property points to an instance of Organisation that performs the current Role</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>http://postdata.linhd.uned.es/ontology/POSTDATA-core</dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <span class="dotted"
-                     title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf">is role of</span>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Role"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Role">Role</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">Agent</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#performs"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#performs">hasRole</a>
-               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -2949,6 +2907,48 @@ The values of this property are defined in a controlled vocabulary about literar
             <dd>
                <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#previousPart"
                   title="http://postdata.linhd.uned.es/ontology/postdata-core#previousPart">previous part</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://postdata.linhd.uned.es/ontology/postdata-core#performs">
+      <h3>performs<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://postdata.linhd.uned.es/ontology/postdata-core#performs</p>
+      <div class="comment">
+         <span class="markdown">This property points to one of the roles (an instance of Role) performed by the current Person or Organisation</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://postdata.linhd.uned.es/ontology/POSTDATA-core</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Role"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy">isPerformedBy</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>

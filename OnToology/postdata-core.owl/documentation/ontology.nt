@@ -442,7 +442,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Organisation that performs the current Role"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the persons (instance of Person) to whom the current Role belongs"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isRoleOf"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isPerformedBy"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -537,7 +537,7 @@ _:genid6 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the roles (an instance of Role) performed by the current Person or Organisation"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
-<http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#label> "hasRole"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#label> "performs"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#poeticType
 <http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
