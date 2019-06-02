@@ -503,7 +503,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ;
                                                                      rdfs:comment "This property points to an instance of Organisation that performs the current Role"@en ,
                                                                                   "This property points to one of the persons (instance of Person) to whom the current Role belongs"@en ;
                                                                      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
-                                                                     rdfs:label "isRoleOf"@en .
+                                                                     rdfs:label "isPerformedBy"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough
@@ -610,7 +610,7 @@ The values of this property are defined in a controlled vocabulary about literar
                                                                 rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Role> ;
                                                                 rdfs:comment "This property points to one of the roles (an instance of Role) performed by the current Person or Organisation"@en ;
                                                                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" ;
-                                                                rdfs:label "hasRole"@en .
+                                                                rdfs:label "performs"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#poeticType
