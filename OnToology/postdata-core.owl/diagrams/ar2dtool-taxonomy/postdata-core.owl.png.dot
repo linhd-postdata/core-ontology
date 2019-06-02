@@ -1,36 +1,30 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "pdcore:Role" "frbroo:F17_Aggregation_Work" "pdcore:OrderedTextUnitList" "agentrole:Agent" "http://www.geonames.org/ontology#Feature" "edm:Agent" "pdcore:Agent" "pdcore:CreatorRole" "pdcore:Person" "pdcore:Organisation" "edm:Place" "pdcore:Redaction" "pdcore:Ensemble" "foaf:Person" "frbroo:F22_Self-Contained_Expression" "bibframe:Event" "edm:Event" "pdcore:TextUnit" "foaf:Organization" "edm:ProvidedCHO" "pdcore:Place" "schema:Place" "pdcore:Event" "pdcore:PoeticWork" "frbroo:F1_Work" "schema:Role" "owl:Thing" "objectrole:Role" "objectrole:Object" "olo:Slot" "olo:OrderedList" "pddate:ClosedIntervalExpression" "pddate:IntervalExpression" "pddate:ExactDateExpression" "pddate:OpenIntervalExpression" "edm:TimeSpan" "pddate:DateExpression" "pddate:ApproximateDateExpression" "classification:Concept" ; /*classes style*/
+node [shape = rectangle, color="black"]; "pdcore:Role" "frbroo:F17_Aggregation_Work" "pdcore:OrderedTextUnitList" "agentrole:Agent" "http://www.geonames.org/ontology#Feature" "edm:Agent" "pdcore:Agent" "pdcore:CreatorRole" "pdcore:Person" "pdcore:Organisation" "edm:Place" "pdcore:Redaction" "pdcore:Ensemble" "foaf:Person" "frbroo:F22_Self-Contained_Expression" "bibframe:Event" "edm:Event" "pdcore:TextUnit" "foaf:Organization" "edm:ProvidedCHO" "pdcore:Place" "schema:Place" "pdcore:Event" "pdcore:PoeticWork" "frbroo:F1_Work" "schema:Role" "owl:Thing" "objectrole:Role" "objectrole:Object" "olo:Slot" "olo:OrderedList" "classification:Concept" ; /*classes style*/
+	"pdcore:Redaction" -> "frbroo:F22_Self-Contained_Expression" [ label = "rdfs:subClassOf" ];
+	"pdcore:Role" -> "objectrole:Role" [ label = "rdfs:subClassOf" ];
+	"pdcore:Role" -> "schema:Role" [ label = "rdfs:subClassOf" ];
+	"pdcore:Event" -> "edm:Event" [ label = "rdfs:subClassOf" ];
+	"pdcore:Event" -> "bibframe:Event" [ label = "rdfs:subClassOf" ];
 	"pdcore:Person" -> "foaf:Person" [ label = "rdfs:subClassOf" ];
 	"pdcore:Person" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
-	"agentrole:Agent" -> "objectrole:Object" [ label = "rdfs:subClassOf" ];
+	"olo:OrderedList" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"olo:Slot" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
 	"pdcore:PoeticWork" -> "frbroo:F1_Work" [ label = "rdfs:subClassOf" ];
 	"pdcore:PoeticWork" -> "edm:ProvidedCHO" [ label = "rdfs:subClassOf" ];
-	"pddate:OpenIntervalExpression" -> "pddate:IntervalExpression" [ label = "rdfs:subClassOf" ];
-	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
-	"pddate:ClosedIntervalExpression" -> "pddate:IntervalExpression" [ label = "rdfs:subClassOf" ];
+	"pdcore:TextUnit" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
+	"agentrole:Agent" -> "objectrole:Object" [ label = "rdfs:subClassOf" ];
+	"pdcore:Ensemble" -> "frbroo:F17_Aggregation_Work" [ label = "rdfs:subClassOf" ];
+	"pdcore:OrderedTextUnitList" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
 	"pdcore:Agent" -> "agentrole:Agent" [ label = "rdfs:subClassOf" ];
 	"pdcore:Agent" -> "edm:Agent" [ label = "rdfs:subClassOf" ];
-	"pddate:ApproximateDateExpression" -> "pddate:DateExpression" [ label = "rdfs:subClassOf" ];
-	"olo:Slot" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
-	"pdcore:Organisation" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
-	"pdcore:Organisation" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
-	"pdcore:Ensemble" -> "frbroo:F17_Aggregation_Work" [ label = "rdfs:subClassOf" ];
-	"olo:OrderedList" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
-	"pdcore:TextUnit" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
-	"pdcore:Redaction" -> "frbroo:F22_Self-Contained_Expression" [ label = "rdfs:subClassOf" ];
+	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
 	"pdcore:Place" -> "edm:Place" [ label = "rdfs:subClassOf" ];
 	"pdcore:Place" -> "schema:Place" [ label = "rdfs:subClassOf" ];
 	"pdcore:Place" -> "http://www.geonames.org/ontology#Feature" [ label = "rdfs:subClassOf" ];
+	"pdcore:Organisation" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
+	"pdcore:Organisation" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
 	"pdcore:CreatorRole" -> "pdcore:Role" [ label = "rdfs:subClassOf" ];
-	"pdcore:Role" -> "objectrole:Role" [ label = "rdfs:subClassOf" ];
-	"pdcore:Role" -> "schema:Role" [ label = "rdfs:subClassOf" ];
-	"pdcore:OrderedTextUnitList" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
-	"pddate:IntervalExpression" -> "edm:TimeSpan" [ label = "rdfs:subClassOf" ];
-	"pddate:IntervalExpression" -> "pddate:DateExpression" [ label = "rdfs:subClassOf" ];
-	"pddate:ExactDateExpression" -> "pddate:DateExpression" [ label = "rdfs:subClassOf" ];
-	"pdcore:Event" -> "edm:Event" [ label = "rdfs:subClassOf" ];
-	"pdcore:Event" -> "bibframe:Event" [ label = "rdfs:subClassOf" ];
 
 }

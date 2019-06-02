@@ -1,0 +1,37 @@
+{
+  "@context" : {
+    "isCreator" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isCreator"
+    },
+    "Person" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
+    },
+    "name" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#name"
+    },
+    "hasCreatorAssociated" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreatorAssociated"
+    },
+    "CreatorRole" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
+    },
+    "surname" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#surname"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isRealisedThrough" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough"
+    },
+    "hasCreator" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"
+    },
+    "Redaction" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
+    },
+    "PoeticWork" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
+    }
+  }
+}
