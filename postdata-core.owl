@@ -833,30 +833,6 @@ The values of this property are defined in a controlled vocabulary about literar
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#participateAs -->
-
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#participateAs">
-        <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
-        <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
-        <rdfs:comment xml:lang="en">This property points to the instance of Role that identifies the current Agent as the creator of a cultural product</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/POSTDATA-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">participateAs</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#participateAsCreator -->
-
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#participateAsCreator">
-        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#participateAs"/>
-        <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
-        <rdfs:comment xml:lang="en">This property points to the instance of CreatorRole that identifies the current Agent as the creator of a cultural product</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/POSTDATA-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">participateAsCreator</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#performs -->
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#performs">
@@ -1935,12 +1911,6 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn"/>
                 <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#participateAs"/>
-                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Any agentive Object , either physical, or social.</rdfs:comment>
