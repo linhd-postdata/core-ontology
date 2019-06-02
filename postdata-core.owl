@@ -699,7 +699,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role</dc:desc
         <rdfs:comment xml:lang="en">This property points to an instance of Organisation that performs the current Role</rdfs:comment>
         <rdfs:comment xml:lang="en">This property points to one of the persons (instance of Person) to whom the current Role belongs</rdfs:comment>
         <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/POSTDATA-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">isRoleOf</rdfs:label>
+        <rdfs:label xml:lang="en">isPerformedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -841,7 +841,7 @@ The values of this property are defined in a controlled vocabulary about literar
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
         <rdfs:comment xml:lang="en">This property points to one of the roles (an instance of Role) performed by the current Person or Organisation</rdfs:comment>
         <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/POSTDATA-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">hasRole</rdfs:label>
+        <rdfs:label xml:lang="en">performs</rdfs:label>
     </owl:ObjectProperty>
     
 
