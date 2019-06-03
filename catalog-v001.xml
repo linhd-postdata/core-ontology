@@ -2,8 +2,8 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://postdata.linhd.uned.es/ontology/POSTDATA-dates" uri="http://postdata.linhd.uned.es/ontology/postdata-dates"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1559519200507" name="http://postdata.linhd.uned.es/ontology/POSTDATA-core" uri="postdata-core.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1559519200507" name="http://www.w3.org/2002/07/owl" uri="OnToology/examples/authorship.ttl/documentation/ontology.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1559519200507" name="shadowed:http://postdata.linhd.uned.es/ontology/POSTDATA-core" uri="OnToology/postdata-core.owl/documentation/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1559521965077" name="http://postdata.linhd.uned.es/ontology/POSTDATA-core" uri="postdata-core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1559521965077" name="http://www.w3.org/2002/07/owl" uri="OnToology/examples/authorship.ttl/documentation/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1559521965077" name="shadowed:http://postdata.linhd.uned.es/ontology/POSTDATA-core" uri="OnToology/postdata-core.owl/documentation/ontology.xml"/>
     </group>
 </catalog>

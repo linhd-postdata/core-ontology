@@ -244,18 +244,6 @@ The concepts dealt with are Person, Organization, Event, Place and Role</dc:desc
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo -->
-
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo">
-        <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
-        <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
-        <rdfs:comment xml:lang="en">Person or Organisation who play the role</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/POSTDATA-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">correspondsTo</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#creates -->
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#creates">
@@ -1926,12 +1914,6 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo"/>
-                <owl:someValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#creates"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1942,6 +1924,12 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"/>
+                <owl:someValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
