@@ -2497,8 +2497,8 @@ Eg.: D. Quijote de la Mancha</rdfs:comment>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Abstract concept of an artistic creation. In postdata these creations must be in verse (poem, play, song)
-Eg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries</rdfs:comment>
+        <rdfs:comment xml:lang="en">Abstract concept of an artistic creation. In postdata these creations must be in verse (poem, play, song).
+Eg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries.</rdfs:comment>
         <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">PoeticWork</rdfs:label>
     </owl:Class>
