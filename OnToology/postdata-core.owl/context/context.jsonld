@@ -80,12 +80,18 @@
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#mentions",
       "@type" : "@id"
     },
+    "Organisation" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"
+    },
     "biography" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#biography",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Organization" : {
       "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
     },
     "numberOfPlays" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays",
@@ -104,6 +110,9 @@
     "commentary" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#commentary",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "F1_Work" : {
+      "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"
     },
     "isTheOrigin" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin",
@@ -124,12 +133,18 @@
       "@id" : "http://purl.org/ontology/olo/core#slot",
       "@type" : "@id"
     },
+    "ApproximateDate" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDate"
+    },
     "isDedicatedTo" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo",
       "@type" : "@id"
     },
     "deathDate" : {
       "@id" : "http://schema.org/deathDate"
+    },
+    "OrderedTextUnitList" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList"
     },
     "Feature" : {
       "@id" : "http://www.geonames.org/ontology#Feature"
@@ -160,9 +175,15 @@
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#positionName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "DateEntity" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"
+    },
     "birthPlaceCertainty" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty",
       "@type" : "@id"
+    },
+    "Location" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"
     },
     "addName" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#addName",
@@ -184,9 +205,15 @@
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation",
       "@type" : "@id"
     },
+    "TextUnit" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit"
+    },
     "gender" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#gender",
       "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/Event"
     },
     "involves" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#involves",
@@ -209,7 +236,7 @@
       "@type" : "@id"
     },
     "Person" : {
-      "@id" : "http://xmlns.com/foaf/0.1/Person"
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
     },
     "altitude" : {
       "@id" : "http://schema.org/altitude",
@@ -231,7 +258,7 @@
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs"
     },
     "Agent" : {
-      "@id" : "http://www.europeana.eu/schemas/edm/Agent"
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator"
@@ -239,6 +266,12 @@
     "name" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#name",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OrderedList" : {
+      "@id" : "http://purl.org/ontology/olo/core#OrderedList"
+    },
+    "Role" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
     },
     "typeOfRedaction" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction",
@@ -259,6 +292,9 @@
     "hasMember" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasMember",
       "@type" : "@id"
+    },
+    "CreatorRole" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
     },
     "surname" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#surname",
@@ -372,6 +408,9 @@
     "isCalligram" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Slot" : {
+      "@id" : "http://purl.org/ontology/olo/core#Slot"
     },
     "function" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#function",
@@ -565,12 +604,21 @@
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn",
       "@type" : "@id"
     },
+    "F17_Aggregation_Work" : {
+      "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F17_Aggregation_Work"
+    },
     "inScheme" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
       "@type" : "@id"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "Ensemble" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"
+    },
+    "ProvidedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/ProvidedCHO"
     },
     "isReferencedIn" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
@@ -583,6 +631,9 @@
     "unidentifiedSource" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "PoeticWork" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
     },
     "isFirstPart" : {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart",
