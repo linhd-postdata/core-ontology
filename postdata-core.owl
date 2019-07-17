@@ -238,6 +238,8 @@ The concepts dealt with are Person, Organization, Event, Place and Role</dc:desc
                 <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
             </owl:Restriction>
         </rdfs:range>
+        <rdfs:comment xml:lang="en">Certainty</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core"/>
         <rdfs:label xml:lang="en">certainty</rdfs:label>
     </owl:ObjectProperty>
     
