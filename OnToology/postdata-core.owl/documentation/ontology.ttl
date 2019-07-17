@@ -157,13 +157,15 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ;
                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
                         owl:hasValue <http://postdata.linhd.uned.es/kos/certainty>
                       ] ;
+           rdfs:comment "Certainty"@en ;
+           rdfs:isDefinedBy <http://postdata.linhd.uned.es/ontology/postdata-core> ;
            rdfs:label "certainty"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#creates
 :creates rdf:type owl:ObjectProperty ;
          rdfs:domain :CreatorRole ;
-         rdfs:comment "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator"@en ;
+         rdfs:comment "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator."@en ;
          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
          rdfs:label "creates"@en .
 
@@ -374,7 +376,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ;
 :isCharacter rdf:type owl:ObjectProperty ;
              rdfs:domain :Agent ;
              rdfs:range :Redaction ;
-             rdfs:comment "his property points to the text in which the current instance of Person or Organisatrion is a character"@en ;
+             rdfs:comment "his property points to the text in which the current instance of Person or Organisatrion is a character."@en ;
              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
              rdfs:label "isCharacter"@en .
 
@@ -500,7 +502,7 @@ The concepts dealt with are Person, Organization, Event, Place and Role"""@en ;
                    owl:inverseOf :realises ;
                    rdfs:domain :PoeticWork ;
                    rdfs:range :Redaction ;
-                   rdfs:comment "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"@en ;
+                   rdfs:comment "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis."@en ;
                    rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core" ;
                    rdfs:label "isRealisedThrough"@en .
 

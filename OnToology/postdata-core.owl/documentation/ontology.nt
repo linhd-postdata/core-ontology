@@ -132,12 +132,14 @@ _:genid2 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/certainty> .
+<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#comment> "Certainty"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-core> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#label> "certainty"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#creates
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator."@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#label> "creates"@en .
 # 
@@ -326,7 +328,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "his property points to the text in which the current instance of Person or Organisatrion is a character"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "his property points to the text in which the current instance of Person or Organisatrion is a character."@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "isCharacter"@en .
 # 
@@ -438,7 +440,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-core#realises> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis."@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#label> "isRealisedThrough"@en .
 # 

@@ -2247,6 +2247,13 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#certainty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Certainty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "certainty"
@@ -2278,7 +2285,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator"
+    "@value" : "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
@@ -2933,7 +2940,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "his property points to the text in which the current instance of Person or Organisatrion is a character"
+    "@value" : "his property points to the text in which the current instance of Person or Organisatrion is a character."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
@@ -3230,7 +3237,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"
+    "@value" : "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
