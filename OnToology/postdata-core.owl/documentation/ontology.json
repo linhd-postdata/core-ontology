@@ -900,22 +900,13 @@
   "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
-  } ]
-}, {
-  "@id" : "_:genid33",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#creates"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid34"
+    "@id" : "_:genid33"
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -925,6 +916,15 @@
     }, {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
     } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
   } ]
 }, {
   "@id" : "_:genid38",
@@ -1489,7 +1489,7 @@
   "@id" : "http://postdata.linhd.uned.es/kos/textualElement-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://creativecommons.org/ns#license" : [ {
     "@language" : "en",
@@ -1497,23 +1497,23 @@
   } ],
   "http://purl.org/dc/elements/1.1/contributors" : [ {
     "@language" : "en",
-    "@value" : "Alvaro Pérez (LINHD_POSTDATA-UNED)"
+    "@value" : "Alvaro Pérez (POSTDATA_LINHD-UNED)\nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/?originalSubdomain=es"
   }, {
     "@language" : "en",
     "@value" : "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"
   }, {
     "@language" : "en",
-    "@value" : "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/"
+    "@value" : "Javier de la Rosa (POSTDATA_LINHD-UNED)\nhttps://www.linkedin.com/in/versae/"
   }, {
     "@language" : "en",
     "@value" : "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@language" : "en",
-    "@value" : "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X"
+    "@value" : "Helena Bermúdez Sabel (POSTDATA_LINHD-UNED) \nhttps://orcid.org/0000-0001-7782-206X"
   }, {
     "@language" : "en",
-    "@value" : "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147"
+    "@value" : "Mª Luisa Díez Platas (POSTDATA_LINHD-UNED)\nhttps://orcid.org/0000-0002-9416-3147"
   } ],
   "http://purl.org/dc/elements/1.1/date" : [ {
     "@language" : "en",
@@ -1525,18 +1525,18 @@
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@language" : "en",
-    "@value" : "POSTDATA core ontology"
+    "@value" : "postdata-core ontology"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"
+    "@value" : "postdata Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@language" : "en",
     "@value" : "pdcore"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/POSTDATA-dates"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates"
   }, {
     "@id" : "http://purl.org/ontology/olo/core#"
   }, {
@@ -1555,7 +1555,7 @@
     "@value" : "Any agentive Object , either physical, or social."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1578,7 +1578,7 @@
     "@value" : "Function of a person or organization in the creation of a poetic work, redaction or other transmission element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1589,7 +1589,7 @@
   }, {
     "@id" : "_:genid32"
   }, {
-    "@id" : "_:genid33"
+    "@id" : "_:genid37"
   }, {
     "@id" : "_:genid38"
   }, {
@@ -1605,7 +1605,7 @@
     "@value" : "An abstract work that contains more than one Poetic Work. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Poetic Work)\nEg.: Les fleurs du mal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1642,7 +1642,7 @@
     "@value" : "A thing that happens or takes place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1667,7 +1667,7 @@
     "@value" : "An ordered list of text units with a given length and indexed elements."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1684,7 +1684,7 @@
     "@value" : "Named collection of people regarded as a single unit\nEg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ and businesses such as ‘Google’ but also racial or ethnic groupings or political factions where these are regarded as forming a single agency such as ‘the Carthaginians’ or ‘the Communists’"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1705,7 +1705,7 @@
     "@value" : "A human being regarded as an individual. This person could have existed in real life or it may be fictional.\nEg.: D. Quijote de la Mancha"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1764,7 +1764,7 @@
     "@value" : "A particular position, point, or area in space; a location"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1788,10 +1788,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Abstract concept of an artistic creation. In POSTDATA these creations must be in verse (poem, play, song)\nEg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries"
+    "@value" : "Abstract concept of an artistic creation. In postdata these creations must be in verse (poem, play, song).\nEg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1840,7 +1840,7 @@
     "@value" : "Representatives of a work, that is, of an Poetic Work. Each version of a work is its own redaction.\nEg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1907,7 +1907,7 @@
     "@value" : "Function of a person or character"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1936,7 +1936,7 @@
     "@value" : "Text unit on an ordered list"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1956,7 +1956,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1976,7 +1976,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1996,7 +1996,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2016,7 +2016,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2039,7 +2039,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2056,7 +2056,7 @@
     "@value" : "Alternative name, other known denominations of a text or tune"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2076,7 +2076,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2096,7 +2096,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2116,7 +2116,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2138,7 +2138,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2164,7 +2164,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2187,7 +2187,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2210,7 +2210,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2230,7 +2230,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2249,10 +2249,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Level of confidence regarding the correspondent function"
+    "@value" : "Certainty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2271,7 +2271,7 @@
     "@value" : "An explanatory series of notes or comments; an explanatory essay or treatise on a text"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2281,37 +2281,17 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Person or Organisation who play the role"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "correspondsTo"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
-  } ]
-}, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#creates",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator"
+    "@value" : "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2325,7 +2305,7 @@
     "@value" : "This property points to an date entity that represents a particular point or period of time at which something happened or existed, or is expected to happen"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2345,7 +2325,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2368,7 +2348,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2391,7 +2371,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "ethnicity"
@@ -2410,7 +2390,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2430,7 +2410,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2450,7 +2430,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2470,7 +2450,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2490,7 +2470,7 @@
     "@id" : "_:genid15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2510,7 +2490,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2530,7 +2510,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2552,7 +2532,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2571,7 +2551,7 @@
     "@value" : "This property points to a function (an instance of Role) that has somehow affected the item at hand (e.g. sponsor)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2591,7 +2571,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2608,7 +2588,7 @@
     "@value" : "This property points to the entity Creator that has created the current work under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2628,7 +2608,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2651,7 +2631,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2674,7 +2654,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2697,7 +2677,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2720,7 +2700,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2740,7 +2720,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2766,7 +2746,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2789,7 +2769,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2809,7 +2789,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2829,7 +2809,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2849,7 +2829,7 @@
     "@id" : "_:genid18"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2866,7 +2846,7 @@
     "@value" : "This property points to an instance of Role that affects the current role (e.g. actress who performs the role at hand)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2886,7 +2866,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2906,7 +2886,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2926,7 +2906,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2946,7 +2926,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2960,13 +2940,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "his property points to the text in which the current instance of Person or Organisatrion is a character"
+    "@value" : "his property points to the text in which the current instance of Person or Organisatrion is a character."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2986,7 +2966,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3006,7 +2986,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3026,7 +3006,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3040,7 +3020,7 @@
     "@value" : "This property points to the specific location in a bibliographic item (an instance of Location) that contains an edition of the current instance of Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3060,7 +3040,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3080,7 +3060,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3095,15 +3075,16 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to the container (an instance of Redaction) of which the item at hand is its first part"
-  }, {
-    "@language" : "en",
-    "@value" : "isFirstpart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isFirstpart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -3116,7 +3097,7 @@
     "@value" : "This property points to the Place which is the provenance of the current instance of the item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3136,7 +3117,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3153,7 +3134,7 @@
     "@value" : "This property points to the Event in which the current instance of Organisation, Person or Place is referenced"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3173,7 +3154,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3190,7 +3171,7 @@
     "@value" : "This  property points to the text (an instance of Redaction) that records the current item under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3213,7 +3194,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3230,16 +3211,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property points to an instance of Organisation that performs the current Role"
-  }, {
-    "@language" : "en",
-    "@value" : "This property points to one of the persons (instance of Person) to whom the current Role belongs"
+    "@value" : "This property points to an instance of Agent (Person or Organisation) that performs the current Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3259,13 +3237,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"
+    "@value" : "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3288,7 +3266,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3305,7 +3283,7 @@
     "@value" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3328,7 +3306,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -3347,7 +3325,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3364,7 +3342,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3387,7 +3365,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3407,7 +3385,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3424,7 +3402,7 @@
     "@value" : "A significant or descriptive word. Usually, a word used as a reference point for finding other words or information"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3441,7 +3419,7 @@
     "@value" : "Language of the text"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3461,7 +3439,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3481,7 +3459,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3503,7 +3481,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3523,7 +3501,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3537,7 +3515,7 @@
     "@value" : "Contains a proper noun or noun phrase that refers the current agent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3560,7 +3538,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3577,7 +3555,7 @@
     "@value" : "Location of the narrative"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3597,7 +3575,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3617,7 +3595,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3639,7 +3617,7 @@
     "@value" : "Comment or explanations"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3662,7 +3640,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3682,7 +3660,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3702,7 +3680,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3722,7 +3700,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3742,7 +3720,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3759,7 +3737,7 @@
     "@value" : "Name of the place as it appears in the source text"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3776,7 +3754,7 @@
     "@value" : "The identifying name of a text or tune as it appears in its PrimarySource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3796,7 +3774,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3816,7 +3794,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3836,7 +3814,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3859,7 +3837,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3881,7 +3859,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3901,7 +3879,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3916,15 +3894,16 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to the previous text unit  which, together with the current item, form the same textual unit"
-  }, {
-    "@language" : "en",
-    "@value" : "previousPart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "previousPart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit"
@@ -3940,7 +3919,7 @@
     "@value" : "This property points to the Place which is the provenance of the current instance of Ensamble or Poetic Work"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3960,7 +3939,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3980,7 +3959,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4002,7 +3981,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4022,7 +4001,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4044,7 +4023,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4064,7 +4043,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4084,7 +4063,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4106,7 +4085,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4128,7 +4107,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4145,7 +4124,7 @@
     "@value" : "A secondary, usually explanatory title"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4168,7 +4147,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4188,7 +4167,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4205,7 +4184,7 @@
     "@value" : "Subject of a text, song or image"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4225,7 +4204,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4247,7 +4226,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4269,7 +4248,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4289,7 +4268,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4309,7 +4288,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4329,7 +4308,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4351,7 +4330,7 @@
     "@id" : "_:genid27"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4366,15 +4345,16 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to another text (an instance of Redaction) which is a synthesis of the version at hand (the current Redaction)"
-  }, {
-    "@language" : "en",
-    "@value" : "usedForSynthesis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "usedForSynthesis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -4390,7 +4370,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4410,7 +4390,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4491,7 +4471,7 @@
     "@value" : "The altitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ]
 }, {
   "@id" : "http://schema.org/birthDate",
@@ -4520,7 +4500,7 @@
     "@value" : "The latitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ]
 }, {
   "@id" : "http://schema.org/longitude",
@@ -4530,7 +4510,7 @@
     "@value" : "The longitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core/"
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-core"
   } ]
 }, {
   "@id" : "http://schema.org/startDate",

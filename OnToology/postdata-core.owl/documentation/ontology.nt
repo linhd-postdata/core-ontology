@@ -1,21 +1,21 @@
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/2002/07/owl#imports> <http://postdata.linhd.uned.es/ontology/POSTDATA-dates> .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/olo/core#> .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/partof.owl> .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by/4.0/"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/contributors> "Alvaro Pérez (LINHD_POSTDATA-UNED)"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/contributors> "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/contributors> "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/creator> "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/date> "2019-05-27"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/description> "This ontological module contains classes and properties that provide information related to poetic works and their manifestations and other characteristics.\nIt also provides transversal information that is ussefull in different specific domains related and covers different aspects to complete tehe information related with the poetic work\nThe concepts dealt with are Person, Organization, Event, Place and Role"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/elements/1.1/title> "POSTDATA core ontology"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/dc/terms/publisher> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdcore"@en .
-<http://postdata.linhd.uned.es/ontology/POSTDATA-core> <http://www.w3.org/2002/07/owl#versionInfo> "V1.0" .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://www.w3.org/2002/07/owl#imports> <http://postdata.linhd.uned.es/ontology/postdata-dates> .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/olo/core#> .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/partof.owl> .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by/4.0/"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/contributors> "Alvaro Pérez (POSTDATA_LINHD-UNED)\nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/?originalSubdomain=es"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/contributors> "Javier de la Rosa (POSTDATA_LINHD-UNED)\nhttps://www.linkedin.com/in/versae/"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/contributors> "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel (POSTDATA_LINHD-UNED) \nhttps://orcid.org/0000-0001-7782-206X"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/creator> "Mª Luisa Díez Platas (POSTDATA_LINHD-UNED)\nhttps://orcid.org/0000-0002-9416-3147"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/date> "2019-05-27"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/description> "This ontological module contains classes and properties that provide information related to poetic works and their manifestations and other characteristics.\nIt also provides transversal information that is ussefull in different specific domains related and covers different aspects to complete tehe information related with the poetic work\nThe concepts dealt with are Person, Organization, Event, Place and Role"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/elements/1.1/title> "postdata-core ontology"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/dc/terms/publisher> "postdata Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdcore"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core> <http://www.w3.org/2002/07/owl#versionInfo> "V1.0" .
 # 
 # 
 # #################################################################
@@ -70,7 +70,7 @@
 <http://postdata.linhd.uned.es/ontology/postdata-core#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#affects> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Role who is affected by the current function (e.g. the role performed by an actress)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#affects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#affects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel
@@ -82,7 +82,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid1 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/author-educationLevel> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Level of education of the creator of a text/song (this property has as Domain \"PoeticWork\" and not \"Person\" since the education level of a person changes during time. This is the education level of the author in the moment of writing the poem)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel> <http://www.w3.org/2000/01/rdf-schema#label> "authorEducationLevel"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText
@@ -92,7 +92,7 @@ _:genid1 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText> <http://www.w3.org/2000/01/rdf-schema#comment> "The text unit belongs an ordered list of a textual units"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#belongsToListOrderedText> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToListOrderedText"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#birthDate
@@ -101,7 +101,7 @@ _:genid1 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of birth"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthDate> <http://www.w3.org/2000/01/rdf-schema#label> "birthDate"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace
@@ -109,7 +109,7 @@ _:genid1 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Place which is the provenance of the current instance of Person"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace> <http://www.w3.org/2000/01/rdf-schema#label> "birthPlace"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty
@@ -122,7 +122,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid2 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/certainty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> <http://www.w3.org/2000/01/rdf-schema#comment> "Certainty of the date of birth"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty> <http://www.w3.org/2000/01/rdf-schema#label> "birthPlaceCertainty"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#certainty
@@ -132,30 +132,22 @@ _:genid2 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/certainty> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#comment> "Level of confidence regarding the correspondent function"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#comment> "Certainty"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-core> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/2000/01/rdf-schema#label> "certainty"@en .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo
-<http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Person or Organisation who play the role"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
-<http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> <http://www.w3.org/2000/01/rdf-schema#label> "correspondsTo"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#creates
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an ensemble, PoeticWork or Redaction which was authored by the current Creator."@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#creates> <http://www.w3.org/2000/01/rdf-schema#label> "creates"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#date
 <http://postdata.linhd.uned.es/ontology/postdata-core#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#date> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an date entity that represents a particular point or period of time at which something happened or existed, or is expected to happen"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#date> <http://www.w3.org/2000/01/rdf-schema#label> "date"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#deathDate
@@ -164,7 +156,7 @@ _:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#deathDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#deathDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#deathDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of death"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#deathDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#deathDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#deathDate> <http://www.w3.org/2000/01/rdf-schema#label> "deathDate"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#diedIn
@@ -173,7 +165,7 @@ _:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the instance of Place where the current Person has died"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#diedIn> <http://www.w3.org/2000/01/rdf-schema#label> "diedIn"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#floruit
@@ -181,7 +173,7 @@ _:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#floruit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#floruit> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#floruit> <http://www.w3.org/2000/01/rdf-schema#comment> "A person’s period of activity (to use when a range cannot be stablished; eg. “3rd century”)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#floruit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#floruit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#floruit> <http://www.w3.org/2000/01/rdf-schema#label> "floruit"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#gender
@@ -193,7 +185,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid4 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/gender> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#gender> <http://www.w3.org/2000/01/rdf-schema#comment> "The gender of the Person"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#gender> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#gender> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#gender> <http://www.w3.org/2000/01/rdf-schema#label> "gender"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#genre
@@ -205,14 +197,14 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/genre> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#genre> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of art, literature or music characterized by a specific form, content and style"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#genre> <http://www.w3.org/2000/01/rdf-schema#label> "genre"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a function (an instance of Role) that has somehow affected the item at hand (e.g. sponsor)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent> <http://www.w3.org/2000/01/rdf-schema#label> "hasAgent"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter
@@ -220,14 +212,14 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a group of characters, an instance of Agent( Organisation or Person) depicted in the text"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "hasCharacter"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the entity Creator that has created the current work under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "hasCreator"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication
@@ -236,7 +228,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the text (an instance of Redaction) which was dedicated to the current Person"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication> <http://www.w3.org/2000/01/rdf-schema#label> "hasDedication"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor
@@ -245,7 +237,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Person who has edited the current instance of Redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor> <http://www.w3.org/2000/01/rdf-schema#label> "hasEditor"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart
@@ -254,7 +246,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first text unit  which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart> <http://www.w3.org/2000/01/rdf-schema#label> "hasFirstPart"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasMember
@@ -263,7 +255,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the persons (instance of Person) who belongs to the current Organisation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "hasMember"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList
@@ -271,7 +263,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList> <http://www.w3.org/2000/01/rdf-schema#comment> "List of  text units that form the redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList> <http://www.w3.org/2000/01/rdf-schema#label> "hasOrderedTextList"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasPart
@@ -281,7 +273,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the works (an instance of PoeticWork) which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "hasPart"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit
@@ -290,7 +282,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A text unit in an ordered list."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit> <http://www.w3.org/2000/01/rdf-schema#label> "hasTextUnit"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation
@@ -298,7 +290,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the specific location in a bibliographic item (an instance of Location) which contains a translation of the text at hand"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation> <http://www.w3.org/2000/01/rdf-schema#label> "hasTranslation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#involves
@@ -306,14 +298,14 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#involves> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#involves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#involves> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a Organisation, Person or Place  which are related to the current instance of Event"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#involves> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#involves> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#involves> <http://www.w3.org/2000/01/rdf-schema#label> "involves"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Role that affects the current role (e.g. actress who performs the role at hand)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isAffectedBy"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf
@@ -321,7 +313,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the work (instance of PoeticWork) which depicts the Role at hand in relation to its contents. When the Role at hand is related to the agents that participated in the transmission of the work (e.g. sponsor), this property points to the entity affected by the current function"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf> <http://www.w3.org/2000/01/rdf-schema#label> "isAgentOf"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo
@@ -329,15 +321,15 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the agents, almost always Person  to whom the current Role belongs."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#label> "isAssignedTo"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "his property points to the text in which the current instance of Person or Organisatrion is a character"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "his property points to the text in which the current instance of Person or Organisatrion is a character."@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "isCharacter"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace
@@ -345,7 +337,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a Person who died in the current instance of Place"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDeathPlace> <http://www.w3.org/2000/01/rdf-schema#label> "isDeathPlace"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo
@@ -353,21 +345,21 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This peroperty points to one of the persons (an instance of Person) to whom the current text was dedicated"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDedicatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "isDedicatedTo"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the work (instance of PoeticWork) or a redaction which depicts the Role at hand in relation to its contents. When the Role at hand is related to the agents that participated in the transmission of the work (e.g. sponsor), this property points to the entity affected by the current function"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isDepicted> <http://www.w3.org/2000/01/rdf-schema#label> "isDepicted"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the specific location in a bibliographic item (an instance of Location) that contains an edition of the current instance of Redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isEditedIn"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isEditor
@@ -375,7 +367,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditor> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Redaction which was edited by the the current Person"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isEditor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isEditor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isEditor> <http://www.w3.org/2000/01/rdf-schema#label> "isEditor"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart
@@ -383,14 +375,14 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the container (an instance of Redaction) of which the item at hand is its first part"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#comment> "isFirstpart"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFirstPart> <http://www.w3.org/2000/01/rdf-schema#label> "isFirstpart"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isFrom
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Place which is the provenance of the current instance of the item"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> <http://www.w3.org/2000/01/rdf-schema#label> "isFrom"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn
@@ -398,14 +390,14 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the specific location in a bibliographic item (an instance of Location) in which the current text is indexed"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isIndexedIn"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Event in which the current instance of Organisation, Person or Place is referenced"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isInvolvedIn"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isMember
@@ -413,7 +405,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the instance of Organisation to which the Person at hand belongs"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMember> <http://www.w3.org/2000/01/rdf-schema#label> "isMember"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn
@@ -421,7 +413,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This  property points to the text (an instance of Redaction) that records the current item under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isMentionedIn"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isPart
@@ -430,7 +422,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the instance of Ensemble to which the PoeticWork at hand belongs"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPart> <http://www.w3.org/2000/01/rdf-schema#label> "isPart"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy
@@ -439,9 +431,8 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-core#performs> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Organisation that performs the current Role"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the persons (instance of Person) to whom the current Role belongs"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Agent (Person or Organisation) that performs the current Role"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isPerformedBy"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough
@@ -449,8 +440,8 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-core#realises> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a text (an instance of Redaction) which is one of the materialisations of the work under analysis."@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough> <http://www.w3.org/2000/01/rdf-schema#label> "isRealisedThrough"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy
@@ -458,14 +449,14 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the specific location in a bibliographic item (an instance of Location) that registers the current item under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isRecordedBy"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn
 <http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isReferencedIn"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis
@@ -475,13 +466,13 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis> <http://www.w3.org/2000/01/rdf-schema#comment> "isSynthesis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Entity whose provenance corresponds to the current instance of Place"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTheOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "isTheOrigin"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated
@@ -490,7 +481,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to another work (an instance of Redaction) from which the current item being analysed was translated"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated> <http://www.w3.org/2000/01/rdf-schema#label> "isTranslated"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation
@@ -498,7 +489,7 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to another version (an instance of Redaction) which is a translation of the current item being analysed"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation> <http://www.w3.org/2000/01/rdf-schema#label> "isTranslation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod
@@ -510,14 +501,14 @@ _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid6 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/literary-period> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Label of a time frame for grouping certain works. Cf. \"school\".\nThe values of this property are defined in a controlled vocabulary about literary periods."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "literaryPeriod"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#mentions
 <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Event  or Person or Organisation or Place that is referred in the current under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#mentions> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#mentions> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#mentions> <http://www.w3.org/2000/01/rdf-schema#label> "mentions"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#nextPart
@@ -527,7 +518,7 @@ _:genid6 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the next text unit  which, together with the current item, form the same redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nextPart> <http://www.w3.org/2000/01/rdf-schema#label> "nextPart"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#performs
@@ -536,7 +527,7 @@ _:genid6 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the roles (an instance of Role) performed by the current Person or Organisation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#performs> <http://www.w3.org/2000/01/rdf-schema#label> "performs"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#poeticType
@@ -548,7 +539,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/poetic-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> <http://www.w3.org/2000/01/rdf-schema#comment> "Major literary genre of the composition, that is, drama or poetry. The values of this property are defined in a controlled vocabulary about poetic types"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#poeticType> <http://www.w3.org/2000/01/rdf-schema#label> "poeticType"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#previousPart
@@ -557,15 +548,15 @@ _:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the previous text unit  which, together with the current item, form the same textual unit"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#comment> "previousPart"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#previousPart> <http://www.w3.org/2000/01/rdf-schema#label> "previousPart"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom
 <http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Place which is the provenance of the current instance of Ensamble or Poetic Work"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#provenanceFrom> <http://www.w3.org/2000/01/rdf-schema#label> "provenanceFrom"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#realises
@@ -573,7 +564,7 @@ _:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#realises> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#realises> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#realises> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the work (an instance of Opus) of which the text at hand (the current Redaction) is a materialisation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#realises> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#realises> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#realises> <http://www.w3.org/2000/01/rdf-schema#label> "realises"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation
@@ -585,7 +576,7 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid8 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/religious-affiliation> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Association of a person with a religion, denomination or sub–denominational religious group. The values of this property are defined in a controlled vocabulary about religious affiliation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation> <http://www.w3.org/2000/01/rdf-schema#label> "religiousAffiliation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText
@@ -593,7 +584,7 @@ _:genid8 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 <http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-transmission#Location> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the specific location in a bibliographic item (an instance of Location) which contains the edition used as the base of text at hand"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText> <http://www.w3.org/2000/01/rdf-schema#label> "retrievesText"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction
@@ -605,7 +596,7 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid9 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/role-function> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Job performed by some agent (e.g. sponsor, actor, collector, singer, arranger, transcriptor)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction> <http://www.w3.org/2000/01/rdf-schema#label> "roleFunction"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#school
@@ -617,7 +608,7 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid10 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/school> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#school> <http://www.w3.org/2000/01/rdf-schema#comment> "Literary movement/school of the author"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#school> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#school> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#school> <http://www.w3.org/2000/01/rdf-schema#label> "school"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus
@@ -629,7 +620,7 @@ _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid11 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/social-status> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The social status of the Person, that is the position or rank of a Person within the society"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus> <http://www.w3.org/2000/01/rdf-schema#label> "socialStatus"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter
@@ -641,7 +632,7 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid12 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/character-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of character (eg. “main”, “antagonist”, etc.)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfCharacter"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation
@@ -653,7 +644,7 @@ _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid13 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/designation-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of designation/name. E.g. pseudonym, heteronym, allonym, orthonym variant"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfDesignation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement
@@ -665,7 +656,7 @@ _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/textualElement-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of textual element (e.g. part of a greater ensemble; part of a composed collection of poems; prologue of a work; epilogue of a work; a chapter of a work...)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfTextualElement"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis
@@ -673,8 +664,8 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to another text (an instance of Redaction) which is a synthesis of the version at hand (the current Redaction)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#comment> "usedForSynthesis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis> <http://www.w3.org/2000/01/rdf-schema#label> "usedForSynthesis"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-dates#dateCertainty
 <http://postdata.linhd.uned.es/ontology/postdata-dates#dateCertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -683,7 +674,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 # http://schema.org/altitude
 <http://schema.org/altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/altitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The altitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."@en .
-<http://schema.org/altitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://schema.org/altitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 # 
 # http://schema.org/birthDate
 <http://schema.org/birthDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -694,12 +685,12 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 # http://schema.org/latitude
 <http://schema.org/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."@en .
-<http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 # 
 # http://schema.org/longitude
 <http://schema.org/longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The longitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>)."@en .
-<http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 # 
 # http://www.w3.org/2004/02/skos/core#inScheme
 <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -718,7 +709,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#addName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#addName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#addName> <http://www.w3.org/2000/01/rdf-schema#comment> "It contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#addName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#addName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#addName> <http://www.w3.org/2000/01/rdf-schema#label> "addName"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile
@@ -726,7 +717,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> <http://www.w3.org/2000/01/rdf-schema#comment> "A file (XML, PFD, plain text) which contains the Redaction and, likely, other type of analytical information"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile> <http://www.w3.org/2000/01/rdf-schema#label> "additionalFile"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#address
@@ -734,7 +725,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#address> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a postal address, for example of a publisher, an organisation, or an individual"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#address> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#altName
@@ -742,14 +733,14 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#altName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#altName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#altName> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternative name that references the current item"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#altName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#altName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#altName> <http://www.w3.org/2000/01/rdf-schema#label> "altName"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#altTitle
 <http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternative name, other known denominations of a text or tune"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#altTitle> <http://www.w3.org/2000/01/rdf-schema#label> "altTitle"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#audience
@@ -757,7 +748,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#audience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#audience> <http://www.w3.org/2000/01/rdf-schema#comment> "The meant readership, viewers or listeners of a cultural product"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#audience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#audience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#audience> <http://www.w3.org/2000/01/rdf-schema#label> "audience"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel
@@ -765,7 +756,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Level of education of the recipients of a text/song"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel> <http://www.w3.org/2000/01/rdf-schema#label> "audienceEducationLevel"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#biography
@@ -774,14 +765,14 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#biography> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#biography> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#biography> <http://www.w3.org/2000/01/rdf-schema#comment> "An account of a person's life written, composed, or produced by another"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#biography> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#biography> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#biography> <http://www.w3.org/2000/01/rdf-schema#label> "biography"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#commentary
 <http://postdata.linhd.uned.es/ontology/postdata-core#commentary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#commentary> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#commentary> <http://www.w3.org/2000/01/rdf-schema#comment> "An explanatory series of notes or comments; an explanatory essay or treatise on a text"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#commentary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#commentary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#commentary> <http://www.w3.org/2000/01/rdf-schema#label> "commentary"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity
@@ -789,7 +780,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> <http://www.w3.org/2000/01/rdf-schema#comment> "An ethnic group; a social group that shares a common and distinctive culture, religion, language, or the like"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity> <http://www.w3.org/2000/01/rdf-schema#label> "ethnicity" .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration
@@ -797,7 +788,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> <http://www.w3.org/2000/01/rdf-schema#comment> "Text that narrates the event, that is, an excerpt of the Redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration> <http://www.w3.org/2000/01/rdf-schema#label> "eventNarration"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#explicit
@@ -805,7 +796,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#explicit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#explicit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#explicit> <http://www.w3.org/2000/01/rdf-schema#comment> "The closing words of the composition (usually, the last verse)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#explicit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#explicit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#explicit> <http://www.w3.org/2000/01/rdf-schema#label> "explicit"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#forename
@@ -813,7 +804,7 @@ _:genid14 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-core#forename> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#forename> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#forename> <http://www.w3.org/2000/01/rdf-schema#comment> "It contains a forename, given or baptismal name"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#forename> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#forename> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#forename> <http://www.w3.org/2000/01/rdf-schema#label> "forename"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#function
@@ -829,7 +820,7 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.li
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#function> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#function> <http://www.w3.org/2000/01/rdf-schema#comment> "Purpose of the work (e.g. prayer, spell, curse)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#function> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#function> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#function> <http://www.w3.org/2000/01/rdf-schema#label> "function"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#genName
@@ -837,7 +828,7 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#genName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#genName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#genName> <http://www.w3.org/2000/01/rdf-schema#comment> "It contains a name component used to distinguish otherwise similar names on the basis of the relative ages or generations of the persons named"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#genName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#genName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#genName> <http://www.w3.org/2000/01/rdf-schema#label> "genName"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#incipit
@@ -845,7 +836,7 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#incipit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#incipit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#incipit> <http://www.w3.org/2000/01/rdf-schema#comment> "The first line of the work"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#incipit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#incipit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#incipit> <http://www.w3.org/2000/01/rdf-schema#label> "incipit"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isASong
@@ -861,7 +852,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.li
 _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isASong> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isASong> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the Redaction was composed to be sung"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isASong> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isASong> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isASong> <http://www.w3.org/2000/01/rdf-schema#label> "isASong"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous
@@ -869,7 +860,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> <http://www.w3.org/2000/01/rdf-schema#comment> "In case the identity of current instance of Creator is unknown"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous> <http://www.w3.org/2000/01/rdf-schema#label> "isAnonymous"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram
@@ -877,7 +868,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> <http://www.w3.org/2000/01/rdf-schema#comment> "A calligram is a text visually arranged in a way that it forms an image associated with the text’s contents"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram> <http://www.w3.org/2000/01/rdf-schema#label> "isCalligram"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isFictional
@@ -885,7 +876,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the person under analysis is a fictional character"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isFictional> <http://www.w3.org/2000/01/rdf-schema#label> "isFictional"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution
@@ -893,14 +884,14 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> <http://www.w3.org/2000/01/rdf-schema#comment> "In case the identity of the current instance of Creator is certainly a wrong attribution"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution> <http://www.w3.org/2000/01/rdf-schema#label> "isWrongAttribution"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#keyword
 <http://postdata.linhd.uned.es/ontology/postdata-core#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#keyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "A significant or descriptive word. Usually, a word used as a reference point for finding other words or information"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#language
@@ -915,7 +906,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#language> <http://www.w3.org/2000/01/rdf-schema#comment> "Language of the text"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#language> <http://www.w3.org/2000/01/rdf-schema#label> "language"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#layout
@@ -923,7 +914,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#layout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#layout> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#layout> <http://www.w3.org/2000/01/rdf-schema#comment> "The arrangement of textual materials (images included) on a page"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#layout> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#layout> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#layout> <http://www.w3.org/2000/01/rdf-schema#label> "layout"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition
@@ -931,7 +922,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> <http://www.w3.org/2000/01/rdf-schema#comment> "The literary tradition assigned to a composition"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition> <http://www.w3.org/2000/01/rdf-schema#label> "literaryTradition"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#name
@@ -939,7 +930,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/name> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a proper noun or noun phrase that refers the current agent"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#nameLink
@@ -947,14 +938,14 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nameLink> <http://www.w3.org/2000/01/rdf-schema#label> "nameLink"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation
 <http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Location of the narrative"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation> <http://www.w3.org/2000/01/rdf-schema#label> "narrativeLocation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#nationality
@@ -962,7 +953,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#nationality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nationality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nationality> <http://www.w3.org/2000/01/rdf-schema#comment> "An ethnic group forming a part of one or more political nations"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#nationality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#nationality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#nationality> <http://www.w3.org/2000/01/rdf-schema#label> "nationality"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#notes
@@ -970,7 +961,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#notes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/nknouf/ns/bibtex#hasNote> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#notes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#notes> <http://www.w3.org/2000/01/rdf-schema#comment> "Comment or explanations" .
-<http://postdata.linhd.uned.es/ontology/postdata-core#notes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#notes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#notes> <http://www.w3.org/2000/01/rdf-schema#label> "notes"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines
@@ -978,7 +969,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of lines in item"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines> <http://www.w3.org/2000/01/rdf-schema#label> "numberOfLines"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays
@@ -986,7 +977,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of plays in item"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays> <http://www.w3.org/2000/01/rdf-schema#label> "numberOfPlays"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems
@@ -994,7 +985,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of poems in item"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems> <http://www.w3.org/2000/01/rdf-schema#label> "numberOfPoems"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed
@@ -1002,7 +993,7 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of PrimarySources used in the elaboration of an edition"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed> <http://www.w3.org/2000/01/rdf-schema#label> "numberOfWitnessesUsed"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage
@@ -1018,21 +1009,21 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language from which the Redaction/Poetic Work is a translation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "originalLanguage"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#originalName
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the place as it appears in the source text"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#originalName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#originalName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalName> <http://www.w3.org/2000/01/rdf-schema#label> "originalName"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The identifying name of a text or tune as it appears in its PrimarySource"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle> <http://www.w3.org/2000/01/rdf-schema#label> "originalTitle"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis
@@ -1040,7 +1031,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#comment> "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#label> "paraphrasis"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#penName
@@ -1048,7 +1039,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#penName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#penName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#penName> <http://www.w3.org/2000/01/rdf-schema#comment> "A fictitious name, especially a pen name. A variant name"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#penName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#penName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#penName> <http://www.w3.org/2000/01/rdf-schema#label> "penName"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#portrait
@@ -1056,7 +1047,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#portrait> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#portrait> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#portrait> <http://www.w3.org/2000/01/rdf-schema#comment> "URL to a digital image file that depicts the person"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#portrait> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#portrait> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#portrait> <http://www.w3.org/2000/01/rdf-schema#label> "portrait"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#positionName
@@ -1064,7 +1055,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#positionName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#positionName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#positionName> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#positionName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#positionName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#positionName> <http://www.w3.org/2000/01/rdf-schema#label> "positionName"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#roleName
@@ -1072,7 +1063,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#roleName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#roleName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#roleName> <http://www.w3.org/2000/01/rdf-schema#comment> "Function of a person or character. In a play, it is the part played by a performer"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#roleName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#roleName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#roleName> <http://www.w3.org/2000/01/rdf-schema#label> "role"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#sampleText
@@ -1080,7 +1071,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> <http://www.w3.org/2000/01/rdf-schema#comment> "Excerpt"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#sampleText> <http://www.w3.org/2000/01/rdf-schema#label> "sampleText"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote
@@ -1088,7 +1079,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Note about the source used to give a particular piece of information"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote> <http://www.w3.org/2000/01/rdf-schema#label> "sourceNote"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#subtitle
@@ -1097,7 +1088,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> <http://www.w3.org/2000/01/rdf-schema#comment> "A secondary, usually explanatory title"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "subtitle"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#surname
@@ -1105,7 +1096,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#surname> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Person> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#surname> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#surname> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a family (inherited) name, as opposed to a given, baptismal, or nick name"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#surname> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#surname> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#surname> <http://www.w3.org/2000/01/rdf-schema#label> "surname"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#text
@@ -1113,14 +1104,14 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#text> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#text> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#text> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to textual contents . The contents of this property do not allow finer analysis by stanza or line. It can be a text of a diplomatic edition, semidiplomatic edition or of a critical edition (among others) or even a translation. The property typeOfRedaction defines the type of Edition or if it is a translation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#text> <http://www.w3.org/2000/01/rdf-schema#label> "text"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#theme
 <http://postdata.linhd.uned.es/ontology/postdata-core#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#theme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Subject of a text, song or image"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#theme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#theme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#theme> <http://www.w3.org/2000/01/rdf-schema#label> "theme"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent
@@ -1128,7 +1119,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Event> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event, for instance its modality (real, fictional...)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfEvent"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace
@@ -1136,7 +1127,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of place (e.g. fictional)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfPlace"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction
@@ -1144,7 +1135,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of the text provided in the Redaction \nEg.: Diplomatic edition, critical edition, translation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfRedaction"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource
@@ -1160,7 +1151,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.li
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource> <http://www.w3.org/2000/01/rdf-schema#comment> "There are references that mentioned a PrimarySource for the text at hand but the real textual artefact has not been identified"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource> <http://www.w3.org/2000/01/rdf-schema#label> "unidentifiedSource"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed
@@ -1168,7 +1159,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> <http://www.w3.org/2000/01/rdf-schema#comment> "Primary sources of the text excluded during the elaboration of an edition (usually, dependent witnesses)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed> <http://www.w3.org/2000/01/rdf-schema#label> "witnessesNotUsed"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#workNumber
@@ -1176,7 +1167,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number that identifies the text, for instance, inside a collection"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#workNumber> <http://www.w3.org/2000/01/rdf-schema#label> "workNumber"@en .
 # 
 # http://purl.org/dc/elements/1.1/description
@@ -1247,7 +1238,7 @@ _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn> .
 _:genid31 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any agentive Object , either physical, or social."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole
@@ -1255,23 +1246,23 @@ _:genid31 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://postdata.linhd.u
 <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-core#Role> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#correspondsTo> .
-_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#creates> .
-_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid34 .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid34 <http://www.w3.org/2002/07/owl#unionOf> _:genid37 .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#creates> .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid33 <http://www.w3.org/2002/07/owl#unionOf> _:genid36 .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#isPerformedBy> .
+_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
 _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#certainty> .
@@ -1310,7 +1301,7 @@ _:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned
 _:genid48 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid48 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Function of a person or organization in the creation of a poetic work, redaction or other transmission element"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole> <http://www.w3.org/2000/01/rdf-schema#label> "CreatorRole"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble
@@ -1361,7 +1352,7 @@ _:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned
 _:genid58 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid58 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract work that contains more than one Poetic Work. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Poetic Work)\nEg.: Les fleurs du mal"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble> <http://www.w3.org/2000/01/rdf-schema#label> "Ensemble"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Event
@@ -1382,14 +1373,14 @@ _:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/element
 _:genid61 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid61 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A thing that happens or takes place"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList
 <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#OrderedList> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered list of text units with a given length and indexed elements."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList> <http://www.w3.org/2000/01/rdf-schema#label> "OrderedTextUnitList"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Organisation
@@ -1401,7 +1392,7 @@ _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid62 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-core#isFrom> .
 _:genid62 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> <http://www.w3.org/2000/01/rdf-schema#comment> "Named collection of people regarded as a single unit\nEg.: Typical examples include institutions such as ‘UNED’ or ‘the BBC’ and businesses such as ‘Google’ but also racial or ethnic groupings or political factions where these are regarded as forming a single agency such as ‘the Carthaginians’ or ‘the Communists’"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Person
@@ -1572,7 +1563,7 @@ _:genid110 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.une
 _:genid110 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid110 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A human being regarded as an individual. This person could have existed in real life or it may be fictional.\nEg.: D. Quijote de la Mancha"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Place
@@ -1594,7 +1585,7 @@ _:genid113 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.une
 _:genid113 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid113 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Place> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular position, point, or area in space; a location"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork
@@ -1711,8 +1702,8 @@ _:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid144 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/abstract> .
 _:genid144 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid144 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract concept of an artistic creation. In POSTDATA these creations must be in verse (poem, play, song)\nEg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract concept of an artistic creation. In postdata these creations must be in verse (poem, play, song).\nEg.: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries."@en .
+<http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork> <http://www.w3.org/2000/01/rdf-schema#label> "PoeticWork"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
@@ -1848,7 +1839,7 @@ _:genid177 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.une
 _:genid177 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid177 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#comment> "Representatives of a work, that is, of an Poetic Work. Each version of a work is its own redaction.\nEg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#label> "Redaction"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Role
@@ -1901,14 +1892,14 @@ _:genid190 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elemen
 _:genid190 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid190 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Function of a person or character"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit
 <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#Slot> .
 <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Text unit on an ordered list"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/POSTDATA-core/" .
+<http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-core" .
 <http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit> <http://www.w3.org/2000/01/rdf-schema#label> "TextUnit"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDate
