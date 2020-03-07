@@ -1774,6 +1774,10 @@ Eg.: D. Quijote de la Mancha"""@en ;
                               owl:onClass :Place
                             ] ,
                             [ rdf:type owl:Restriction ;
+                              owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
                               owl:onProperty :narrativeLocation ;
                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                               owl:onDataRange xsd:string

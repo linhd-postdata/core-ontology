@@ -388,15 +388,12 @@
 }, {
   "@id" : "_:genid142",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation"
+    "@id" : "http://purl.org/dc/elements/1.1/title"
   } ]
 }, {
   "@id" : "_:genid143",
@@ -409,7 +406,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation"
   } ]
 }, {
   "@id" : "_:genid144",
@@ -422,10 +419,23 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/dc/terms/abstract"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle"
   } ]
 }, {
   "@id" : "_:genid145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/abstract"
+  } ]
+}, {
+  "@id" : "_:genid146",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"
@@ -434,7 +444,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
   } ]
 }, {
-  "@id" : "_:genid146",
+  "@id" : "_:genid147",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"
@@ -443,22 +453,22 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#date"
   } ]
 }, {
-  "@id" : "_:genid147",
+  "@id" : "_:genid148",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "_:genid148"
+    "@id" : "_:genid149"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#genre"
   } ]
 }, {
-  "@id" : "_:genid148",
+  "@id" : "_:genid149",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "@id" : "_:genid150"
+      "@id" : "_:genid151"
     } ]
   } ]
 }, {
@@ -472,7 +482,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid150",
+  "@id" : "_:genid151",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/genre"
@@ -481,7 +491,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid152",
+  "@id" : "_:genid153",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
@@ -490,7 +500,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent"
   } ]
 }, {
-  "@id" : "_:genid153",
+  "@id" : "_:genid154",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"
@@ -499,7 +509,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"
   } ]
 }, {
-  "@id" : "_:genid154",
+  "@id" : "_:genid155",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role"
@@ -508,7 +518,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor"
   } ]
 }, {
-  "@id" : "_:genid155",
+  "@id" : "_:genid156",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList"
@@ -517,7 +527,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextList"
   } ]
 }, {
-  "@id" : "_:genid156",
+  "@id" : "_:genid157",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"
@@ -526,7 +536,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation"
   } ]
 }, {
-  "@id" : "_:genid157",
+  "@id" : "_:genid158",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"
@@ -535,7 +545,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isEditedIn"
   } ]
 }, {
-  "@id" : "_:genid158",
+  "@id" : "_:genid159",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"
@@ -544,7 +554,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn"
   } ]
 }, {
-  "@id" : "_:genid159",
+  "@id" : "_:genid160",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"
@@ -553,7 +563,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn"
   } ]
 }, {
-  "@id" : "_:genid160",
+  "@id" : "_:genid161",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -562,7 +572,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesis"
   } ]
 }, {
-  "@id" : "_:genid161",
+  "@id" : "_:genid162",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -571,7 +581,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isTranslated"
   } ]
 }, {
-  "@id" : "_:genid162",
+  "@id" : "_:genid163",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -580,7 +590,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation"
   } ]
 }, {
-  "@id" : "_:genid163",
+  "@id" : "_:genid164",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"
@@ -589,26 +599,26 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText"
   } ]
 }, {
-  "@id" : "_:genid164",
+  "@id" : "_:genid165",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "_:genid165"
+    "@id" : "_:genid166"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement"
   } ]
 }, {
-  "@id" : "_:genid165",
+  "@id" : "_:genid166",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "@id" : "_:genid167"
+      "@id" : "_:genid168"
     } ]
   } ]
 }, {
-  "@id" : "_:genid167",
+  "@id" : "_:genid168",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/textualElement-type"
@@ -617,7 +627,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid169",
+  "@id" : "_:genid170",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -626,7 +636,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#usedForSynthesis"
   } ]
 }, {
-  "@id" : "_:genid170",
+  "@id" : "_:genid171",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -639,26 +649,13 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#isTranslation"
   } ]
 }, {
-  "@id" : "_:genid171",
+  "@id" : "_:genid172",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "_:genid172",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#explicit"
   } ]
 }, {
   "@id" : "_:genid173",
@@ -671,10 +668,23 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#explicit"
   } ]
 }, {
   "@id" : "_:genid174",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation"
+  } ]
+}, {
+  "@id" : "_:genid175",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -687,7 +697,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed"
   } ]
 }, {
-  "@id" : "_:genid175",
+  "@id" : "_:genid176",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -700,7 +710,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle"
   } ]
 }, {
-  "@id" : "_:genid176",
+  "@id" : "_:genid177",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -713,7 +723,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#witnessesNotUsed"
   } ]
 }, {
-  "@id" : "_:genid177",
+  "@id" : "_:genid178",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -726,23 +736,13 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#workNumber"
   } ]
 }, {
-  "@id" : "_:genid178",
+  "@id" : "_:genid179",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid179"
-  } ]
-}, {
-  "@id" : "_:genid179",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "@id" : "_:genid181"
-    } ]
+    "@id" : "_:genid180"
   } ]
 }, {
   "@id" : "_:genid18",
@@ -755,7 +755,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid181",
+  "@id" : "_:genid180",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "@id" : "_:genid182"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid182",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/role-function"
@@ -764,7 +774,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid183",
+  "@id" : "_:genid184",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"
@@ -773,30 +783,30 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#date"
   } ]
 }, {
-  "@id" : "_:genid184",
+  "@id" : "_:genid185",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "_:genid185"
+    "@id" : "_:genid186"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#certainty"
   } ]
 }, {
-  "@id" : "_:genid185",
+  "@id" : "_:genid186",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "@id" : "_:genid187"
+      "@id" : "_:genid188"
     } ]
   } ]
 }, {
-  "@id" : "_:genid187",
+  "@id" : "_:genid188",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/certainty"
@@ -805,7 +815,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid189",
+  "@id" : "_:genid190",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -818,7 +828,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#roleName"
   } ]
 }, {
-  "@id" : "_:genid190",
+  "@id" : "_:genid191",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -1831,6 +1841,8 @@
     "@id" : "_:genid143"
   }, {
     "@id" : "_:genid144"
+  }, {
+    "@id" : "_:genid145"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction",
@@ -1849,13 +1861,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"
   }, {
-    "@id" : "_:genid145"
-  }, {
     "@id" : "_:genid146"
   }, {
     "@id" : "_:genid147"
   }, {
-    "@id" : "_:genid152"
+    "@id" : "_:genid148"
   }, {
     "@id" : "_:genid153"
   }, {
@@ -1881,7 +1891,7 @@
   }, {
     "@id" : "_:genid164"
   }, {
-    "@id" : "_:genid169"
+    "@id" : "_:genid165"
   }, {
     "@id" : "_:genid170"
   }, {
@@ -1898,6 +1908,8 @@
     "@id" : "_:genid176"
   }, {
     "@id" : "_:genid177"
+  }, {
+    "@id" : "_:genid178"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Role",
@@ -1918,15 +1930,15 @@
   }, {
     "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"
   }, {
-    "@id" : "_:genid178"
-  }, {
-    "@id" : "_:genid183"
+    "@id" : "_:genid179"
   }, {
     "@id" : "_:genid184"
   }, {
-    "@id" : "_:genid189"
+    "@id" : "_:genid185"
   }, {
     "@id" : "_:genid190"
+  }, {
+    "@id" : "_:genid191"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit",
