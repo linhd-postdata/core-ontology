@@ -1,0 +1,37 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "skos:OrderedCollection" "skos:ConceptScheme" "skos:Concept" "skos:Collection" "-6635afe2:17503b683f6:-7ffc" ; /*classes style*/
+	"skos:narrowerTransitive" -> "skos:semanticRelation" [ label = "rdfs:subPropertyOf" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "skos:Concept" [ label = "rdf:first" ];
+	"NULL" -> "-6635afe2:17503b683f6:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "skos:Collection" [ label = "rdf:first" ];
+	"NULL" -> "-6635afe2:17503b683f6:-7ffb" [ label = "owl:unionOf" ];
+	"skos:closeMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
+	"skos:Concept" -> "skos:ConceptScheme" [ label = "owl:disjointWith" ];
+	"skos:relatedMatch" -> "skos:related" [ label = "rdfs:subPropertyOf" ];
+	"skos:relatedMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
+	"skos:related" -> "skos:semanticRelation" [ label = "rdfs:subPropertyOf" ];
+	"skos:topConceptOf" -> "skos:inScheme" [ label = "rdfs:subPropertyOf" ];
+	"skos:broadMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
+	"skos:broadMatch" -> "skos:broader" [ label = "rdfs:subPropertyOf" ];
+	"skos:exactMatch" -> "skos:closeMatch" [ label = "rdfs:subPropertyOf" ];
+	"skos:broaderTransitive" -> "skos:semanticRelation" [ label = "rdfs:subPropertyOf" ];
+	"skos:broader" -> "skos:broaderTransitive" [ label = "rdfs:subPropertyOf" ];
+	"skos:mappingRelation" -> "skos:semanticRelation" [ label = "rdfs:subPropertyOf" ];
+	"http://www.w3.org/2004/02/skos/core" -> "http://www.w3.org/TR/skos-reference/" [ label = "rdfs:seeAlso" ];
+	"http://www.w3.org/2004/02/skos/core" -> "http://www.w3.org/TR/skos-reference/skos-owl1-dl.rdf" [ label = "owl:versionIRI" ];
+	"skos:Collection" -> "skos:ConceptScheme" [ label = "owl:disjointWith" ];
+	"skos:Collection" -> "skos:Concept" [ label = "owl:disjointWith" ];
+	"skos:narrower" -> "skos:narrowerTransitive" [ label = "rdfs:subPropertyOf" ];
+	"skos:narrowMatch" -> "skos:narrower" [ label = "rdfs:subPropertyOf" ];
+	"skos:narrowMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
+	"skos:OrderedCollection" -> "owl:Thing" [ label = "skos:memberList" ];
+	"skos:Concept" -> "skos:ConceptScheme" [ label = "skos:topConceptOf" ];
+	"skos:Concept" -> "skos:Concept" [ label = "skos:semanticRelation" ];
+	"skos:Collection" -> "-6635afe2:17503b683f6:-7ffc" [ label = "skos:member" ];
+	"skos:ConceptScheme" -> "skos:Concept" [ label = "skos:hasTopConcept" ];
+	"owl:Thing" -> "skos:ConceptScheme" [ label = "skos:inScheme" ];
+
+}

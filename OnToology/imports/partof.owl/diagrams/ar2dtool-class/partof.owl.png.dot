@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "owl:Thing" ; /*classes style*/
+	"http://www.ontologydesignpatterns.org/cp/owl/partof.owl" -> "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl" [ label = "owl:imports" ];
+	"owl:Thing" -> "owl:Thing" [ label = "base:hasPart" ];
+	"owl:Thing" -> "owl:Thing" [ label = "base:isPartOf" ];
+
+}

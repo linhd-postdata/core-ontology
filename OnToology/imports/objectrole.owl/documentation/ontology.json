@@ -1,0 +1,168 @@
+[ {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements" : [ {
+    "@value" : "What role does this object play? which objects do play that role?"
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom" : [ {
+    "@value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences" : [ {
+    "@value" : "It is possible to make asser tions about roles, which are typically considered at the meta-level of an ontology. Instances of Role reify such elements, which are therefore put in the ordinar y domain of an ontology. It is not possible to parametrize the classiﬁcation over different dimensions e.g., time, space, etc."
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent" : [ {
+    "@value" : "To represents objects and the roles they play."
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf" : [ {
+    "@value" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl"
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs" : [ {
+    "@value" : "It specializes the classiﬁcation CP. It is specialized by agent role."
+  } ],
+  "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios" : [ {
+    "@value" : "This old glass is used as a ﬂower pot."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is extracted from DOLCE Ultra Lite ontology and specialize the classification CP. Object is an Entity, and Role is a Concept. The hasRole relation specializes the classifies relation, while the isRoleOf specializes the isClassifiedBy relation."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl"
+  }, {
+    "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.1 added rdfs:isDefinedBy for all named entities"
+  }, {
+    "@value" : "Created by Valentina Presutti"
+  } ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Any physical, social, or mental object, or a substance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Object"
+  }, {
+    "@language" : "it",
+    "@value" : "Oggetto"
+  } ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Concept that classifies an Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Role"
+  }, {
+    "@language" : "it",
+    "@value" : "Ruolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"
+  } ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha ruolo"
+  }, {
+    "@language" : "en",
+    "@value" : "has role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf"
+  } ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A relation between an object and a role, e.g. the 'student' is the role of 'John'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is role of"
+  }, {
+    "@language" : "it",
+    "@value" : "è un ruolo di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies"
+  } ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

@@ -1,0 +1,143 @@
+<h2 id="crossreference" class="list">Cross reference for classification classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by classification.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Concept"
+            title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept">Concept</a>
+      </li>
+   </ul>
+   <div class="entity" id="Concept">
+      <h3>Concept<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept</p>
+      <div class="comment">
+         <span class="markdown">A concept is a Social Object. 
+The classifies relation relates concepts to entities at some time, but time can only be expressed in the alternative pattern: timeindexedclassification.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/classification.owl">http://www.ontologydesignpatterns.org/cp/owl/classification.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#classifies"
+               title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies">classifies</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isClassifiedBy"
+               title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy">is classified by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#classifies"
+            title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies">classifies</a>
+      </li>
+      <li>
+         <a href="#isClassifiedBy"
+            title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy">is classified by</a>
+      </li>
+   </ul>
+   <div class="entity" id="classifies">
+      <h3>classifies<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies</p>
+      <div class="comment">
+         <span class="markdown">A relation between a Concept and an Entity, e.g. the Role 'student' classifies a Person 'John'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/classification.owl">http://www.ontologydesignpatterns.org/cp/owl/classification.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Concept"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Thing"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Thing">thing</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isClassifiedBy"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy">is classified by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isClassifiedBy">
+      <h3>is classified by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy</p>
+      <div class="comment">
+         <span class="markdown">A relation between a Concept and an Entity, e.g. 'John is considered a typical rude man'; your last concert constitutes the achievement of a lifetime; '20-year-old means she's mature enough'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/classification.owl">http://www.ontologydesignpatterns.org/cp/owl/classification.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Thing"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Thing">thing</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Concept"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#classifies"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies">classifies</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "objectrole:Role" "objectrole:Object" "base:Agent" "classification:Concept" ; /*classes style*/
+	"base:Agent" -> "objectrole:Object" [ label = "rdfs:subClassOf" ];
+	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
+
+}

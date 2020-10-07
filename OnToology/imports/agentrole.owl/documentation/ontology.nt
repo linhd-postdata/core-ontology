@@ -1,0 +1,84 @@
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> "which agent does play this role? \nwhat is the role that played by that agent?" .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom> "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl" .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> "This CP allows designers to make assertions on roles played by agents without involving the agents that play that roles, and vice versa. It does not allow to express temporariness of roles." .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> "To represent agents and the roles they play." .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf> "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl" .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> "The time indexed person role CP available at http://www.ontologydesignpatterns.org/cp/owl/timeiindexedpersonrole.owl allows to represent temporariness of roles played by persons. It can be generalized for including objects or, alternatively the n-ary classification CP avaliable at http://www.ontologydesignpatterns.org/cp/owl/naryclassification.owl can be specialized in order to obtain the same expressivity." .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> "She greeted us all in her various roles of mother, friend, and daughter." .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.w3.org/2000/01/rdf-schema#label> "agent role" .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 added rdfs:isDefinedBy for all named entities" .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> <http://www.w3.org/2002/07/owl#versionInfo> "Created by Aldo Gangemi and Valentina Presutti" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isCloneOf
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isCloneOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isCloneOf> "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent" .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any agentive Object , either physical, or social." .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agente"@it .
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object
+<http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role
+<http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

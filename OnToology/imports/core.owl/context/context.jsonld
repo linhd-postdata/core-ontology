@@ -1,0 +1,64 @@
+{
+  "@context" : {
+    "ordered_list" : {
+      "@id" : "http://purl.org/ontology/olo/core#ordered_list",
+      "@type" : "@id"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "next" : {
+      "@id" : "http://purl.org/ontology/olo/core#next",
+      "@type" : "@id"
+    },
+    "index" : {
+      "@id" : "http://purl.org/ontology/olo/core#index",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "slot" : {
+      "@id" : "http://purl.org/ontology/olo/core#slot",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "OrderedList" : {
+      "@id" : "http://purl.org/ontology/olo/core#OrderedList"
+    },
+    "previous" : {
+      "@id" : "http://purl.org/ontology/olo/core#previous",
+      "@type" : "@id"
+    },
+    "item" : {
+      "@id" : "http://purl.org/ontology/olo/core#item"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "length" : {
+      "@id" : "http://purl.org/ontology/olo/core#length",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "Slot" : {
+      "@id" : "http://purl.org/ontology/olo/core#Slot"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    }
+  }
+}
