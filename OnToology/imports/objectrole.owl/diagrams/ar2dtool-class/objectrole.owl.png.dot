@@ -1,0 +1,15 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Role" "base:Object" "classification:Concept" "owl:Thing" ; /*classes style*/
+	"base:isRoleOf" -> "classification:classifies" [ label = "rdfs:subPropertyOf" ];
+	"http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl" -> "http://www.ontologydesignpatterns.org/cp/owl/classification.owl" [ label = "owl:imports" ];
+	"http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl" -> "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl" [ label = "owl:imports" ];
+	"base:hasRole" -> "classification:isClassifiedBy" [ label = "rdfs:subPropertyOf" ];
+	"http://www.ontologydesignpatterns.org/cp/owl/classification.owl" -> "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl" [ label = "owl:imports" ];
+	"classification:Concept" -> "owl:Thing" [ label = "classification:classifies" ];
+	"base:Object" -> "base:Role" [ label = "base:hasRole" ];
+	"owl:Thing" -> "classification:Concept" [ label = "classification:isClassifiedBy" ];
+	"base:Role" -> "base:Object" [ label = "base:isRoleOf" ];
+
+}

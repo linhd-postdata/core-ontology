@@ -1,0 +1,88 @@
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> "What is this entity part of? What are the parts of this entity?" .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> "This CP allows designers to represent entities and their parts i.e., part-whole relations, with transitivity. The temporal aspect of this relation cannot be expressed; in order to solve this issue the time indexed part of CP can be used." .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> "To represents entities and their parts." .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> "The time indexed part of is used as alternative when the temporal indexing has to be represented. Part of CP is specialized by componency. Sometimes this CP is wrongly used in order to model constituency and membership. These two modeling problems are addressed by constituency, and collection entity CPs, respectively." .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> "Brain and heart are parts of the human body, substantia nigra is part of brain." .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.w3.org/2000/01/rdf-schema#label> "part of" .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.w3.org/2000/01/rdf-schema#label> "part-whole" .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 added rdfs:isDefinedBy for all named entities" .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl> <http://www.w3.org/2002/07/owl#versionInfo> "Created by Valentina Presutti" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "A transitive relation expressing parthood between any entities, e.g. 'the human body has a brain as part'. When specializing this pattern, take care of restricting the domain and range appropriately, since it could be counterintuitive to use this relation arbitrarily, e.g. between animals and planets. For an intransitive partof pattern, see 'componency'." .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/partof.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "has part"@en .
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A transitive relation expressing parthood between any entities, e.g. 'brain is a part of the human body'. When specializing this pattern, take care of restricting the domain and range appropriately, since it could be counterintuitive to use this relation arbitrarily, e.g. between animals and planets. For an intransitive partof pattern, see 'componency'." .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/partof.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "is part of"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

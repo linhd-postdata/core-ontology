@@ -1,0 +1,196 @@
+<h2 id="crossreference" class="list">Cross reference for [Ontology Name] classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Object"
+            title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object">Object</a>
+      </li>
+      <li>
+         <a href="#Role"
+            title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role">Role</a>
+      </li>
+   </ul>
+   <div class="entity" id="Object">
+      <h3>Object<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object</p>
+      <div class="comment">
+         <span class="markdown">Any physical, social, or mental object, or a substance</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl">http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasRole"
+               title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isRoleOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf">is role of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Role">
+      <h3>Role<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role</p>
+      <div class="comment">
+         <span class="markdown">A Concept that classifies an Object</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl">http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"
+               target="_blank"
+               title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isRoleOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf">is role of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasRole"
+               title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasRole"
+            title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</a>
+      </li>
+      <li>
+         <a href="#isRoleOf"
+            title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf">is role of</a>
+      </li>
+   </ul>
+   <div class="entity" id="hasRole">
+      <h3>has role<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole</p>
+      <div class="comment">
+         <span class="markdown">A relation between an object and a role, e.g. the person 'John' has role 'student'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl">http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy"
+                  target="_blank"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#isClassifiedBy">is classified by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Object"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object">Object</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Role"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isRoleOf"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf">is role of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isRoleOf">
+      <h3>is role of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf</p>
+      <div class="comment">
+         <span class="markdown">A relation between an object and a role, e.g. the 'student' is the role of 'John'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl">http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies"
+                  target="_blank"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#classifies">classifies</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Role"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role">Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Object"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object">Object</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasRole"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

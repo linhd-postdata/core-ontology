@@ -1,33 +1,27 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "pdcore:Role" "pdcore:OrderedTextUnitList" "agentrole:Agent" "frbroo:F22" "edm:Agent" "pdcore:Agent" "pdcore:CreatorRole" "pdcore:Person" "pdcore:Organisation" "edm:Place" "pdcore:Redaction" "pdcore:Ensemble" "foaf:Person" "edm:Event" "pdcore:TextUnit" "frbroo:F1" "foaf:Organization" "edm:ProvidedCHO" "pdcore:Place" "pdcore:Event" "29062f78:170b751e808:-7fc2" "pdcore:PoeticWork" "frbroo:F17" "owl:Thing" "objectrole:Role" "objectrole:Object" "olo:Slot" "olo:OrderedList" "pddate:OpenedIntervalExpression" "pddate:ClosedIntervalExpression" "pddate:IntervalExpression" "pddate:ExactDateExpression" "edm:TimeSpan" "pddate:DateExpression" "pddate:ApproximateDateExpression" "classification:Concept" ; /*classes style*/
-	"pdcore:Person" -> "foaf:Person" [ label = "rdfs:subClassOf" ];
-	"pdcore:Person" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
-	"agentrole:Agent" -> "objectrole:Object" [ label = "rdfs:subClassOf" ];
-	"pdcore:PoeticWork" -> "edm:ProvidedCHO" [ label = "rdfs:subClassOf" ];
-	"pdcore:PoeticWork" -> "frbroo:F1" [ label = "rdfs:subClassOf" ];
-	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
-	"pddate:ClosedIntervalExpression" -> "pddate:IntervalExpression" [ label = "rdfs:subClassOf" ];
-	"pdcore:Agent" -> "agentrole:Agent" [ label = "rdfs:subClassOf" ];
-	"pdcore:Agent" -> "edm:Agent" [ label = "rdfs:subClassOf" ];
-	"pddate:ApproximateDateExpression" -> "pddate:DateExpression" [ label = "rdfs:subClassOf" ];
-	"olo:Slot" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
-	"pddate:OpenedIntervalExpression" -> "pddate:IntervalExpression" [ label = "rdfs:subClassOf" ];
-	"pdcore:Organisation" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
-	"pdcore:Organisation" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
-	"pdcore:Ensemble" -> "29062f78:170b751e808:-7fc2" [ label = "rdfs:subClassOf" ];
-	"pdcore:Ensemble" -> "frbroo:F17" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "base:Role" "base:OrderedTextUnitList" "agentrole:Agent" "http://iflastandards.info/ns/fr/frbr/frbroo/F22" "http://www.europeana.eu/schemas/edm/Agent" "base:Agent" "base:CreatorRole" "base:Person" "base:Organisation" "http://www.europeana.eu/schemas/edm/Place" "base:Redaction" "foaf:Person" "base:Ensemble" "http://www.europeana.eu/schemas/edm/Event" "base:TextUnit" "http://iflastandards.info/ns/fr/frbr/frbroo/F1" "foaf:Organization" "http://www.europeana.eu/schemas/edm/ProvidedCHO" "base:Place" "base:Event" "28abcd56:17503b6addc:-7fbc" "base:PoeticWork" "http://iflastandards.info/ns/fr/frbr/frbroo/F17" "owl:Thing" "objectrole:Role" "objectrole:Object" "olo:Slot" "olo:OrderedList" "classification:Concept" ; /*classes style*/
+	"base:Redaction" -> "http://iflastandards.info/ns/fr/frbr/frbroo/F22" [ label = "rdfs:subClassOf" ];
+	"base:Role" -> "objectrole:Role" [ label = "rdfs:subClassOf" ];
+	"base:Event" -> "http://www.europeana.eu/schemas/edm/Event" [ label = "rdfs:subClassOf" ];
+	"base:Person" -> "foaf:Person" [ label = "rdfs:subClassOf" ];
+	"base:Person" -> "base:Agent" [ label = "rdfs:subClassOf" ];
 	"olo:OrderedList" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
-	"pdcore:TextUnit" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
-	"pdcore:Redaction" -> "frbroo:F22" [ label = "rdfs:subClassOf" ];
-	"pdcore:Place" -> "edm:Place" [ label = "rdfs:subClassOf" ];
-	"pdcore:CreatorRole" -> "pdcore:Role" [ label = "rdfs:subClassOf" ];
-	"pdcore:Role" -> "objectrole:Role" [ label = "rdfs:subClassOf" ];
-	"pddate:IntervalExpression" -> "edm:TimeSpan" [ label = "rdfs:subClassOf" ];
-	"pddate:IntervalExpression" -> "pddate:DateExpression" [ label = "rdfs:subClassOf" ];
-	"pdcore:OrderedTextUnitList" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
-	"pddate:ExactDateExpression" -> "pddate:DateExpression" [ label = "rdfs:subClassOf" ];
-	"pdcore:Event" -> "edm:Event" [ label = "rdfs:subClassOf" ];
+	"olo:Slot" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:PoeticWork" -> "http://www.europeana.eu/schemas/edm/ProvidedCHO" [ label = "rdfs:subClassOf" ];
+	"base:PoeticWork" -> "http://iflastandards.info/ns/fr/frbr/frbroo/F1" [ label = "rdfs:subClassOf" ];
+	"base:TextUnit" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
+	"agentrole:Agent" -> "objectrole:Object" [ label = "rdfs:subClassOf" ];
+	"base:Ensemble" -> "28abcd56:17503b6addc:-7fbc" [ label = "rdfs:subClassOf" ];
+	"base:Ensemble" -> "http://iflastandards.info/ns/fr/frbr/frbroo/F17" [ label = "rdfs:subClassOf" ];
+	"base:OrderedTextUnitList" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
+	"base:Agent" -> "agentrole:Agent" [ label = "rdfs:subClassOf" ];
+	"base:Agent" -> "http://www.europeana.eu/schemas/edm/Agent" [ label = "rdfs:subClassOf" ];
+	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
+	"base:Place" -> "http://www.europeana.eu/schemas/edm/Place" [ label = "rdfs:subClassOf" ];
+	"base:Organisation" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
+	"base:Organisation" -> "base:Agent" [ label = "rdfs:subClassOf" ];
+	"base:CreatorRole" -> "base:Role" [ label = "rdfs:subClassOf" ];
 
 }

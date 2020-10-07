@@ -1,0 +1,880 @@
+<h2 id="crossreference" class="list">Cross reference for [Ontology Name] classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
+      </li>
+      <li>
+         <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+      </li>
+      <li>
+         <a href="#ConceptScheme"
+            title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
+      </li>
+      <li>
+         <a href="#OrderedCollection"
+            title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
+      </li>
+   </ul>
+   <div class="entity" id="Collection">
+      <h3>Collection<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#Collection</p>
+      <div class="comment">
+         <span class="markdown">A meaningful collection of concepts.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#OrderedCollection"
+               title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#member" title="http://www.w3.org/2004/02/skos/core#member">has member</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ConceptScheme"
+               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Concept">
+      <h3>Concept<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#Concept</p>
+      <div class="comment">
+         <span class="markdown">An idea or notion; a unit of thought.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#semanticRelation"
+               title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#topConceptOf" title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasTopConcept"
+               title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#semanticRelation"
+               title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ConceptScheme"
+               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ConceptScheme">
+      <h3>Concept Scheme<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#ConceptScheme</p>
+      <div class="comment">
+         <span class="markdown">A set of concepts, optionally including statements about semantic relationships between those concepts.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Example</dt>
+         <dd>
+            <pre>Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.</pre>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasTopConcept"
+               title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#topConceptOf" title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="OrderedCollection">
+      <h3>Ordered Collection<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#OrderedCollection</p>
+      <div class="comment">
+         <span class="markdown">An ordered collection of concepts, where both the grouping and the ordering are meaningful.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#memberList" title="http://www.w3.org/2004/02/skos/core#memberList">has member list</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
+      </li>
+      <li>
+         <a href="#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
+      </li>
+      <li>
+         <a href="#broaderTransitive"
+            title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
+      </li>
+      <li>
+         <a href="#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
+      </li>
+      <li>
+         <a href="#exactMatch" title="http://www.w3.org/2004/02/skos/core#exactMatch">has exact match</a>
+      </li>
+      <li>
+         <a href="#member" title="http://www.w3.org/2004/02/skos/core#member">has member</a>
+      </li>
+      <li>
+         <a href="#memberList" title="http://www.w3.org/2004/02/skos/core#memberList">has member list</a>
+      </li>
+      <li>
+         <a href="#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
+      </li>
+      <li>
+         <a href="#narrowMatch" title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
+      </li>
+      <li>
+         <a href="#narrowerTransitive"
+            title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
+      </li>
+      <li>
+         <a href="#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
+      </li>
+      <li>
+         <a href="#relatedMatch" title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
+      </li>
+      <li>
+         <a href="#hasTopConcept"
+            title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
+      </li>
+      <li>
+         <a href="#mappingRelation"
+            title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
+      </li>
+      <li>
+         <a href="#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
+      </li>
+      <li>
+         <a href="#semanticRelation"
+            title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+      </li>
+      <li>
+         <a href="#topConceptOf" title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
+      </li>
+   </ul>
+   <div class="entity" id="broader">
+      <h3>has broader<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#broader</p>
+      <div class="comment">
+         <span class="markdown">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">Relates a concept to a concept that is more general in meaning.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#broaderTransitive"
+                  title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="broadMatch">
+      <h3>has broader match<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#broadMatch</p>
+      <div class="comment">
+         <span class="markdown">skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#mappingRelation"
+                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#narrowMatch" title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="broaderTransitive">
+      <h3>has broader transitive<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#broaderTransitive</p>
+      <div class="comment">
+         <span class="markdown">skos:broaderTransitive is a transitive superproperty of skos:broader.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#semanticRelation"
+                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#narrowerTransitive"
+                  title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="closeMatch">
+      <h3>has close match<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#closeMatch</p>
+      <div class="comment">
+         <span class="markdown">skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of "compound errors" when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#mappingRelation"
+                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#exactMatch" title="http://www.w3.org/2004/02/skos/core#exactMatch">has exact match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="exactMatch">
+      <h3>has exact match<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#exactMatch</p>
+      <div class="comment">
+         <span class="markdown">skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric, transitive</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="member">
+      <h3>has member<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#member</p>
+      <div class="comment">
+         <span class="markdown">Relates a collection to one of its members.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="memberList">
+      <h3>has member list<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#memberList</p>
+      <div class="comment">
+         <span class="markdown">For any resource, every item in the list given as the value of the
+      skos:memberList property is also a value of the skos:member property.</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">Relates an ordered collection to the RDF list containing its members.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#OrderedCollection"
+                  title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="narrower">
+      <h3>has narrower<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#narrower</p>
+      <div class="comment">
+         <span class="markdown">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">Relates a concept to a concept that is more specific in meaning.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#narrowerTransitive"
+                  title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#narrowMatch" title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="narrowMatch">
+      <h3>has narrower match<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#narrowMatch</p>
+      <div class="comment">
+         <span class="markdown">skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#mappingRelation"
+                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="narrowerTransitive">
+      <h3>has narrower transitive<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#narrowerTransitive</p>
+      <div class="comment">
+         <span class="markdown">skos:narrowerTransitive is a transitive superproperty of skos:narrower.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#semanticRelation"
+                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#broaderTransitive"
+                  title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="related">
+      <h3>has related<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#related</p>
+      <div class="comment">
+         <span class="markdown">skos:related is disjoint with skos:broaderTransitive</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">Relates a concept to a concept with which there is an associative semantic relationship.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#semanticRelation"
+                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#relatedMatch" title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="relatedMatch">
+      <h3>has related match<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#relatedMatch</p>
+      <div class="comment">
+         <span class="markdown">skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#mappingRelation"
+                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasTopConcept">
+      <h3>has top concept<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#hasTopConcept</p>
+      <div class="comment">
+         <span class="markdown">Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ConceptScheme"
+                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#topConceptOf" title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="mappingRelation">
+      <h3>is in mapping relation with<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#mappingRelation</p>
+      <div class="comment">
+         <span class="markdown">These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice.</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">Relates two concepts coming, by convention, from different schemes, and that have comparable meanings</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#semanticRelation"
+                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#narrowMatch" title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#relatedMatch" title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="inScheme">
+      <h3>is in scheme<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#inScheme</p>
+      <div class="comment">
+         <span class="markdown">Relates a resource (for example a concept) to a concept scheme in which it is included.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#topConceptOf" title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ConceptScheme"
+                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="semanticRelation">
+      <h3>is in semantic relation with<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#semanticRelation</p>
+      <div class="comment">
+         <span class="markdown">Links a concept to a concept related by meaning.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#broaderTransitive"
+                  title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#narrowerTransitive"
+                  title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#mappingRelation"
+                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="topConceptOf">
+      <h3>is top concept in scheme<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#topConceptOf</p>
+      <div class="comment">
+         <span class="markdown">Relates a concept to the concept scheme that it is a top level concept of.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ConceptScheme"
+                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasTopConcept"
+                  title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#notation" title="http://www.w3.org/2004/02/skos/core#notation">notation</a>
+      </li>
+   </ul>
+   <div class="entity" id="notation">
+      <h3>notation<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#notation</p>
+      <div class="comment">
+         <span class="markdown">A notation, also known as classification code, is a string of characters such as "T58.5" or "303.4833" used to uniquely identify a concept within the scope of a given concept scheme.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

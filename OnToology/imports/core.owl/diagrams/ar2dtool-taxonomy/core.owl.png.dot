@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "core:Slot" "core:OrderedList" "skos:OrderedCollection" "skos:Collection" ; /*classes style*/
+	"skos:OrderedCollection" -> "skos:Collection" [ label = "rdfs:subClassOf" ];
+	"core:Slot" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"core:OrderedList" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+
+}

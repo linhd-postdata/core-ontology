@@ -1,0 +1,49 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Object" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Object"
+    },
+    "extractedFrom" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Agent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"
+    },
+    "Role" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"
+    },
+    "relatedCPs" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs"
+    },
+    "scenarios" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "coversRequirements" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements"
+    },
+    "isCloneOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isCloneOf"
+    },
+    "hasConsequences" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences"
+    },
+    "hasIntent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isSpecializationOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf"
+    }
+  }
+}
