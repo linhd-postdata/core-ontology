@@ -92,7 +92,10 @@ https://orcid.org/0000-0002-9416-3147</dc:creator>
 
     <!-- http://purl.org/dc/terms/abstract -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract">
+        <rdfs:comment xml:lang="en">A summary of the resource.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
@@ -748,6 +751,24 @@ The values of this property are defined in a controlled vocabulary about literar
     
 
 
+    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition -->
+
+    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition">
+        <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/literary-tradition"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">The literary tradition assigned to a composition</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://postdata.linhd.uned.es/ontology/postdata-core</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">literary Tradition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#mentions -->
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#mentions">
@@ -1265,18 +1286,6 @@ The values of this property are defined in a controlled vocabulary about literar
         <rdfs:comment xml:lang="en">The arrangement of textual materials (images included) on a page</rdfs:comment>
         <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core/</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">layout</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition -->
-
-    <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition">
-        <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">The literary tradition assigned to a composition</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">literary Tradition</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2462,9 +2471,9 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isTranslationOf"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#realises"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2777,6 +2786,14 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
     <!-- http://postdata.linhd.uned.es/kos/literary-period -->
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/literary-period">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/literary-tradition -->
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/literary-tradition">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
