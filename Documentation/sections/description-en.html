@@ -7,7 +7,7 @@ It is important to note that some classes are  alienated with the  <a href="http
     The <a href="#PoeticWork">pdcore:PoeticWork</a> class, that represents an abstract concept of an artistic creation. In POSTDATA these creations must be in verse (poem, play, song). General data properties representing title, language, keyword, subtitles (if any), literary tradition, function (if any) or theme are included to instances of Poetic Work. For example: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries. This class is in turn aligned with the <a href="http://www.europeana.eu/schemas/edm/" target="new">edm </a>  ontology as  a  <a href=http://www.europeana.eu/schemas/edm/ProvidedCHO" target="new">edm:ProvidedCHO</a> specialization and also with <a href="http://www.cidoc-crm.org/frbroo/home-0" target="new">FRBRoo</a> ontology as a  <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">frbroo:F1</a> specialization. The following diagram shows the data properties and object properties having class Poetic Work as range: </br>
 
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/poetic_work.jpg" style="max-width: 65%; max-height: 65%"/>
+        <img src="../resources/poetic_work.jpg" style="max-width: 65%; max-height: 65%"/>
         <figcaption>Context diagram of Poetic Work</figcaption>
     </figure>
 
@@ -16,7 +16,7 @@ It is important to note that some classes are  alienated with the  <a href="http
 <li>
     The <a href="#Redaction">pdcore:Redaction</a> class, that covers Poetic Work manifestations. It refers to a concrete version or instantiation of the Poetic Work. For example, one Poetic Work can have different editions; each edition represents one Redaction and they all refer to the same Poetic Work. As such, the textual elements as well as other aspects like the type of edition, witnesses used and not used, layout, explicit, incipit, or audience must be expressed using instances of Redaction. For example: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work. This class is  a specialization of the class <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">frbroo:F22</a>. Find below the context diagram for the class Redaction: </br>
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/redaction.jpg" style="max-width: 80%; max-height: 80%"/>
+        <img src="../resources/redaction.jpg" style="max-width: 80%; max-height: 80%"/>
         <figcaption>Context diagram of Redaction</figcaption>
     </figure>
 
@@ -25,7 +25,7 @@ It is important to note that some classes are  alienated with the  <a href="http
 <li>
     The <a href="#Ensemble">pdcore:Ensamble</a> class, that is an abstract work that contains more than one Poetic Work. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Poetic Work). In case a prose book contains various poems, each poem constitutes one Poetic Work; at the same time, all poems contained in the prose book are part of the same Ensemble. We describe instances of this class through some properties like the total number of lines, poems and plays. Eg: Les fleurs du mal. This class is a  <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">frbroo:F17</a> specialization. The following diagram represents relevant properties available to describe instances of type Ensemble: </br>
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/ensemble.jpg" style="max-width: 65%; max-height: 65%"/>
+        <img src="../resources/ensemble.jpg" style="max-width: 65%; max-height: 65%"/>
         <figcaption>Context diagram of Ensemble</figcaption>
     </figure>
     As we can see, Ensembles have some Poetic Works that are part of it and can have a specific creator associated (CreatorRole). An Ensemble can also be related with provenance Place and can be referenced in a specific location of the text.
@@ -36,7 +36,7 @@ It is important to note that some classes are  alienated with the  <a href="http
     <p>The <a href="#Person">pdcore:Person</a> class and the <a href="#Organisation">pdcore:Organisation</a> class, which are hierarchically dependent on the Agent class, as they share many functionalities. They are  <a href="http://xmlns.com/foaf/0.1/Person" target="new">foaf:Person</a> specialization and a <a href="http://xmlns.com/foaf/0.1/Organization" target="new">foaf:Organisation</a> specialization, respectively.</p>
 
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/person.jpg" style="max-width: 75%; max-height: 75%"/>
+        <img src="../resources/person.jpg" style="max-width: 75%; max-height: 75%"/>
         <figcaption>Context diagram of Person</figcaption>
     </figure>
     <p>
@@ -44,7 +44,7 @@ It is important to note that some classes are  alienated with the  <a href="http
     </p>
 
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/organisation.jpg" style="max-width: 65%; max-height: 65%"/>
+        <img src="../resources/organisation.jpg" style="max-width: 65%; max-height: 65%"/>
         <figcaption>Context diagram of Organisation</figcaption>
     </figure>
 
@@ -57,7 +57,7 @@ It is important to note that some classes are  alienated with the  <a href="http
     <p>The <a href="#Place">pdcore:Place</a> class, specialization of <a href="http://www.europeana.eu/schemas/edm/Place" target="new">edm:Place</a>, that represents a particular position, point, or area in space; a location.</p>
 
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/place.jpg" style="max-width: 65%; max-height: 65%"/>
+        <img src="../resources/place.jpg" style="max-width: 65%; max-height: 65%"/>
         <figcaption>Context diagram of Place</figcaption>
     </figure>
 
@@ -67,7 +67,7 @@ It is important to note that some classes are  alienated with the  <a href="http
     <p>The  <a href="#Event">pdcore:Event</a> class,  a specialization of <a href="http://www.europeana.eu/schemas/edm/Event" target="new">edm:Event</a>, that represents a thing that happens or takes place and that can be mentioned in a Redaction.</p>
 
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/event.jpg" style="max-width: 65%; max-height: 65%"/>
+        <img src="../resources/event.jpg" style="max-width: 65%; max-height: 65%"/>
         <figcaption>Context diagram of Event</figcaption>
     </figure>
 
@@ -80,7 +80,7 @@ It is important to note that some classes are  alienated with the  <a href="http
     <p>In the ontology,  there  are also two important classes, the <a href="#Role">pdcore:Role</a> class and  <a href="#CreatorRole">pdcore:Creator Role</a> class, a  Role specialization .<br/> <a href="#Role">pdcore:Role</a> is used to represent the role of the agents related to Poetic Work, its manifestations, its transmissions and other elements.<br/> <a href="#CreatorRole">pdcore:Creator Role</a> is used for represent the function of a person or organization in the creation of a poetic work, redaction or other transmission element. This class also covers anonymous authorships and incorrect attributions. </p>
 
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/role.jpg" style="max-width: 65%; max-height: 65%"/>
+        <img src="../resources/role.jpg" style="max-width: 65%; max-height: 65%"/>
         <figcaption>Context diagram of Role</figcaption>
     </figure>
 
@@ -213,7 +213,7 @@ up to his death in 1597 at the age of 63""";
         The most relevant object properties for this example can be visualize in the following diagram:
     </p>
     <figure style="display: block; text-align: center; padding: 30px">
-        <img src="/myDocumentation/resources/herrera_graph.jpg" style="max-width: 90%; max-height: 90%"/>
+        <img src="../resources/herrera_graph.jpg" style="max-width: 90%; max-height: 90%"/>
         <figcaption>Graphical representation of the Object Properties for the generic example</figcaption>
     </figure>
 

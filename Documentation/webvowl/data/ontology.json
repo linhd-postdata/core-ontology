@@ -34,6 +34,21 @@
       "contributor" : [ {
         "identifier" : "contributor",
         "language" : "undefined",
+        "value" : "Laura Hernández Lorenzo (LINHD_POSTDATA-UNED) \nhttps://orcid.org/0000-0003-3489-2193",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
         "value" : "Helena Bermúdez Sabel\nhttps://orcid.org/0000-0001-7782-206X",
         "type" : "label"
       }, {
@@ -44,17 +59,7 @@
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/",
-        "type" : "label"
-      }, {
-        "identifier" : "contributor",
-        "language" : "undefined",
-        "value" : "Laura Hernández Lorenzo (LINHD_POSTDATA-UNED) \nhttps://orcid.org/0000-0003-3489-2193",
-        "type" : "label"
-      }, {
-        "identifier" : "contributor",
-        "language" : "undefined",
-        "value" : "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402",
+        "value" : "Salvador Ros Muñoz (UNED)\nsrosmu@gmail.com",
         "type" : "label"
       }, {
         "identifier" : "contributor",
@@ -64,22 +69,17 @@
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753",
-        "type" : "label"
-      }, {
-        "identifier" : "contributor",
-        "language" : "undefined",
-        "value" : "Salvador Ros Muñoz (UNED)\nsrosmu@gmail.com",
-        "type" : "label"
-      }, {
-        "identifier" : "contributor",
-        "language" : "undefined",
-        "value" : "Omar Khalil Gómez (LINHD_POSTDATA-UNED) \nhttp://www.linkedin.com/in/omar-k-0959a8129",
+        "value" : "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
         "value" : "Alvaro Pérez (LINHD_POSTDATA-UNED) \nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Omar Khalil Gómez (LINHD_POSTDATA-UNED) \nhttp://www.linkedin.com/in/omar-k-0959a8129",
         "type" : "label"
       }, {
         "identifier" : "contributor",
@@ -139,7 +139,7 @@
     "id" : "12",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "27",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -280,10 +280,10 @@
     "id" : "73",
     "type" : "owl:Class"
   }, {
-    "id" : "237",
+    "id" : "236",
     "type" : "owl:unionOf"
   }, {
-    "id" : "220",
+    "id" : "219",
     "type" : "owl:unionOf"
   }, {
     "id" : "20",
@@ -292,7 +292,7 @@
     "id" : "133",
     "type" : "owl:unionOf"
   }, {
-    "id" : "250",
+    "id" : "249",
     "type" : "owl:unionOf"
   }, {
     "id" : "120",
@@ -307,10 +307,10 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "251",
+    "id" : "250",
     "type" : "owl:unionOf"
   }, {
-    "id" : "244",
+    "id" : "243",
     "type" : "owl:unionOf"
   }, {
     "id" : "159",
@@ -328,7 +328,7 @@
     "id" : "42",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "170",
+    "id" : "168",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "272",
@@ -358,31 +358,31 @@
     "id" : "139",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "106",
+    "id" : "103",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "168",
+    "id" : "170",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "53",
     "type" : "owl:Class"
   }, {
-    "id" : "256",
+    "id" : "257",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "50",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "224",
+    "id" : "223",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "223",
+    "id" : "222",
     "type" : "owl:unionOf"
   }, {
     "id" : "101",
     "type" : "owl:Class"
   }, {
-    "id" : "26",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
     "id" : "96",
@@ -391,7 +391,7 @@
     "id" : "95",
     "type" : "owl:unionOf"
   }, {
-    "id" : "205",
+    "id" : "204",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "98",
@@ -403,7 +403,7 @@
     "id" : "46",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "258",
+    "id" : "255",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "129",
@@ -445,7 +445,7 @@
     "id" : "141",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "249",
+    "id" : "248",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "300",
@@ -463,7 +463,7 @@
     "id" : "114",
     "type" : "owl:unionOf"
   }, {
-    "id" : "104",
+    "id" : "106",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "200",
@@ -472,7 +472,7 @@
     "id" : "199",
     "type" : "owl:unionOf"
   }, {
-    "id" : "103",
+    "id" : "105",
     "type" : "owl:unionOf"
   }, {
     "id" : "190",
@@ -481,7 +481,7 @@
   "classAttribute" : [ {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "0"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -559,7 +559,7 @@
       "en" : "This class comprises the immaterial realisations of individual works at a particular time that are regarded as a complete whole. The quality of wholeness reflects the intention of its creator that this expression should convey the concept of the work. Such a whole can in turn be part of a larger whole. Inherent to the notion of work is the completion of recognisable outcomes of the work. These outcomes, i.e. the Self-Contained Expressions, are regarded as the symbolic equivalents of Individual Works, which form the atoms of a complex work. A Self-Contained Expression may contain expressions or parts of expressions from other work, such as citations or items collected in anthologies. Even though they are incorporated in the Self-Contained Expression, they are not regarded as becoming members of the expressed container work by their inclusion in the expression, but are rather regarded as foreign or referred elements. F22 Self-Contained Expression can be distinguished from F23 Expression Fragment in that an F23 Expression Fragment was not intended by its creator to make sense by itself. Normally creators would characterise an outcome of a work as finished. In other cases, one could recognise an outcome of a work as complete from the elaboration or logical coherence of its content, or if there is any historical knowledge about the creator deliberately or accidentally never finishing (completing) that particular expression. In all those cases, one would regard an expression as self-contained."
     },
     "attributes" : [ "external" ],
-    "id" : "27"
+    "id" : "25"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -598,7 +598,7 @@
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "9"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -627,7 +627,7 @@
       "en" : "Representatives of a work, that is, of a Poetic Work. Each version and edition of a work is its own redaction.\nEg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work"
     },
     "id" : "1",
-    "superClasses" : [ "27" ]
+    "superClasses" : [ "25" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -1051,8 +1051,8 @@
     }
   }, {
     "instances" : 0,
-    "union" : [ "1", "26" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "1", "27" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "182"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1294,28 +1294,28 @@
   }, {
     "instances" : 0,
     "union" : [ "19", "154", "16", "73" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "237"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "236"
   }, {
     "instances" : 0,
     "union" : [ "19", "117", "154", "73" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "220"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "219"
   }, {
     "instances" : 0,
     "union" : [ "53", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "20"
   }, {
     "instances" : 0,
     "union" : [ "53", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "133"
   }, {
     "instances" : 0,
     "union" : [ "53", "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "250"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "249"
   }, {
     "iri" : "http://www.europeana.eu/schemas/edm/ProvidedCHO",
     "baseIri" : "http://www.europeana.eu/schemas/edm",
@@ -1344,12 +1344,12 @@
   }, {
     "instances" : 0,
     "union" : [ "19", "31" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "185"
   }, {
     "instances" : 0,
     "union" : [ "19", "31" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "147"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork",
@@ -1375,17 +1375,17 @@
   }, {
     "instances" : 0,
     "union" : [ "53", "19", "1", "101", "117", "2" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "251"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "250"
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "244"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "243"
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "159"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList",
@@ -1467,7 +1467,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "170",
+    "id" : "168",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1544,7 +1544,7 @@
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "276"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -1563,14 +1563,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "106",
+    "id" : "103",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "168",
+    "id" : "170",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1598,7 +1598,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "256",
+    "id" : "257",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1612,15 +1612,15 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "224",
+    "id" : "223",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "223"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "222"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role",
     "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
@@ -1653,7 +1653,7 @@
       "IRI-based" : "Location"
     },
     "attributes" : [ "external" ],
-    "id" : "26"
+    "id" : "27"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -1664,12 +1664,12 @@
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "95"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "205",
+    "id" : "204",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1697,14 +1697,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "258",
+    "id" : "255",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "instances" : 0,
     "union" : [ "19", "73" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "129"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -1716,7 +1716,7 @@
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "78"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -1795,7 +1795,7 @@
   }, {
     "instances" : 0,
     "union" : [ "19", "1", "2", "73" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "304"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -1807,14 +1807,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "249",
+    "id" : "248",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "300"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -1850,17 +1850,17 @@
       "example" : [ {
         "identifier" : "example",
         "language" : "en",
-        "value" : "the 2nd World War",
-        "type" : "label"
-      }, {
-        "identifier" : "example",
-        "language" : "en",
         "value" : "the change of custody of Mona Lisa",
         "type" : "label"
       }, {
         "identifier" : "example",
         "language" : "en",
         "value" : "the act of painting Mona Lisa",
+        "type" : "label"
+      }, {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "the 2nd World War",
         "type" : "label"
       } ]
     },
@@ -1874,12 +1874,12 @@
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "114"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "104",
+    "id" : "106",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1893,13 +1893,13 @@
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "199"
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "103"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "105"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -1924,7 +1924,7 @@
     "id" : "21",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "25",
+    "id" : "26",
     "type" : "owl:objectProperty"
   }, {
     "id" : "28",
@@ -2020,7 +2020,7 @@
     "id" : "102",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "105",
+    "id" : "104",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "107",
@@ -2191,28 +2191,31 @@
     "id" : "202",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "204",
+    "id" : "203",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "206",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "207",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "208",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "209",
+    "id" : "208",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "210",
+    "id" : "209",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "212",
+    "id" : "211",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "213",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "214",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "215",
@@ -2225,19 +2228,19 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "218",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "219",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "203",
+    "id" : "220",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
     "type" : "owl:objectProperty"
   }, {
     "id" : "221",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "222",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "225",
     "type" : "owl:allValuesFrom"
@@ -2255,13 +2258,13 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "230",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "231",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "232",
+    "id" : "231",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "233",
     "type" : "owl:allValuesFrom"
@@ -2272,16 +2275,16 @@
     "id" : "235",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "236",
-    "type" : "owl:allValuesFrom"
+    "id" : "237",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "238",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "240",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "240",
     "type" : "owl:objectProperty"
   }, {
     "id" : "241",
@@ -2290,65 +2293,62 @@
     "id" : "242",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "243",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "245",
+    "id" : "244",
     "type" : "owl:objectProperty"
   }, {
     "id" : "180",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "248",
+    "id" : "247",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "109",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "252",
+    "id" : "251",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "253",
+    "id" : "252",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "254",
+    "id" : "253",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "64",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "255",
+    "id" : "254",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "257",
+    "id" : "256",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "246",
+    "id" : "245",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "260",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "261",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "262",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "263",
+    "id" : "262",
     "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "263",
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "264",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "265",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "266",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "267",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "268",
     "type" : "owl:allValuesFrom"
@@ -2356,10 +2356,10 @@
     "id" : "269",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "247",
+    "id" : "270",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "270",
+    "id" : "246",
     "type" : "owl:objectProperty"
   }, {
     "id" : "271",
@@ -2383,7 +2383,7 @@
     "id" : "280",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "214",
+    "id" : "265",
     "type" : "owl:objectProperty"
   }, {
     "id" : "281",
@@ -2414,7 +2414,7 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "291",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "292",
     "type" : "owl:allValuesFrom"
@@ -2431,11 +2431,11 @@
     "id" : "295",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "211",
+    "id" : "210",
     "type" : "owl:objectProperty"
   }, {
     "id" : "296",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "297",
     "type" : "owl:allValuesFrom"
@@ -2577,7 +2577,7 @@
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2595,7 +2595,7 @@
       "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains the edition used as the base of text at hand"
     },
     "attributes" : [ "object" ],
-    "id" : "25"
+    "id" : "26"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -2780,7 +2780,7 @@
     "comment" : {
       "en" : "Associates the previous slot in an ordered list"
     },
-    "attributes" : [ "inverse functional", "external", "object" ],
+    "attributes" : [ "external", "object", "inverse functional" ],
     "id" : "54"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/name",
@@ -2808,7 +2808,7 @@
     "comment" : {
       "en" : "A name for some thing."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "59"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace",
@@ -2981,7 +2981,7 @@
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3050,7 +3050,7 @@
     "comment" : {
       "en" : "Associates the next slot in an ordered list."
     },
-    "attributes" : [ "functional", "external", "object" ],
+    "attributes" : [ "external", "functional", "object" ],
     "id" : "56"
   }, {
     "iri" : "http://purl.org/net/nknouf/ns/bibtex#hasNote",
@@ -3064,7 +3064,7 @@
     "comment" : {
       "en" : "Any additional information that can help the reader. The first word should be capitalized."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "79"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage",
@@ -3164,7 +3164,7 @@
       "IRI-based" : "topDataProperty"
     },
     "domain" : "22",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "90"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource",
@@ -3244,34 +3244,12 @@
     "comment" : {
       "en" : "A secondary title that follows the main title of a work."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "99"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#keyword",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "104",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "keyword",
-      "en" : "keyword"
-    },
-    "domain" : "103",
-    "comment" : {
-      "en" : "A significant or descriptive word. Usually, a word used as a reference point for finding other words or information.\n\nTaking as example the theatre play \"Othello\" by Shakespeare, one possible \"keyword\" is \"jealousy\"."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "102"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#forename",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "106",
+    "range" : "103",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3290,7 +3268,29 @@
       "en" : "It contains a forename, given or baptismal name.\n\nTaking as example the poet \"Antonio Machado\", his \"forename\" would be \"Antonio\"."
     },
     "attributes" : [ "datatype" ],
-    "id" : "105"
+    "id" : "102"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#keyword",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "106",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "keyword",
+      "en" : "keyword"
+    },
+    "domain" : "105",
+    "comment" : {
+      "en" : "A significant or descriptive word. Usually, a word used as a reference point for finding other words or information.\n\nTaking as example the theatre play \"Othello\" by Shakespeare, one possible \"keyword\" is \"jealousy\"."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "104"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
     "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
@@ -3782,32 +3782,9 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "166"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#explicit",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "168",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "explicit",
-      "en" : "explicit"
-    },
-    "maxCardinality" : "1",
-    "domain" : "1",
-    "comment" : {
-      "en" : "The closing words of the composition (usually, the last verse). There is only one explicit per Redaction.\n\nTaking as example the poem \"Canary\" by Rita Dove, the last verse, \"If you can't be free, be a mystery\", would be the \"explicit\"."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "167"
-  }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#incipit",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "170",
+    "range" : "168",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3824,6 +3801,29 @@
     "domain" : "1",
     "comment" : {
       "en" : "The first line of the work. There is one incipit for each Redaction.\n\nTaking as example the \"Soledades\" by Góngora, the \"incipit\" is \"Pasos de un peregrino son errante\"."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#explicit",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "170",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "explicit",
+      "en" : "explicit"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "The closing words of the composition (usually, the last verse). There is only one explicit per Redaction.\n\nTaking as example the poem \"Canary\" by Rita Dove, the last verse, \"If you can't be free, be a mystery\", would be the \"explicit\"."
     },
     "attributes" : [ "datatype" ],
     "id" : "169"
@@ -3879,7 +3879,7 @@
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3948,7 +3948,7 @@
     "comment" : {
       "en" : "An ordered list of an slot."
     },
-    "attributes" : [ "functional", "external", "object" ],
+    "attributes" : [ "external", "functional", "object" ],
     "id" : "179"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#birthDate",
@@ -3974,7 +3974,7 @@
     "attributes" : [ "object" ],
     "id" : "24"
   }, {
-    "range" : "27",
+    "range" : "25",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "183"
@@ -3990,7 +3990,7 @@
     "comment" : {
       "en" : "The latitude of a location. For example 37.42242 (WGS 84)."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "184"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn",
@@ -4078,7 +4078,7 @@
     "comment" : {
       "en" : "An extended description or account of someone's life."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "191"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#layout",
@@ -4216,10 +4216,9 @@
     "attributes" : [ "datatype" ],
     "id" : "201"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasSynthesis",
-    "inverse" : "203",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "1",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4229,18 +4228,19 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasSynthesis"
+      "IRI-based" : "isIndexedIn",
+      "en" : "is Indexed In"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"
+      "en" : "This property points to the specific location in the text of the bibliographic item (an instance of Location) in which the current text (Redaction) is indexed."
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "202"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#audience",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "205",
+    "range" : "204",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4259,11 +4259,11 @@
       "en" : "The meant readership, viewers or listeners of a cultural product (Redaction). There is at most one possible value for audience.\n\nTaking as example the play \"La segunda Celestina\", \"audience\" would be the Spanish Queen and the people in the court attending the Queen's birthday celebrations."
     },
     "attributes" : [ "datatype" ],
-    "id" : "204"
+    "id" : "203"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#editedIn",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextUnitList",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "156",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4273,37 +4273,37 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "editedIn",
-      "en" : "edited In"
+      "IRI-based" : "hasOrderedTextUnitList",
+      "en" : "has Ordered Text Unit List"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "This property points to the specific Location in a bibliographic item that contains an edition of the current instance of Redaction."
+      "en" : "List of text units that form the Redaction"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isTranslationOf",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isTranslationOf",
+      "en" : "is Translation Of"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to another version (an instance of Redaction) of which this one is a translation"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "206"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "retrievesText",
-      "en" : "retrieves Text"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains the edition used as the base of text at hand"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "207"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4325,7 +4325,7 @@
       "en" : "The type of the text provided in the Redaction\nEg.: Diplomatic edition, critical edition, translation"
     },
     "attributes" : [ "datatype" ],
-    "id" : "208"
+    "id" : "207"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4347,8 +4347,8 @@
     "comment" : {
       "en" : "This property points to the entity Creator that has created the current work under analysis"
     },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "209"
+    "attributes" : [ "object", "someValues" ],
+    "id" : "208"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf",
     "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/partof.owl",
@@ -4366,16 +4366,17 @@
       "en" : "is part of"
     },
     "domain" : "2",
-    "subproperty" : [ "211" ],
+    "subproperty" : [ "210" ],
     "comment" : {
       "undefined" : "A transitive relation expressing parthood between any entities, e.g. 'brain is a part of the human body'. When specializing this pattern, take care of restricting the domain and range appropriately, since it could be counterintuitive to use this relation arbitrarily, e.g. between animals and planets. For an intransitive partof pattern, see 'componency'."
     },
-    "attributes" : [ "allValues", "external", "object", "transitive" ],
-    "id" : "210"
+    "attributes" : [ "external", "allValues", "object", "transitive" ],
+    "id" : "209"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasSynthesis",
+    "inverse" : "212",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "1",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4385,38 +4386,61 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isIndexedIn",
-      "en" : "is Indexed In"
+      "IRI-based" : "hasSynthesis"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "This property points to the specific location in the text of the bibliographic item (an instance of Location) in which the current text (Redaction) is indexed."
+      "en" : "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "212"
+    "id" : "211"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation",
-    "inverse" : "214",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
+    "range" : "83",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
+        "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "hasTranslation",
-      "en" : "has Translation"
+      "IRI-based" : "hasRole",
+      "en" : "has role",
+      "it" : "ha ruolo"
     },
+    "superproperty" : [ "108" ],
     "domain" : "1",
+    "subproperty" : [ "109" ],
     "comment" : {
-      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains a translation of the text at hand"
+      "undefined" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
     },
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "external", "allValues", "object" ],
     "id" : "213"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isReferencedIn",
+      "en" : "is Referenced In"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "214"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4440,6 +4464,29 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "215"
   }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "41",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "en" : "has Creator"
+    },
+    "superproperty" : [ "107" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "This property points to the entity Creator that has created the current work under analysis"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "216"
+  }, {
     "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
     "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
     "range" : "83",
@@ -4462,57 +4509,12 @@
     "comment" : {
       "undefined" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
     },
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "216"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "41",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasCreator",
-      "en" : "has Creator"
-    },
-    "superproperty" : [ "107" ],
-    "domain" : "2",
-    "comment" : {
-      "en" : "This property points to the entity Creator that has created the current work under analysis"
-    },
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "external", "allValues", "object" ],
     "id" : "217"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isReferencedIn",
-      "en" : "is Referenced In"
-    },
-    "domain" : "2",
-    "comment" : {
-      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "218"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#mentions",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "220",
+    "range" : "219",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4530,29 +4532,7 @@
       "en" : "This property points to an instance of Event  or Person or Organisation or Place that is referred in a given Redaction"
     },
     "attributes" : [ "object" ],
-    "id" : "219"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "1",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isSynthesisOf",
-      "en" : "is Synthesis Of"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "This property points to another text (an instance of Redaction) of which this version (Redaction) is a synthesis"
-    },
-    "attributes" : [ "object" ],
-    "id" : "203"
+    "id" : "218"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4574,11 +4554,33 @@
       "en" : "Specific function performed by some agent on a work (e.g. sponsor, actor, collector, singer, arranger, transcriptor). This is connected to the Role class."
     },
     "attributes" : [ "object" ],
-    "id" : "221"
+    "id" : "220"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isSynthesisOf",
+      "en" : "is Synthesis Of"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to another text (an instance of Redaction) of which this version (Redaction) is a synthesis"
+    },
+    "attributes" : [ "object" ],
+    "id" : "212"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#commentary",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "224",
+    "range" : "223",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4591,15 +4593,15 @@
       "IRI-based" : "commentary",
       "en" : "commentary"
     },
-    "domain" : "223",
+    "domain" : "222",
     "comment" : {
       "en" : "An explanatory series of notes or comments; an explanatory essay or treatise on a text.\n\nTaking as Opus example \"Versos\" by Fernando de Herrera, the comments Francisco de Quevedo wrote on his own edition along the text of the poems would form the \"commentary\"."
     },
     "attributes" : [ "datatype" ],
-    "id" : "222"
+    "id" : "221"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
-    "inverse" : "219",
+    "inverse" : "218",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -4619,52 +4621,7 @@
       "en" : "This  property points to the text (an instance of Redaction) that records the current item (Event, Place, Organization or Person) under analysis"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "225"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#deathDate",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "178",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "deathDate",
-      "en" : "deathDate"
-    },
-    "superproperty" : [ "21" ],
-    "domain" : "34",
-    "comment" : {
-      "en" : "Date of death"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "226"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "178",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "date",
-      "en" : "date"
-    },
-    "domain" : "19",
-    "comment" : {
-      "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "227"
+    "id" : "224"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#birthDate",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4687,10 +4644,77 @@
       "en" : "Date of birth"
     },
     "attributes" : [ "allValues", "object" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "178",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "date"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#deathDate",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "178",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "deathDate",
+      "en" : "deathDate"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "34",
+    "comment" : {
+      "en" : "Date of death"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#floruit",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "178",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "floruit",
+      "en" : "floruit"
+    },
+    "domain" : "34",
+    "comment" : {
+      "en" : "The period of activity of a person, used when a range cannot be established (e.g. “3rd century”)"
+    },
+    "attributes" : [ "allValues", "object" ],
     "id" : "228"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
-    "inverse" : "219",
+    "inverse" : "218",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -4711,6 +4735,51 @@
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "229"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "57",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "paraphrasis",
+      "en" : "paraphrasis"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "The recasting of the contents in words different from that originally used, whether in the same language or in a translation. A Redaction may have zero or one paraphrasis associated."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasSynthesis",
+    "inverse" : "212",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSynthesis"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"
+    },
+    "attributes" : [ "object" ],
+    "id" : "231"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace",
     "inverse" : "51",
@@ -4734,33 +4803,10 @@
       "en" : "This property points to the Place which is the provenance of the current instance of Person"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "230"
+    "id" : "232"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "57",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "paraphrasis",
-      "en" : "paraphrasis"
-    },
-    "maxCardinality" : "1",
-    "domain" : "1",
-    "comment" : {
-      "en" : "The recasting of the contents in words different from that originally used, whether in the same language or in a translation. A Redaction may have zero or one paraphrasis associated."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "231"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasSynthesis",
-    "inverse" : "203",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
+    "inverse" : "218",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -4772,62 +4818,19 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasSynthesis"
+      "IRI-based" : "isMentionedIn",
+      "en" : "is Mentioned In"
     },
-    "domain" : "1",
+    "domain" : "16",
     "comment" : {
-      "en" : "This property points to one of the texts (an instance of Redaction) which is an analytical version of the text at hand (the current Redaction)"
-    },
-    "attributes" : [ "object" ],
-    "id" : "232"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#floruit",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "178",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "floruit",
-      "en" : "floruit"
-    },
-    "domain" : "34",
-    "comment" : {
-      "en" : "The period of activity of a person, used when a range cannot be established (e.g. “3rd century”)"
+      "en" : "This  property points to the text (an instance of Redaction) that records the current item (Event, Place, Organization or Person) under analysis"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "233"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "178",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "date",
-      "en" : "date"
-    },
-    "domain" : "16",
-    "comment" : {
-      "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "234"
-  }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4845,7 +4848,7 @@
       "en" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "235"
+    "id" : "234"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isFrom",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4868,7 +4871,30 @@
       "en" : "This property points to the Place which is the provenance of the item"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "236"
+    "id" : "235"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#workNumber",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "workNumber",
+      "en" : "work Number"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "Number that identifies the Redaction inside a collection. There can only be one value associated for each Redaction."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "237"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4892,29 +4918,6 @@
     },
     "attributes" : [ "datatype" ],
     "id" : "238"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#workNumber",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "5",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "workNumber",
-      "en" : "work Number"
-    },
-    "maxCardinality" : "1",
-    "domain" : "1",
-    "comment" : {
-      "en" : "Number that identifies the Redaction inside a collection. There can only be one value associated for each Redaction."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "240"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4940,7 +4943,7 @@
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#editedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4958,10 +4961,10 @@
       "en" : "This property points to the specific Location in a bibliographic item that contains an edition of the current instance of Redaction."
     },
     "attributes" : [ "object" ],
-    "id" : "241"
+    "id" : "240"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
-    "inverse" : "219",
+    "inverse" : "218",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -4976,12 +4979,12 @@
       "IRI-based" : "isMentionedIn",
       "en" : "is Mentioned In"
     },
-    "domain" : "237",
+    "domain" : "236",
     "comment" : {
       "en" : "This  property points to the text (an instance of Redaction) that records the current item (Event, Place, Organization or Person) under analysis"
     },
     "attributes" : [ "object" ],
-    "id" : "242"
+    "id" : "241"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#genre",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -4998,12 +5001,12 @@
       "IRI-based" : "genre",
       "en" : "genre"
     },
-    "domain" : "244",
+    "domain" : "243",
     "comment" : {
       "en" : "Type of art, literature or music characterized by a specific form, content and style"
     },
     "attributes" : [ "object" ],
-    "id" : "243"
+    "id" : "242"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5020,13 +5023,13 @@
       "IRI-based" : "hasFirstPart",
       "en" : "has First Part"
     },
-    "superproperty" : [ "246" ],
+    "superproperty" : [ "245" ],
     "domain" : "156",
     "comment" : {
       "en" : "This property points to the first text unit  which form the current element under analysis"
     },
     "attributes" : [ "object" ],
-    "id" : "245"
+    "id" : "244"
   }, {
     "iri" : "http://purl.org/ontology/olo/core#slot",
     "baseIri" : "http://purl.org/ontology/olo/core",
@@ -5050,7 +5053,7 @@
       "en" : "has slot"
     },
     "domain" : "157",
-    "subproperty" : [ "247" ],
+    "subproperty" : [ "246" ],
     "comment" : {
       "en" : "A slot in an ordered list."
     },
@@ -5059,7 +5062,7 @@
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "249",
+    "range" : "248",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5077,7 +5080,7 @@
       "en" : "The literary tradition assigned to a Poetic Work. There might be several values for this property.\n\nTaking as example the theatre play \"La vida es sueño\" by Calderón de la Barca, \"literary Tradition\" is \"Baroque\"."
     },
     "attributes" : [ "datatype" ],
-    "id" : "248"
+    "id" : "247"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5095,7 +5098,7 @@
       "en" : "has Creator"
     },
     "superproperty" : [ "107" ],
-    "domain" : "250",
+    "domain" : "249",
     "comment" : {
       "en" : "This property points to the entity Creator that has created the current work under analysis"
     },
@@ -5105,7 +5108,7 @@
     "range" : "101",
     "domain" : "48",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "252"
+    "id" : "251"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5127,9 +5130,9 @@
       "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "253"
+    "id" : "252"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isTranslationOf",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -5141,15 +5144,15 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isTranslationOf",
-      "en" : "is Translation Of"
+      "IRI-based" : "isSynthesisOf",
+      "en" : "is Synthesis Of"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "This property points to another version (an instance of Redaction) of which this one is a translation"
+      "en" : "This property points to another text (an instance of Redaction) of which this version (Redaction) is a synthesis"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "254"
+    "id" : "253"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isFrom",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5174,31 +5177,9 @@
     "attributes" : [ "object" ],
     "id" : "64"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#biography",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "256",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "biography",
-      "en" : "biography"
-    },
-    "domain" : "34",
-    "comment" : {
-      "en" : "An account of a person's life written, composed, or produced by another.\n\nTaking as example the poet Antonio Machado, \"biography\" could be: \"Antonio Cipriano José María y Francisco de Santa Ana Machado y Ruiz (26 July 1875 – 22 February 1939), known as Antonio Machado, was a Spanish poet and one of the leading figures of the Spanish literary movement known as the Generation of '98. His work, initially modernist, evolved towards an intimate form of symbolism with romantic traits. He gradually developed a style characterised by both an engagement with humanity on one side and an almost Taoist contemplation of existence on the other, a synthesis that according to Machado echoed the most ancient popular wisdom. In Gerardo Diego's words, Machado \"spoke in verse and lived in poetry.\"\" (example extracted from Wikipedia)."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "255"
-  }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#address",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "258",
+    "range" : "255",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5217,10 +5198,32 @@
       "en" : "Contains a postal address, for example of a publisher, an organisation, or an individual. There can only be one address per Organization.\n\nTaking as example Cervantes' poem \"Amadís de Gaula a Don Quijote de la Mancha\", TEI-annotated in the ADSO corpus, the publisher would be \"Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)\", and its address would be \"carretera San Vicente s/n 03690 San Vicente del Raspeig, Alicante (Spain)\"."
     },
     "attributes" : [ "datatype" ],
-    "id" : "257"
+    "id" : "254"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#biography",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "257",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "biography",
+      "en" : "biography"
+    },
+    "domain" : "34",
+    "comment" : {
+      "en" : "An account of a person's life written, composed, or produced by another.\n\nTaking as example the poet Antonio Machado, \"biography\" could be: \"Antonio Cipriano José María y Francisco de Santa Ana Machado y Ruiz (26 July 1875 – 22 February 1939), known as Antonio Machado, was a Spanish poet and one of the leading figures of the Spanish literary movement known as the Generation of '98. His work, initially modernist, evolved towards an intimate form of symbolism with romantic traits. He gradually developed a style characterised by both an engagement with humanity on one side and an almost Taoist contemplation of existence on the other, a synthesis that according to Machado echoed the most ancient popular wisdom. In Gerardo Diego's words, Machado \"spoke in verse and lived in poetry.\"\" (example extracted from Wikipedia)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "256"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart",
-    "inverse" : "259",
+    "inverse" : "258",
     "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/partof.owl",
     "range" : "22",
     "annotations" : {
@@ -5236,12 +5239,12 @@
       "en" : "has part"
     },
     "domain" : "22",
-    "subproperty" : [ "245" ],
+    "subproperty" : [ "244" ],
     "comment" : {
       "undefined" : "A transitive relation expressing parthood between any entities, e.g. 'the human body has a brain as part'. When specializing this pattern, take care of restricting the domain and range appropriately, since it could be counterintuitive to use this relation arbitrarily, e.g. between animals and planets. For an intransitive partof pattern, see 'componency'."
     },
     "attributes" : [ "external", "object", "transitive" ],
-    "id" : "246"
+    "id" : "245"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#penName",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5264,11 +5267,11 @@
       "en" : "A fictitious name, especially a pen name. A variant name"
     },
     "attributes" : [ "datatype" ],
-    "id" : "260"
+    "id" : "259"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextUnitList",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "156",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5278,15 +5281,15 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasOrderedTextUnitList",
-      "en" : "has Ordered Text Unit List"
+      "IRI-based" : "isReferencedIn",
+      "en" : "is Referenced In"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "List of text units that form the Redaction"
+      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "261"
+    "id" : "260"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5308,96 +5311,29 @@
       "en" : "The type of textual element (e.g. part of a greater ensemble; part of a composed collection of poems; prologue of a work; epilogue of a work; a chapter of a work...)"
     },
     "attributes" : [ "object" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "retrievesText",
+      "en" : "retrieves Text"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains the edition used as the base of text at hand"
+    },
+    "attributes" : [ "allValues", "object" ],
     "id" : "262"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation",
-    "inverse" : "214",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "1",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasTranslation",
-      "en" : "has Translation"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains a translation of the text at hand"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "263"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "83",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasEditor",
-      "en" : "has Editor"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "This property points to the Person who has edited the current instance of Redaction"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "264"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isReferencedIn",
-      "en" : "is Referenced In"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "265"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "178",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "date",
-      "en" : "date"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "266"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5419,10 +5355,11 @@
     "comment" : {
       "en" : "This property points to the entity Creator that has created the current work under analysis"
     },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "267"
+    "attributes" : [ "object", "someValues" ],
+    "id" : "263"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation",
+    "inverse" : "265",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -5434,44 +5371,19 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isSynthesisOf",
-      "en" : "is Synthesis Of"
+      "IRI-based" : "hasTranslation",
+      "en" : "has Translation"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "This property points to another text (an instance of Redaction) of which this version (Redaction) is a synthesis"
+      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains a translation of the text at hand"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "268"
+    "id" : "264"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
-    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
-    "range" : "83",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasRole",
-      "en" : "has role",
-      "it" : "ha ruolo"
-    },
-    "superproperty" : [ "108" ],
-    "domain" : "1",
-    "subproperty" : [ "109" ],
-    "comment" : {
-      "undefined" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
-    },
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "269"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "122",
+    "range" : "41",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5481,16 +5393,82 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasTextUnit",
-      "en" : "hasTextUnit"
+      "IRI-based" : "hasCreator",
+      "en" : "has Creator"
     },
-    "superproperty" : [ "180" ],
-    "domain" : "156",
+    "superproperty" : [ "107" ],
+    "domain" : "1",
     "comment" : {
-      "en" : "A text unit in an ordered list."
+      "en" : "This property points to the entity Creator that has created the current work under analysis"
     },
-    "attributes" : [ "object" ],
-    "id" : "247"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "266"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "83",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasEditor",
+      "en" : "has Editor"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to the Person who has edited the current instance of Redaction"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#editedIn",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "editedIn",
+      "en" : "edited In"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to the specific Location in a bibliographic item that contains an edition of the current instance of Redaction."
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "178",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "date"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "269"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5514,9 +5492,9 @@
     "attributes" : [ "object" ],
     "id" : "270"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "41",
+    "range" : "122",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5526,13 +5504,36 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasCreator",
-      "en" : "has Creator"
+      "IRI-based" : "hasTextUnit",
+      "en" : "hasTextUnit"
     },
-    "superproperty" : [ "107" ],
+    "superproperty" : [ "180" ],
+    "domain" : "156",
+    "comment" : {
+      "en" : "A text unit in an ordered list."
+    },
+    "attributes" : [ "object" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation",
+    "inverse" : "265",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTranslation",
+      "en" : "has Translation"
+    },
     "domain" : "1",
     "comment" : {
-      "en" : "This property points to the entity Creator that has created the current work under analysis"
+      "en" : "This property points to the specific location in a bibliographic item (an instance of Location) which contains a translation of the text at hand"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "271"
@@ -5582,7 +5583,7 @@
     "id" : "124"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation",
-    "inverse" : "214",
+    "inverse" : "265",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "182",
     "annotations" : {
@@ -5637,7 +5638,7 @@
     "comment" : {
       "en" : "The longitude of a location. For example -122.08585 (WGS 84)."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "279"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#surname",
@@ -5683,7 +5684,7 @@
       "en" : "This property points to another version (an instance of Redaction) of which this one is a translation"
     },
     "attributes" : [ "object" ],
-    "id" : "214"
+    "id" : "265"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
@@ -5723,7 +5724,7 @@
       "IRI-based" : "date",
       "en" : "date"
     },
-    "domain" : "251",
+    "domain" : "250",
     "comment" : {
       "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
     },
@@ -5823,7 +5824,7 @@
     "comment" : {
       "en" : "The length of an ordered list."
     },
-    "attributes" : [ "functional", "datatype", "external" ],
+    "attributes" : [ "external", "functional", "datatype" ],
     "id" : "287"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus",
@@ -5874,13 +5875,12 @@
     "comment" : {
       "en" : "An index of a slot in an ordered list."
     },
-    "attributes" : [ "functional", "datatype", "external" ],
+    "attributes" : [ "external", "functional", "datatype" ],
     "id" : "289"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
-    "inverse" : "219",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "1",
+    "range" : "16",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5890,42 +5890,19 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isMentionedIn",
-      "en" : "is Mentioned In"
+      "IRI-based" : "isInvolvedIn",
+      "en" : "is Involved In"
     },
     "domain" : "31",
     "comment" : {
-      "en" : "This  property points to the text (an instance of Redaction) that records the current item (Event, Place, Organization or Person) under analysis"
+      "en" : "This property points to the Event in which the current instance of Organisation, Person or Place is referenced"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "290"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "41",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasCreator",
-      "en" : "has Creator"
-    },
-    "superproperty" : [ "107" ],
-    "domain" : "53",
-    "comment" : {
-      "en" : "This property points to the entity Creator that has created the current work under analysis"
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "291"
-  }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5943,6 +5920,31 @@
       "en" : "This property points to the specific location in a bibliographic item (an instance of Location) whose contents are related to the current item under analysis (usually, its specific bibliography)"
     },
     "attributes" : [ "allValues", "object" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
+    "range" : "83",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRole",
+      "en" : "has role",
+      "it" : "ha ruolo"
+    },
+    "superproperty" : [ "108" ],
+    "domain" : "53",
+    "subproperty" : [ "109" ],
+    "comment" : {
+      "undefined" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
+    },
+    "attributes" : [ "external", "allValues", "object" ],
     "id" : "292"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel",
@@ -5967,9 +5969,9 @@
     "attributes" : [ "object" ],
     "id" : "293"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isFrom",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "19",
+    "range" : "41",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5979,13 +5981,13 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isFrom",
-      "en" : "is From"
+      "IRI-based" : "hasCreator",
+      "en" : "has Creator"
     },
+    "superproperty" : [ "107" ],
     "domain" : "53",
-    "subproperty" : [ "63" ],
     "comment" : {
-      "en" : "This property points to the Place which is the provenance of the item"
+      "en" : "This property points to the entity Creator that has created the current work under analysis"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "294"
@@ -6013,77 +6015,6 @@
     "attributes" : [ "object" ],
     "id" : "23"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "41",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasCreator",
-      "en" : "has Creator"
-    },
-    "superproperty" : [ "107" ],
-    "domain" : "53",
-    "comment" : {
-      "en" : "This property points to the entity Creator that has created the current work under analysis"
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "295"
-  }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#firstPartOf",
-    "inverse" : "245",
-    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "1",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "firstPartOf"
-    },
-    "superproperty" : [ "259" ],
-    "domain" : "122",
-    "comment" : {
-      "en" : "This property points to the container (an instance of Redaction) of which the item at hand is its first part"
-    },
-    "attributes" : [ "object" ],
-    "id" : "211"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole",
-    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
-    "range" : "83",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasRole",
-      "en" : "has role",
-      "it" : "ha ruolo"
-    },
-    "superproperty" : [ "108" ],
-    "domain" : "53",
-    "subproperty" : [ "109" ],
-    "comment" : {
-      "undefined" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
-    },
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "296"
-  }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "178",
@@ -6104,10 +6035,10 @@
       "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
     },
     "attributes" : [ "allValues", "object" ],
-    "id" : "297"
+    "id" : "295"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
-    "inverse" : "219",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#firstPartOf",
+    "inverse" : "244",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
     "range" : "1",
     "annotations" : {
@@ -6119,12 +6050,80 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isMentionedIn",
-      "en" : "is Mentioned In"
+      "IRI-based" : "firstPartOf"
+    },
+    "superproperty" : [ "258" ],
+    "domain" : "122",
+    "comment" : {
+      "en" : "This property points to the container (an instance of Redaction) of which the item at hand is its first part"
+    },
+    "attributes" : [ "object" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "41",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "en" : "has Creator"
+    },
+    "superproperty" : [ "107" ],
+    "domain" : "53",
+    "comment" : {
+      "en" : "This property points to the entity Creator that has created the current work under analysis"
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "296"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isFrom",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isFrom",
+      "en" : "is From"
+    },
+    "domain" : "53",
+    "subproperty" : [ "63" ],
+    "comment" : {
+      "en" : "This property points to the Place which is the provenance of the item"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "297"
+  }, {
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#date",
+    "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
+    "range" : "178",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://postdata.linhd.uned.es/ontology/postdata-core/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "date"
     },
     "domain" : "16",
     "comment" : {
-      "en" : "This  property points to the text (an instance of Redaction) that records the current item (Event, Place, Organization or Person) under analysis"
+      "en" : "This property points to a date entity, which represents a particular point or period of time at which something happened or existed, or is expected to happen"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "298"
@@ -6174,7 +6173,7 @@
     "comment" : {
       "undefined" : "A relation between an object and a role, e.g. the person 'John' has role 'student'."
     },
-    "attributes" : [ "allValues", "external", "object" ],
+    "attributes" : [ "external", "allValues", "object" ],
     "id" : "302"
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#note",
@@ -6199,9 +6198,10 @@
     "attributes" : [ "datatype" ],
     "id" : "303"
   }, {
-    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn",
+    "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn",
+    "inverse" : "218",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "16",
+    "range" : "1",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6211,12 +6211,12 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "isInvolvedIn",
-      "en" : "is Involved In"
+      "IRI-based" : "isMentionedIn",
+      "en" : "is Mentioned In"
     },
     "domain" : "31",
     "comment" : {
-      "en" : "This property points to the Event in which the current instance of Organisation, Person or Place is referenced"
+      "en" : "This  property points to the text (an instance of Redaction) that records the current item (Event, Place, Organization or Person) under analysis"
     },
     "attributes" : [ "allValues", "object" ],
     "id" : "306"
@@ -6337,7 +6337,7 @@
   }, {
     "iri" : "http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn",
     "baseIri" : "http://postdata.linhd.uned.es/ontology/postdata-core",
-    "range" : "26",
+    "range" : "27",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
