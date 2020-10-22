@@ -2,8 +2,8 @@
 <rdf:RDF xmlns="http://postdata.linhd.uned.es/ontology/postdata-core#"
      xml:base="http://postdata.linhd.uned.es/ontology/postdata-core"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -12,14 +12,15 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core">
+        <owl:imports rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-dates#"/>
         <owl:imports rdf:resource="http://purl.org/ontology/olo/core#"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
-        <ns:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <ns1:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dc:contributor>Aitor Díaz Medina (LINHD_POSTDATA-UNED) 
 https://www.linkedin.com/in/aitordiazmedina/</dc:contributor>
         <dc:contributor>Alvaro Pérez (LINHD_POSTDATA-UNED) 
@@ -32,23 +33,23 @@ https://orcid.org/0000-0001-7782-206X</dc:contributor>
 https://www.linkedin.com/in/versae/</dc:contributor>
         <dc:contributor>Laura Hernández Lorenzo (LINHD_POSTDATA-UNED) 
 https://orcid.org/0000-0003-3489-2193</dc:contributor>
-        <dc:contributor xml:lang="scc.uned.es">Mirella De Sisto (LINHD_POSTDATA-UNED) 
-mdesisto</dc:contributor>
+        <dc:contributor>Mirella De Sisto (LINHD_POSTDATA-UNED) 
+mdesisto@scc.uned.es</dc:contributor>
         <dc:contributor>Mª Luisa Díez Platas
 https://orcid.org/0000-0002-9416-3147</dc:contributor>
         <dc:contributor>Omar Khalil Gómez (LINHD_POSTDATA-UNED) 
 http://www.linkedin.com/in/omar-k-0959a8129</dc:contributor>
         <dc:contributor>Oscar Corcho (Universidad Politécnica de Madrid)
 http://orcid.org/0000-0002-9260-0753</dc:contributor>
-        <dc:contributor xml:lang="gmail.com">Salvador Ros Muñoz (UNED)
-srosmu</dc:contributor>
+        <dc:contributor>Salvador Ros Muñoz (UNED)
+srosmu@gmail.com</dc:contributor>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <dc:date>2020-02-22</dc:date>
         <dc:description xml:lang="en">This ontology is the core of the POSTDATA network of ontologies. As such, it contains the most relevant classes and properties that allow representing poetic works and their characteristics. Besides, it contains common classes and properties that are used in many other ontologies in the network, such as those related to the representation of persons, organisations, events, places and roles that persons and organisations play in poetic works.</dc:description>
         <dc:title xml:lang="en">POSTDATA core ontology</dc:title>
-        <dcterms:publisher xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
+        <terms:publisher xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
         Principal Investigator. Elena González Blanco -- &lt;https://orcid.org/0000-0002-0448-1812&gt;
-        Technical Director. Salvador Ros Muñoz -- &lt;https://orcid.org/0000-0001-6330-4958&gt;</dcterms:publisher>
+        Technical Director. Salvador Ros Muñoz -- &lt;https://orcid.org/0000-0001-6330-4958&gt;</terms:publisher>
         <vann:preferredNamespacePrefix>pdcore</vann:preferredNamespacePrefix>
         <owl:versionInfo>V1.2</owl:versionInfo>
     </owl:Ontology>
@@ -63,10 +64,12 @@ srosmu</dc:contributor>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://creativecommons.org/ns#license -->
+
 
     <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
     
@@ -74,11 +77,13 @@ srosmu</dc:contributor>
 
     <!-- http://purl.org/dc/elements/1.1/contributors -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributors"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
@@ -86,11 +91,13 @@ srosmu</dc:contributor>
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
@@ -98,11 +105,13 @@ srosmu</dc:contributor>
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
     <!-- http://purl.org/dc/terms/abstract -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
     
@@ -110,11 +119,13 @@ srosmu</dc:contributor>
 
     <!-- http://purl.org/dc/terms/publisher -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
     
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
     
@@ -122,11 +133,13 @@ srosmu</dc:contributor>
 
     <!-- http://schema.org/image -->
 
+
     <owl:AnnotationProperty rdf:about="http://schema.org/image"/>
     
 
 
     <!-- http://www.w3.org/2002/07/owl#maxQualifiedCardinality -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality"/>
     
@@ -134,17 +147,20 @@ srosmu</dc:contributor>
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#example -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#note -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
     
@@ -158,10 +174,12 @@ srosmu</dc:contributor>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
@@ -181,6 +199,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#birthDate -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#birthDate">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -193,6 +212,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#birthPlace">
         <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isFrom"/>
@@ -208,6 +228,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty">
         <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#certainty"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -220,6 +241,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceOf -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceOf">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -231,6 +253,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#certainty -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#certainty">
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -249,6 +272,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#characterIn -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#characterIn">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
@@ -261,6 +285,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#date -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#date">
         <rdfs:domain>
@@ -285,6 +310,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#deathDate -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#deathDate">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -297,6 +323,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#deathPlace -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#deathPlace">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#deathPlaceOf"/>
@@ -311,6 +338,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#deathPlaceOf -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#deathPlaceOf">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -322,6 +350,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#dedicatedTo -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#dedicatedTo">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication"/>
@@ -335,6 +364,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#depictedIn -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#depictedIn">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
@@ -355,6 +385,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#editedIn -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#editedIn">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
@@ -366,6 +397,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#editorOf -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#editorOf">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor"/>
@@ -379,6 +411,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#firstPartOf -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#firstPartOf">
         <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf"/>
@@ -394,6 +427,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#floruit -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#floruit">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"/>
@@ -405,6 +439,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#gender -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#gender">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -423,6 +458,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#genre -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#genre">
         <rdfs:domain>
@@ -447,19 +483,8 @@ srosmu</dc:contributor>
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent -->
-
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent">
-        <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf"/>
-        <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
-        <rdfs:comment xml:lang="en">This property points to an entity Role that represents an agent who plays a role,  such as an editor, critic or sponsor,in a poetic work, a  redaction or an ensemble</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">has agent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -473,9 +498,9 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator">
-        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent"/>
-        <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -495,6 +520,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasDedication">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -507,9 +533,10 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
-        <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
+        <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:comment xml:lang="en">This property points to the Person who has edited the current instance of Redaction</rdfs:comment>
         <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core/</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">has Editor</rdfs:label>
@@ -518,6 +545,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasFirstPart">
         <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart"/>
@@ -532,6 +560,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasMember -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasMember">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isMemberOf"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"/>
@@ -545,6 +574,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextUnitList -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasOrderedTextUnitList">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList"/>
@@ -556,6 +586,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasProvenance -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasProvenance">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isProvenanceFor"/>
@@ -577,6 +608,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasSynthesis -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasSynthesis">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -590,6 +622,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasTextUnit">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/olo/core#slot"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList"/>
@@ -602,6 +635,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isTranslationOf"/>
@@ -617,6 +651,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#involves -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#involves">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn"/>
@@ -638,6 +673,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isFrom -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isFrom">
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
         <rdfs:comment xml:lang="en">This property points to the Place which is the provenance of the item</rdfs:comment>
@@ -648,6 +684,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isIndexedIn">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -660,6 +697,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn">
         <rdfs:domain>
@@ -680,6 +718,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isMemberOf -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isMemberOf">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"/>
@@ -691,6 +730,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isMentionedIn">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#mentions"/>
@@ -714,6 +754,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isProvenanceFor -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isProvenanceFor">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
         <rdfs:range>
@@ -733,6 +774,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isRealisedThrough">
         <owl:inverseOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#realises"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
@@ -746,6 +788,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isRecordedBy">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Event"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
@@ -757,6 +800,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -770,6 +814,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isSynthesisOf">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -782,6 +827,7 @@ srosmu</dc:contributor>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isTranslationOf -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isTranslationOf">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -793,6 +839,7 @@ srosmu</dc:contributor>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#literaryPeriod">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -812,6 +859,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#mentions -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#mentions">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -834,6 +882,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#poeticType -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#poeticType">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -852,6 +901,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#realises -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#realises">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
@@ -863,6 +913,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#religiousAffiliation">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -882,6 +933,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#retrievesText">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
@@ -893,6 +945,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
@@ -912,6 +965,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#school -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#school">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -929,6 +983,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#socialStatus">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -948,6 +1003,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#typeOfCharacter">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -965,6 +1021,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation -->
+
 
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#typeOfDesignation">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
@@ -984,6 +1041,7 @@ The values of this property are defined in a controlled vocabulary about literar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement -->
 
+
     <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#typeOfTextualElement">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1000,49 +1058,8 @@ The values of this property are defined in a controlled vocabulary about literar
     
 
 
-    <!-- http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf -->
-
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"/>
-                    <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
-                    <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:comment xml:lang="en">This property points to the PoeticWork, Redaction or Ensemble which depicts the Role at hand in relation to its contents. When the Role at hand is related to the agents that participated in the transmission of the work (e.g. sponsor), this property points to the entity affected by the current function.</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Is Agent Of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf -->
-
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf">
-        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf"/>
-        <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"/>
-                    <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
-                    <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:comment xml:lang="en">This property points to the PoeticWork, Redaction or Ensemble which  the Role at hand is related to the agents that participated in the creation of the Opus or Redaction</rdfs:comment>
-        <rdfs:isDefinedBy>http://postdata.linhd.uned.es/ontology/postdata-core/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Is Creator Of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
     
@@ -1056,10 +1073,12 @@ The values of this property are defined in a controlled vocabulary about literar
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#additionalFile">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -1075,6 +1094,7 @@ Taking as example the poem &quot;Amadís de Gaula a Don Quijote de la Mancha&quo
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#additionalName -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#additionalName">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1088,6 +1108,7 @@ Taking as example the writer Charlotte Brontë, an &quot;additionalName&quot; wo
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#address -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#address">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Organisation"/>
@@ -1103,6 +1124,7 @@ Taking as example Cervantes&apos; poem &quot;Amadís de Gaula a Don Quijote de l
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#alternativeName -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#alternativeName">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1116,6 +1138,7 @@ Taking as example the character &quot;Aldonza Lorenzo&quot; from the Quixote, an
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#alternativeTitle -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#alternativeTitle">
         <rdfs:domain>
@@ -1138,6 +1161,7 @@ Taking as example the &quot;Poema de Mio Cid&quot;, an &quot;alternativeTitle&qu
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#audience -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#audience">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1151,6 +1175,7 @@ Taking as example the play &quot;La segunda Celestina&quot;, &quot;audience&quot
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#audienceEducationLevel">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -1166,6 +1191,7 @@ Taking as example the play &quot;La segunda Celestina&quot; (Agustín de Salazar
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#biography -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#biography">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/bio/0.1/biography"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -1180,6 +1206,7 @@ Taking as example the poet Antonio Machado, &quot;biography&quot; could be: &quo
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#commentary -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#commentary">
         <rdfs:domain>
@@ -1202,6 +1229,7 @@ Taking as Opus example &quot;Versos&quot; by Fernando de Herrera, the comments F
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#ethnicity">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1215,6 +1243,7 @@ Taking as Person example the poet &quot;Antonio Enríquez Gómez&quot;, his &quo
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#eventNarration">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Event"/>
@@ -1230,6 +1259,7 @@ Taking as Opus example the &quot;Poema de Mio Cid&quot;, and as Event example th
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#explicit -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#explicit">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1244,6 +1274,7 @@ Taking as example the poem &quot;Canary&quot; by Rita Dove, the last verse, &quo
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#forename -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#forename">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1257,6 +1288,7 @@ Taking as example the poet &quot;Antonio Machado&quot;, his &quot;forename&quot;
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#function -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#function">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -1280,6 +1312,7 @@ Taking as example the poem &quot;Cantico delle creature&quot; by San Francesco d
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#genName -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#genName">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1293,6 +1326,7 @@ Taking as example the person &quot;Felipe II&quot;, &quot;genName&quot; is &quot
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#incipit -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#incipit">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -1308,6 +1342,7 @@ Taking as example the &quot;Soledades&quot; by Góngora, the &quot;incipit&quot;
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1321,6 +1356,7 @@ Taking as example the creator of &quot;Libro de Alexandre&quot;, &quot;isAnonymo
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isCalligram">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
@@ -1336,6 +1372,7 @@ Taking as example the (calligram) poem &quot;La Colombe poignardée et le Jet d�
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isFictional -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isFictional">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -1350,6 +1387,7 @@ Taking as example the character &quot;Don Quijote de la Mancha&quot; will have a
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isSong -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isSong">
         <rdfs:domain>
@@ -1372,6 +1410,7 @@ Taking as example the poetic work &quot;Chanson de Roland&quot;, &quot;is Song&q
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1385,6 +1424,7 @@ Taking as example the poem &quot;Muere lentamente&quot; (by Martha Madeiros) whi
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#keyword -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#keyword">
         <rdfs:domain>
@@ -1406,6 +1446,7 @@ Taking as example the theatre play &quot;Othello&quot; by Shakespeare, one possi
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#language -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#language">
         <rdfs:domain>
@@ -1435,6 +1476,7 @@ For example the &quot;language&quot; of &quot;Romancero gitano&quot; by Lorca, i
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#layout -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#layout">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1449,6 +1491,7 @@ Taking as example &quot;The Waste Land and Other Poems&quot; by T.S. Eliot, edit
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#literaryTradition">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1462,6 +1505,7 @@ Taking as example the theatre play &quot;La vida es sueño&quot; by Calderón de
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#name -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#name">
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/name"/>
@@ -1478,6 +1522,7 @@ Taking as example the full name of Federico García Lorca, &quot;name&quot; woul
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#nameLink -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#nameLink">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
@@ -1492,6 +1537,7 @@ Taking as example the writer “Hildegard von Bingen”, her “nameLink” woul
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#narrativeLocation">
         <rdfs:domain>
@@ -1514,6 +1560,7 @@ Taking as example the poem “Cantar de Mio Cid”, the “narrativeLocation” 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#nationality -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#nationality">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1527,6 +1574,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#note -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#note">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/net/nknouf/ns/bibtex#hasNote"/>
@@ -1550,6 +1598,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#numberOfLines">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1561,6 +1610,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPlays">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"/>
@@ -1574,6 +1624,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#numberOfPoems">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1586,6 +1637,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#numberOfWitnessesUsed">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1597,6 +1649,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#originalLanguage">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -1616,6 +1669,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#originalName -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#originalName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -1637,6 +1691,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#originalTitle">
         <rdfs:domain>
             <owl:Class>
@@ -1656,6 +1711,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#paraphrasis">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1667,6 +1723,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#penName -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#penName">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
@@ -1680,6 +1737,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#portrait -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#portrait">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
@@ -1691,6 +1749,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#positionName -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#positionName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -1705,6 +1764,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#sampleText -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#sampleText">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1716,6 +1776,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#sourceNote">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/net/nknouf/ns/bibtex#hasNote"/>
@@ -1729,6 +1790,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#subtitle -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#subtitle">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/fabio/hasSubtitle"/>
@@ -1751,6 +1813,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#surname -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#surname">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1762,6 +1825,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#text -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#text">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -1775,6 +1839,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#theme -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#theme">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1787,6 +1852,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#typeOfEvent">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1798,6 +1864,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#typeOfPlace">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -1812,6 +1879,7 @@ Taking as example, the poet “Antonio Machado”, his “nationality” would b
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#typeOfRedaction">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1824,6 +1892,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#unidentifiedSource">
         <rdfs:domain>
@@ -1844,6 +1913,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#unusedWitnesses -->
 
+
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#unusedWitnesses">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1855,6 +1925,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#workNumber -->
+
 
     <owl:DatatypeProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#workNumber">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
@@ -1868,6 +1939,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
     <!-- http://purl.org/net/nknouf/ns/bibtex#hasNote -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/net/nknouf/ns/bibtex#hasNote">
         <rdfs:comment xml:lang="en">Any additional information that can help the reader. The first word should be capitalized.</rdfs:comment>
         <rdfs:label xml:lang="en">has note</rdfs:label>
@@ -1877,6 +1949,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
     <!-- http://purl.org/spar/fabio/hasSubtitle -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/spar/fabio/hasSubtitle">
         <rdfs:comment xml:lang="en">A secondary title that follows the main title of a work.</rdfs:comment>
         <rdfs:label xml:lang="en">has subtitle</rdfs:label>
@@ -1885,6 +1958,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- http://purl.org/vocab/bio/0.1/biography -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/vocab/bio/0.1/biography">
         <rdfs:comment xml:lang="en">An extended description or account of someone&apos;s life.</rdfs:comment>
@@ -1896,16 +1970,18 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
     <!-- http://xmlns.com/foaf/0.1/name -->
 
+
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name">
         <rdfs:comment xml:lang="en">A name for some thing.</rdfs:comment>
         <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">name</rdfs:label>
-        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+        <ns:term_status xml:lang="en">testing</ns:term_status>
     </owl:DatatypeProperty>
     
 
 
     <!-- https://schema.org/latitude -->
+
 
     <owl:DatatypeProperty rdf:about="https://schema.org/latitude">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
@@ -1917,6 +1993,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- https://schema.org/longitude -->
+
 
     <owl:DatatypeProperty rdf:about="https://schema.org/longitude">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
@@ -1935,10 +2012,12 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F1 -->
+
 
     <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F1">
         <rdfs:comment xml:lang="en">This class comprises the sums of concepts which appear in the course of the coherent evolution of an original idea into one or more expressions that are dominated by the original idea. The substance of Work is concepts. A Work may be elaborated by one or more Actors simultaneously or over time. A Work may have members that constitute components of the overall concept or that are alternatives to other members of the work. Members of a work may or may not represent the concept of the Work as a whole; for instance a translation reinterprets the whole, a volume of a trilogy represents a part of the concept. A Work can be either individual or complex. If it is individual its concept is completely realised in a single F22 Self-Contained Expression. If it is complex its concept is embedded in an F15 Complex Work. An F15 Complex Work consists of members that are either F15 Complex Works themselves or F14 Individual Works. The member relationship of Work is based on the members respecting the same concept, and should not be confused with the structural parts of an expression, that might be taken from other work(s). A Work is the product of an intellectual process of one or more persons, yet only indirect evidence about it is at our hands. This can be contextual information such as the existence of an order for a work, reflections of the creators themselves that are documented somewhere, and finally the expressions of the work created. As ideas normally take shape during discussion, elaboration and implementation, it is not reasonable to assume that a work starts with a complete concept. Moreover, it can be very difficult or impossible to define the whole of the concept of a work at some given time. The only objective evidence for such a notion can be based on a stage of expressions at a given time. In this sense, self-contained expressions serve as a kind of &quot;snap-shots&quot; of a work. A Work may aggregate expressions of other works into a new expression. For instance, an anthology of poems is regarded as a work in its own right that makes use of expressions of the individual poems that have been selected and ordered as part of an intellectual process. This does not make the contents of the aggregated expressions part of this work, but only parts of the resulting expression.</rdfs:comment>
@@ -1951,6 +2030,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
     <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F17 -->
 
+
     <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F17">
         <rdfs:comment xml:lang="en">This class comprises works whose essence is the selection and/or arrangement of expressions of one or more other works. This does not make the contents of the aggregated expressions part of this work, but only part of the resulting expression. F17 Aggregation Work may include additional original parts. An expression of a work may include expressions of other works within it. For instance, an anthology of poems is regarded as a work in its own right that makes use of expressions of the individual poems that have been selected and ordered as part of an intellectual process. A new version of an aggregate work does not make the resulting complex work an aggregate work as well. The inclusion of expressions from a complex work in an aggregation work does not make the aggregation work itself complex.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/"/>
@@ -1960,6 +2040,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F22 -->
+
 
     <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F22">
         <rdfs:comment xml:lang="en">This class comprises the immaterial realisations of individual works at a particular time that are regarded as a complete whole. The quality of wholeness reflects the intention of its creator that this expression should convey the concept of the work. Such a whole can in turn be part of a larger whole. Inherent to the notion of work is the completion of recognisable outcomes of the work. These outcomes, i.e. the Self-Contained Expressions, are regarded as the symbolic equivalents of Individual Works, which form the atoms of a complex work. A Self-Contained Expression may contain expressions or parts of expressions from other work, such as citations or items collected in anthologies. Even though they are incorporated in the Self-Contained Expression, they are not regarded as becoming members of the expressed container work by their inclusion in the expression, but are rather regarded as foreign or referred elements. F22 Self-Contained Expression can be distinguished from F23 Expression Fragment in that an F23 Expression Fragment was not intended by its creator to make sense by itself. Normally creators would characterise an outcome of a work as finished. In other cases, one could recognise an outcome of a work as complete from the elaboration or logical coherence of its content, or if there is any historical knowledge about the creator deliberately or accidentally never finishing (completing) that particular expression. In all those cases, one would regard an expression as self-contained.</rdfs:comment>
@@ -1971,6 +2052,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Agent -->
+
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">
         <rdfs:subClassOf rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
@@ -2001,6 +2083,7 @@ Eg.: Diplomatic edition, critical edition, translation</rdfs:comment>
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole -->
+
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">
         <rdfs:subClassOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
@@ -2059,6 +2142,7 @@ typeofDesignation, which is the type of name or designation used, e.g. pseudonym
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F17"/>
         <rdfs:subClassOf>
@@ -2077,14 +2161,14 @@ typeofDesignation, which is the type of name or designation used, e.g. pseudonym
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#date"/>
-                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
+                <owl:someValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#date"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2103,6 +2187,12 @@ typeofDesignation, which is the type of name or designation used, e.g. pseudonym
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#isReferencedIn"/>
                 <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2142,6 +2232,7 @@ typeofDesignation, which is the type of name or designation used, e.g. pseudonym
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Event -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Event">
         <rdfs:subClassOf rdf:resource="http://www.europeana.eu/schemas/edm/Event"/>
         <rdfs:subClassOf>
@@ -2172,6 +2263,7 @@ This class is defined as a subclass of edm:Event. In the future, it may be also 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#OrderedTextUnitList">
         <rdfs:subClassOf rdf:resource="http://purl.org/ontology/olo/core#OrderedList"/>
         <rdfs:comment xml:lang="en">An ordered list of text units with a given length and indexed elements. Examples of these lists are the list of stanzas and the list of lines, associated to a Redaction.</rdfs:comment>
@@ -2182,6 +2274,7 @@ This class is defined as a subclass of edm:Event. In the future, it may be also 
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Organisation -->
+
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Organisation">
         <rdfs:subClassOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
@@ -2201,6 +2294,7 @@ This class is defined as a subclass of pdcore:Agent (which is a subclass of edm:
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Person -->
+
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Person">
         <rdfs:subClassOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
@@ -2323,23 +2417,6 @@ This class is defined as a subclass of pdcore:Agent (which is a subclass of edm:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#gender"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#birthPlaceCertainty"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass>
@@ -2349,6 +2426,23 @@ This class is defined as a subclass of pdcore:Agent (which is a subclass of edm:
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
                                 <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:onClass>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#gender"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2400,6 +2494,7 @@ This class is defined as a subclass of pdcore:Agent (which is a subclass of edm:
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Place -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Place">
         <rdfs:subClassOf rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
         <rdfs:subClassOf>
@@ -2431,23 +2526,14 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1"/>
         <rdfs:subClassOf rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
+                <owl:someValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2458,24 +2544,8 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#genre"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/genre"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2486,18 +2556,8 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#poeticType"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2515,9 +2575,36 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#authorEducationLevel"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:onClass>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#genre"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/genre"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2525,6 +2612,23 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasProvenance"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#poeticType"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2550,8 +2654,15 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Redaction -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
+                <owl:someValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#date"/>
@@ -2582,14 +2693,14 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator"/>
-                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Role"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2607,14 +2718,13 @@ This class is defined as a subclass of edm:Place. In the future, it may be also 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
-                            <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#hasTranslation"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2775,25 +2885,13 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#Role -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Role">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#date"/>
-                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf"/>
-                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#roleFunction"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2803,7 +2901,28 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
-                </owl:onClass>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#date"/>
+                <owl:allValuesFrom rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Agent"/>
+                            <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble"/>
+                            <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork"/>
+                            <rdf:Description rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2831,6 +2950,7 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit -->
+
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-core#TextUnit">
         <rdfs:subClassOf rdf:resource="http://purl.org/ontology/olo/core#Slot"/>
@@ -2864,17 +2984,20 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"/>
     
 
 
     <!-- http://postdata.linhd.uned.es/ontology/postdata-transmission#Location -->
 
+
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-transmission#Location"/>
     
 
 
     <!-- http://www.europeana.eu/schemas/edm/Agent -->
+
 
     <owl:Class rdf:about="http://www.europeana.eu/schemas/edm/Agent">
         <rdfs:label xml:lang="en">Agent</rdfs:label>
@@ -2886,6 +3009,7 @@ potential to perform intentional actions for which they can be held responsible.
 
 
     <!-- http://www.europeana.eu/schemas/edm/Event -->
+
 
     <owl:Class rdf:about="http://www.europeana.eu/schemas/edm/Event">
         <rdfs:label xml:lang="en">Event</rdfs:label>
@@ -2903,6 +3027,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://www.europeana.eu/schemas/edm/Place -->
 
+
     <owl:Class rdf:about="http://www.europeana.eu/schemas/edm/Place">
         <rdfs:label xml:lang="en">Place</rdfs:label>
         <skos:definition xml:lang="en">An &quot;extent in space, in particular on the surface of the earth, in the pure sense of physics: independent from temporal phenomena and matter&quot; (CIDOC CRM)</skos:definition>
@@ -2911,6 +3036,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://www.europeana.eu/schemas/edm/ProvidedCHO -->
+
 
     <owl:Class rdf:about="http://www.europeana.eu/schemas/edm/ProvidedCHO">
         <rdfs:label xml:lang="en">Provided CHO</rdfs:label>
@@ -2922,11 +3048,13 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
 
+
     <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
@@ -2934,13 +3062,21 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
 
+
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     
 
 
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
+
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core#address"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">The Organization class represents a kind of Agent corresponding to social institutions such as companies, societies, etc</rdfs:comment>
         <rdfs:label xml:lang="en">Organization</rdfs:label>
     </owl:Class>
@@ -2948,6 +3084,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://xmlns.com/foaf/0.1/Person -->
+
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
         <rdfs:comment xml:lang="en">The Person class represents people. Something is a Person if it is a person. We don&apos;t nitpic about whether they&apos;re alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered &apos;agents&apos; in FOAF.</rdfs:comment>
@@ -2964,10 +3101,12 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://postdata.linhd.uned.es/kos/author-education-level -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/author-education-level">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -2978,6 +3117,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://postdata.linhd.uned.es/kos/certainty -->
 
+
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/certainty">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:definition xml:lang="en">Controlled vocabulary about certainty degree</skos:definition>
@@ -2986,6 +3126,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://postdata.linhd.uned.es/kos/character-type -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/character-type">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -2996,6 +3137,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://postdata.linhd.uned.es/kos/designation-type -->
 
+
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/designation-type">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:definition xml:lang="en">Thesaurus about type of name</skos:definition>
@@ -3004,6 +3146,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://postdata.linhd.uned.es/kos/gender -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/gender">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -3014,6 +3157,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://postdata.linhd.uned.es/kos/genre -->
 
+
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/genre">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:definition xml:lang="en">Thesaurus about literary genres</skos:definition>
@@ -3022,6 +3166,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://postdata.linhd.uned.es/kos/literary-period -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/literary-period">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -3032,6 +3177,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://postdata.linhd.uned.es/kos/poetic-type -->
 
+
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/poetic-type">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:definition xml:lang="en">Thesaurus about major literary genre of the compositions</skos:definition>
@@ -3040,6 +3186,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://postdata.linhd.uned.es/kos/religious-affiliation -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -3050,6 +3197,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://postdata.linhd.uned.es/kos/role-function -->
 
+
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/role-function">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:definition xml:lang="en">Thesaurus about specific function performed by some agent on a work</skos:definition>
@@ -3058,6 +3206,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://postdata.linhd.uned.es/kos/school -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/school">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -3068,6 +3217,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
     <!-- http://postdata.linhd.uned.es/kos/social-status -->
 
+
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/social-status">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:definition xml:lang="en">Thesaurus about the socialstatus of a person</skos:definition>
@@ -3076,6 +3226,7 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
     <!-- http://postdata.linhd.uned.es/kos/textual-element-type -->
+
 
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -3098,10 +3249,11 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     <rdf:Description rdf:about="http://schema.org/endDate">
+        <rdfs:comment xml:lang="en">The end date and time of the item (in &lt;a href=&quot;http://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601 date format&lt;/a&gt;).</rdfs:comment>
         <rdfs:isDefinedBy>https://schema.org/endDate</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">endDate</rdfs:label>
-        <rdfs:comment xml:lang="en">The end date and time of the item (in &lt;a href=&quot;http://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601 date format&lt;/a&gt;).</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/startDate">
         <rdfs:label xml:lang="en">startDate</rdfs:label>
@@ -3110,5 +3262,6 @@ cultural, technological or legal phenomena&quot; (E5 Event in CIDOC CRM) or a &q
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
 

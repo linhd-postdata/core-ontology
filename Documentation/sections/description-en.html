@@ -1,0 +1,223 @@
+<h2 id="desc" class="list">POSTDATA core ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span>
+<p>The objective of this ontology is to provide the necessary knowledge  for  the poetic works and its manifestations representation.<br/>
+It is important to note that some classes are  alienated with the  <a href="http://www.europeana.eu/schemas/edm/" target="new">edm </a>ontology.</p>
+<p>The most relevant classes of POSTDATA core ontology are:</p>
+<ul><li>
+    The <a href="#PoeticWork">pdcore:PoeticWork</a> class, that represents an abstract concept of an artistic creation. In POSTDATA these creations must be in verse (poem, play, song). General data properties representing title, language, keyword, subtitles (if any), literary tradition, function (if any) or theme are included to instances of Poetic Work. For example: Os Lusíadas by Luis Vaz de Camões; La Commedia by Dante; the poem Ad te deus by an Anonymous author written in between the 7th and 9th centuries. This class is in turn aligned with the <a href="http://www.europeana.eu/schemas/edm/" target="new">edm </a>  ontology as  a  <a href=http://www.europeana.eu/schemas/edm/ProvidedCHO" target="new">edm:ProvidedCHO</a> specialization and also with <a href="http://www.cidoc-crm.org/frbroo/home-0" target="new">FRBRoo</a> ontology as a  <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">frbroo:F1</a> specialization. The following diagram shows the data properties and object properties having class Poetic Work as range: </br>
+
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/poetic_work.jpg" style="max-width: 65%; max-height: 65%"/>
+        <figcaption>Context diagram of Poetic Work</figcaption>
+    </figure>
+
+    The previous diagram shows the datatype properties (inside the class' box) and object properties (labeled arrows, possibly including inverse property name after "/") that are relevant for this class. As we can see, a Poetic Work is related to their creator or creators (CreatorRole) and several Redactions that are physical realisations of the work at hand. We can also specify a geographic location related to the provenance of the work and we could also find depicted characters (Role). In addition, we make use of several SKOS schemes to represent the possible values for the poetic type and genre of the work, as well as to express the educational level of the author. Finally, we can express different dates associated with the poem using imported classes from postdata-dates ontology.
+</li>
+<li>
+    The <a href="#Redaction">pdcore:Redaction</a> class, that covers Poetic Work manifestations. It refers to a concrete version or instantiation of the Poetic Work. For example, one Poetic Work can have different editions; each edition represents one Redaction and they all refer to the same Poetic Work. As such, the textual elements as well as other aspects like the type of edition, witnesses used and not used, layout, explicit, incipit, or audience must be expressed using instances of Redaction. For example: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat. 1154 (BNF) and its critical edition are two Redaction of the same Poetic Work. This class is  a specialization of the class <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">frbroo:F22</a>. Find below the context diagram for the class Redaction: </br>
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/redaction.jpg" style="max-width: 80%; max-height: 80%"/>
+        <figcaption>Context diagram of Redaction</figcaption>
+    </figure>
+
+    As we can see from the previous diagram, Redaction includes the data and object properties used to describe the textual elements of a work. To do so, we can make use of data properties like incipit or text. We can also make use of object properties to represent textual elements (TextUnit and OrderedTextUnitList) that can be further described employing POSTDATA Structural Elements ontology (stanzas, lines, words).
+</li>
+<li>
+    The <a href="#Ensemble">pdcore:Ensamble</a> class, that is an abstract work that contains more than one Poetic Work. An Ensemble might be conceived as a collection of works, organized by author, by book song, by book of poems; or as a work mainly written in prose that contains more than one poetic pieces (each one of them being its own Poetic Work). In case a prose book contains various poems, each poem constitutes one Poetic Work; at the same time, all poems contained in the prose book are part of the same Ensemble. We describe instances of this class through some properties like the total number of lines, poems and plays. Eg: Les fleurs du mal. This class is a  <a href="http://iflastandards.info/ns/fr/frbr/frbroo/" target="new">frbroo:F17</a> specialization. The following diagram represents relevant properties available to describe instances of type Ensemble: </br>
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/ensemble.jpg" style="max-width: 65%; max-height: 65%"/>
+        <figcaption>Context diagram of Ensemble</figcaption>
+    </figure>
+    As we can see, Ensembles have some Poetic Works that are part of it and can have a specific creator associated (CreatorRole). An Ensemble can also be related with provenance Place and can be referenced in a specific location of the text.
+</li>
+</ul>
+<p>This ontology also models necessary classes to cover aspects regarding authorship, associated agents, places of origin and related events. We describe hereafter these classes including information about reused classes from other ontologies/vocabularies:</p>
+<ul><li>
+    <p>The <a href="#Person">pdcore:Person</a> class and the <a href="#Organisation">pdcore:Organisation</a> class, which are hierarchically dependent on the Agent class, as they share many functionalities. They are  <a href="http://xmlns.com/foaf/0.1/Person" target="new">foaf:Person</a> specialization and a <a href="http://xmlns.com/foaf/0.1/Organization" target="new">foaf:Organisation</a> specialization, respectively.</p>
+
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/person.jpg" style="max-width: 75%; max-height: 75%"/>
+        <figcaption>Context diagram of Person</figcaption>
+    </figure>
+    <p>
+        We have a set of properties that can be used to express biographical data about a Person, including Places of birth and death. We also make use of several SKOS schemes to control the possible values of other personal data. As we can see, a Person may belong to an Organisation. It and may have an assocaited Role, or be directly associated to a Redaction as editor. In addition, we can express that a Person takes a special function in a Redaction (dedications, mentions, characters) or an Event in which is involved.
+    </p>
+
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/organisation.jpg" style="max-width: 65%; max-height: 65%"/>
+        <figcaption>Context diagram of Organisation</figcaption>
+    </figure>
+
+    <p>
+        Organisations are formed by Persons. They can be associated to a Place, or it could be and Agent involved in an Event. Organisations, like Persons, can also have an associated Role and be mentioned in a Redaction.
+    </p>
+</li>
+
+<li>
+    <p>The <a href="#Place">pdcore:Place</a> class, specialization of <a href="http://www.europeana.eu/schemas/edm/Place" target="new">edm:Place</a>, that represents a particular position, point, or area in space; a location.</p>
+
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/place.jpg" style="max-width: 65%; max-height: 65%"/>
+        <figcaption>Context diagram of Place</figcaption>
+    </figure>
+
+    <p> The previous figure shows that a Place can be described using latitude and longitude. It also may be mentioned in a Redaction and could be an element of an Event. </p>
+</li>
+<li>
+    <p>The  <a href="#Event">pdcore:Event</a> class,  a specialization of <a href="http://www.europeana.eu/schemas/edm/Event" target="new">edm:Event</a>, that represents a thing that happens or takes place and that can be mentioned in a Redaction.</p>
+
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/event.jpg" style="max-width: 65%; max-height: 65%"/>
+        <figcaption>Context diagram of Event</figcaption>
+    </figure>
+
+    <p>
+        Events may have some of its actor elements defined (Places and Agents). An Event can be mentioned in a Redaction.
+    </p>
+
+</li>
+<li>
+    <p>In the ontology,  there  are also two important classes, the <a href="#Role">pdcore:Role</a> class and  <a href="#CreatorRole">pdcore:Creator Role</a> class, a  Role specialization .<br/> <a href="#Role">pdcore:Role</a> is used to represent the role of the agents related to Poetic Work, its manifestations, its transmissions and other elements.<br/> <a href="#CreatorRole">pdcore:Creator Role</a> is used for represent the function of a person or organization in the creation of a poetic work, redaction or other transmission element. This class also covers anonymous authorships and incorrect attributions. </p>
+
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/role.jpg" style="max-width: 65%; max-height: 65%"/>
+        <figcaption>Context diagram of Role</figcaption>
+    </figure>
+
+    <p>
+        As we can see from the previous diagram, Roles are specific functions of Agents regarding a Poetic Work, Redaction or Ensemble. When the Role plays the function of creator, we make use of CreatorRole class, which includes an attribute (data property) to express that the author attribution has been agreed to be wrong. A SKOS scheme can be used to express other functions.
+    </p>
+
+</li>
+</ul>
+
+<p>Also in the core there are properties of habitual use in different classes of the ontology because their semantics are the same for all of them. Many of these properties were defined through the properties  reuse that belong to the following vocabularies  <a href="http://purl.org/dc/elements/1.1/" target="new"> dc</a> and <a href="http://purl.org/dc/terms/" target="new">dcterms</a>, and to <a href="http://schema.org/" target="new"> schema</a> , for example, <a href="http://purl.org/dc/elements/1.1/title" target="new"> dc:title</a>, <a href="http://schema.org/url" target="new">schema:url</a> or others like <a href="#commentary">pdcore:commentary</a></p>
+
+<p><strong>The core ontology must be imported by the rest of the ontologies of the <a href="http://postdata-prototype.linhd.uned.es/ontology.php" target="_new">network of ontologies</a></strong>.
+
+</span>
+
+<div id="examples">
+
+    <h3 id="example2" class="list">Generic RDF Example</h3>
+    <span>
+        <p>
+            In this section we provide an example to show the basic elements of POSTDATA core ontology represented in RDF. Specifically, the example will show triplets for the poem (Poetic Work) "Suspiro y pruebo con la voz doliente" by Fernando de Herrera. The source of the text (Redaction) is provided by ADSO Corpus as part of a collection (Ensemble) entitled "Algunas obras de Fernando de Herrera" and can be accessed <a href="https://github.com/bncolorado/CorpusSonetosSigloDeOro/blob/master/FernandoDeHerrera/FernandoDeHerrera_161.xml">here</a> in XML-TEI format.
+        </p>
+
+        <p>
+            Here we provide a simple translation of the mentioned XML file to RDF in turtle format respecting POSTDATA core ontology. After including the required prefixes, we describe an Ensemble and the Poetic Work that is part of the Ensemble. The following piece of data also expresses that the Poetic Work has a specific realsation (Redaction):
+        </p>
+
+        <pre>
+
+@prefix cc: &lt;http://creativecommons.org/ns#> .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/> .
+@prefix olo: &lt;http://purl.org/ontology/olo/core#> .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#> .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: &lt;http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: &lt;http://purl.org/vocab/vann/> .
+@prefix pdcore: &lt;http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix schema: &lt;http://schema.org/> .
+@prefix status: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix dcterms: &lt;http://purl.org/dc/terms/> .
+@prefix pddates: &lt;http://postdata.linhd.uned.es/ontology/postdata-dates#> .
+@prefix postdata: &lt;http://postdata.linhd.uned.es/data/> .
+@prefix partof: &lt;http://www.ontologydesignpatterns.org/cp/owl/partof.owl> .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1>.
+@prefix objectrole: &lt;http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl>.
+
+
+postdata:Ensemble_1 a pdcore:Ensemble;
+	pdcore:numberOfLines "14"^^xsd:integer;
+	pdcore:numberOfPlays "0"^^xsd:integer;
+	pdcore:numberOfPoems "91"^^xsd:integer;
+	dc:title "Algunas obras de Fernando de Herrera";
+	partof:hasPart postdata:Poetic_Work_1.
+
+
+postdata:Poetic_Work_1 a pdcore:PoeticWork;
+	pdcore:isSong "false"^^xsd:boolean;
+	pdcore:isCalligram "false"^^xsd:boolean;
+	pdcore:literaryTradition "Renaissance";
+	pdcore:alternativeTitle "Suspiro y pruebo con la voz doliente";
+	pdcore:keyword "Sufrimiento amoroso";
+	pdcore:language "Spanish";
+	pdcore:originalTitle "Soneto XL";
+	pdcore:theme "El sufrimiento amoroso";
+	pdcore:isRealisedThrough postdata:Redaction_1;
+	pdcore:hasCreator postdata:Creator_Role_1.
+
+        </pre>
+
+    <p>
+        The Redaction contains all the textual elements and information about the edition. In the next piece of the RDF example includes triplets to describe the Redaction and include a specific editor of it:
+    </p>
+    <pre>
+postdata:Redaction_1 a pdcore:Redaction;
+	pdcore:additionalFile "https://github.com/bncolorado/CorpusSonetosSigloDeOro/blob/master/FernandoDeHerrera/FernandoDeHerrera_161.xml"^^xsd:anyURI;
+	pdcore:audience "Learned Spanish people interested in poetry";
+	pdcore:explicit "así acabo la vida en el suspiro";
+	pdcore:incipit "Suspiro y pruebo con la voz doliente";
+	pdcore:numberOfWitnessesUsed "1"^^xsd:integer;
+	pdcore:sampleText """Suspiro y pruebo con la voz doliente,
+que en su dolor espire el alma mía,
+crece el suspiro en vano y mi agonía,
+y el mal renueva siempre su accidente""";
+	pdcore:text """Suspiro y pruebo con la voz doliente,
+que en su dolor espire el alma mía,
+[..]
+y como el cisne muere en dulce canto,
+así acabo la vida en el suspiro.""";
+	pdcore:typeOfRedaction "Digital edition";
+	pdcore:unusedWitnesses "Ms. 10.159 of National Spanish Library (Cisnes del Betis)";
+	pdcore:workNumber "40"^^xsd:integer;
+	pdcore:language "Spanish";
+	pdcore:originalTitle "Soneto XL";
+	pdcore:hasEditor postdata:Person_2.
+
+postdata:Person_2 a pdcore:Person;
+	pdcore:name "Ramón";
+	pdcore:forename "García González".
+    </pre>
+
+    <p>
+        The last fragment of our example describes the creator of the poem:
+    </p>
+    <pre>
+postdata:Creator_Role_1 a pdcore:CreatorRole;
+	pdcore:isAnonymous "false"^^xsd:boolean;
+	pdcore:isWrongAttribution "false"^^xsd:boolean;
+	objectrole:isRoleOf postdata:Person_1.
+
+
+postdata:Person_1 a pdcore:Person;
+	pdcore:additionalName "El Divino"@es, "The Divine"@en;
+	pdcore:biography """Although Herrera's family was only moderately wealthy, they [..] writer continued to work
+up to his death in 1597 at the age of 63""";
+	pdcore:ethnicity "Spanish";
+	pdcore:forename "Fernando";
+	pdcore:isFictional "false"^^xsd:boolean;
+	pdcore:nameLink "de";
+	pdcore:nationality "Spanish";
+	pdcore:portrait "https://es.wikipedia.org/wiki/Fernando_de_Herrera#/media/Archivo:Francisco_pacheco-fernando_de_herrera.jpg"^^xsd:anyURI;
+	pdcore:surname "Herrera";
+	pdcore:name "Fernando".
+    </pre>
+
+    <p>
+        The most relevant object properties for this example can be visualize in the following diagram:
+    </p>
+    <figure style="display: block; text-align: center; padding: 30px">
+        <img src="./resources/herrera_graph.jpg" style="max-width: 90%; max-height: 90%"/>
+        <figcaption>Graphical representation of the Object Properties for the generic example</figcaption>
+    </figure>
+
+    </span>
+
+</div>
+
