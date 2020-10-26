@@ -99,7 +99,7 @@ It is important to note that some classes are  alienated with the  <a href="http
 
 <div id="examples">
 
-    <h3 id="example2" class="list">Generic RDF Example</h3>
+    <h3 id="example1" class="list">Generic RDF Example I</h3>
     <span>
         <p>
             In this section we provide an example to show the basic elements of POSTDATA core ontology represented in RDF. Specifically, the example will show triplets for the poem (Poetic Work) "Suspiro y pruebo con la voz doliente" by Fernando de Herrera. The source of the text (Redaction) is provided by ADSO Corpus as part of a collection (Ensemble) entitled "Algunas obras de Fernando de Herrera" and can be accessed <a href="https://github.com/bncolorado/CorpusSonetosSigloDeOro/blob/master/FernandoDeHerrera/FernandoDeHerrera_161.xml">here</a> in XML-TEI format.
@@ -216,6 +216,146 @@ up to his death in 1597 at the age of 63""";
         <img src="./resources/herrera_graph.jpg" style="max-width: 90%; max-height: 90%"/>
         <figcaption>Graphical representation of the Object Properties for the generic example</figcaption>
     </figure>
+
+    </span>
+
+    <h3 id="example2" class="list">Generic RDF Example II</h3>
+    <span>
+        <p>
+            Ensembles, Poetic Works and Redactions can be associated to the agents or roles that participated in the production of the mentioned items. In the following example, we define a creator and publisher roles for an ensemble that includes several poetic works. The following triplets express this idea:
+        </p>
+
+        <pre>
+@prefix pdcore: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix pddates: <http://postdata.linhd.uned.es/ontology/postdata-dates#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix postdata: <http://postdata.linhd.uned.es/data/> .
+@prefix pdskos: <http://postdata.linhd.uned.es/kos/> .
+
+
+postdata:Ensemble_1 a pdcore:Ensemble ;
+	dc:title "Las cien mejores poesías de la lengua castellana" ;
+	pdcore:hasCreator postdata:CreatorRole_1;
+        pdcore:date postdata:date_Las-cien;
+        pdcore:hasAgent postdata:Role_2;
+        pdcore:hasProvenance <http://postdata.linhd.uned.es/resource/Place/Madrid>;
+        pdcore:hasPart postdata:PW_Serranilla;
+        pdcore:hasPart postdata:PW_A-la-Muerte.
+
+postdata:CreatorRole_1 a pdcore:CreatorRole ;
+	pdcore:isRoleOf postdata:Menendez-Pelayo;
+        pdcore:isCreatorOf postdata:Ensemble_1;
+        pdcore:certainty pdskos:definitely.
+
+postdata:Role_2 a pdcore:Role;
+        pdcore:certainty pdskos:definitely;
+        pdcore:roleFunction pdskos:publisher;
+        pdcore:isRoleOf postdata:libreria-VS.
+        </pre>
+
+        <figure style="display: block; text-align: center; padding: 30px">
+            <img src="./resources/menendez_1.jpg" style="max-width: 90%; max-height: 90%"/>
+            <figcaption>Graphic example for the first triplets of Example II</figcaption>
+        </figure>
+
+        <p>
+            As we can see, the ensemble was created by "Menendez Pelayo", but the publisher referes to another Agent. Here, we consider the publishing organisation as the publishing agent. Hence, we include further information about the Agents involved in the example.
+        </p>
+
+        <pre>
+postdata:libreria-VS a pdcore:Organisation;
+        pdcore:name "Libreria Victoriano Soriano";
+        pdcore:hasRole postdata:Role_2.
+
+postdata:Menendez-Pelayo a pdcore:Person ;
+	pdcore:name "Marcelino " ;
+        pdcore:birthDate postdata:BD-M-Menendez-Pelayo;
+        pdcore:DeathDate postdata:DD-Menendez-Pelayo;
+        pdcore:birthPlace postdata:Santander;
+        owl:sameAs  <http://viaf.org/viaf/64018425>.
+
+postdata:Santander a pdcore:Place;
+        pdcore:name "Santander";
+        pdcore:typeOfPlace "Ciudad";
+        owl:sameAs <https://www.wikidata.org/wiki/Q12233>.
+        </pre>
+
+        <figure style="display: block; text-align: center; padding: 30px">
+            <img src="./resources/menendez_2.jpg" style="max-width: 90%; max-height: 90%"/>
+            <figcaption>Description of Agents involved in example II</figcaption>
+        </figure>
+
+    </span>
+
+    <h3 id="example3" class="list">Generic RDF Example III</h3>
+    <span>
+        <p>
+            Redactions are realisations of Poetic Works. In this example, we show how to express relationships between different realisations of a Poetic Work. In this case, one of the Redactions is said to be a translation of another one. The complete RDF example is the following:
+        </p>
+
+
+        <pre>
+            @prefix pdcore: <http://postdata.linhd.uned.es/ontology/postdata-core#> .
+@prefix pddates: <http://postdata.linhd.uned.es/ontology/postdata-dates#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix postdata: <http://postdata.linhd.uned.es/data/> .
+@prefix pdskos: <http://postdata.linhd.uned.es/kos/> .
+
+postdata:Serranilla_1 a pdcore:PoeticWork;
+	dc:title "Serranilla VI" ;
+	pdcore:hasCreator postdata:Creator_Role_1 ;
+	pdcore:isRealisedThrough postdata:Redaction_1;
+        pdcore:language "es";
+        pdcore:hasTranslation postdata:Redaction_Trans_2;
+        pdcore:isPartOf postdata:Ensemble_1.
+
+postdata:Marques-Santillana a pdcore:Person ;
+	pdcore:name "Iñigo " ;
+	pdcore:surname "López de Mendoza";
+        pdcore:positionName "Marqués de Santillana".
+
+postdata:Creator_Role_1 a pdcore:CreatorRole ;
+	pdcore:isRoleOf postdata:Marques-Santillana .
+
+postdata:Redaction_1 a pdcore:Redaction ;
+	pdcore:originalTitle "Serranilla" ;
+        pdcore:sampleText "Moza tan fermosa non ví en la frontera...";
+        pdcore:realises postdata:Serranilla_1;
+        pdcore:hasAgent postdata:Creator_Role_1.
+
+postdata:Role_2 a pdcore:Role ;
+	pdcore:isRoleOf postdata:Jose-J-Prats;
+        pdcore:roleFunction pdskos:editor;
+        pdcore:certainty pdskos:definitely.
+
+postdata:Redaction_Trans_2 a pdcore:Redaction;
+        pdcore:originalTitle "Serranilla" ;
+        dc:Title "Serranilha VI";
+        pdcore:language "Portugues";
+            pdcore:sampleText "Moça tan fermosa non vi en la frontera..."
+	pdcore:realises postdata:Serranilla_1;
+	pdcore:hasAgent postdata:Role_2;
+    pdcore:isTranslationOf postdata:Redaction_1.
+
+        </pre>
+
+        <p>
+            As we can see, the same Poetic Work is realised trough two different redactions. One of the Redactions is a translation of the original one, which was translated to portuguese and so the title changes and there is the need to specify the original title of the translated Redaction.
+        </p>
+
+
+        <figure style="display: block; text-align: center; padding: 30px">
+            <img src="./resources/marques_reduced_1.jpg" style="max-width: 100%; max-height: 100%"/>
+            <figcaption>Graphical depiction of Example III</figcaption>
+        </figure>
 
     </span>
 
