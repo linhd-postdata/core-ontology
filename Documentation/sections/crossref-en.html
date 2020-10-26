@@ -120,6 +120,10 @@ This section provides details for each class and property defined by POSTDATA co
          <dd>
             <a href="#hasCharacter"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter">has Character</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEditor"
+               title="http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor">has Editor</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasAgent"
+               title="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent">has agent</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -203,7 +207,9 @@ typeofDesignation, which is the type of name or designation used, e.g. pseudonym
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#isAnonymous"
+            <a href="#http://postdata.linhd.uned.es/resource/#isCreatorOf"
+               title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf">Is Creator Of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isAnonymous"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isAnonymous">is Anonymous</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#isWrongAttribution"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#isWrongAttribution">is Wrong Attribution</a>
@@ -415,8 +421,6 @@ This class is defined as a subclass of pdcore:Agent (which is a subclass of edm:
          <span class="markdown">The Organization class represents a kind of Agent corresponding to social institutions such as companies, societies, etc</span>
       </div>
       <dl class="description">
-         <dt>has super-classes</dt>
-         <dd/>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#Organisation"
@@ -518,8 +522,6 @@ This class is defined as a subclass of pdcore:Agent (which is a subclass of edm:
                title="http://postdata.linhd.uned.es/ontology/postdata-core#deathPlaceOf">death Place Of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#dedicatedTo"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#dedicatedTo">dedicated To</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasEditor"
-               title="http://postdata.linhd.uned.es/ontology/postdata-core#hasEditor">has Editor</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasMember"
                title="http://postdata.linhd.uned.es/ontology/postdata-core#hasMember">has Member</a>
             <sup class="type-op" title="object property">op</sup>
@@ -998,6 +1000,10 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
             title="http://postdata.linhd.uned.es/ontology/postdata-core#genre">genre</a>
       </li>
       <li>
+         <a href="#hasAgent"
+            title="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent">has agent</a>
+      </li>
+      <li>
          <a href="#hasCharacter"
             title="http://postdata.linhd.uned.es/ontology/postdata-core#hasCharacter">has Character</a>
       </li>
@@ -1046,6 +1052,14 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
       <li>
          <a href="#involves"
             title="http://postdata.linhd.uned.es/ontology/postdata-core#involves">involves</a>
+      </li>
+      <li>
+         <a href="#http://postdata.linhd.uned.es/resource/#isAgentOf"
+            title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf">Is Agent Of</a>
+      </li>
+      <li>
+         <a href="#http://postdata.linhd.uned.es/resource/#isCreatorOf"
+            title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf">Is Creator Of</a>
       </li>
       <li>
          <a href="#isFrom"
@@ -1870,6 +1884,43 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
          </dl>
       </div>
    </div>
+   <div class="entity" id="hasAgent">
+      <h3>has agent<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent</p>
+      <div class="comment">
+         <span class="markdown">This property points to an entity Role that represents an agent who plays a role,  such as an editor, critic or sponsor,in a poetic work, a  redaction or an ensemble</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://postdata.linhd.uned.es/ontology/postdata-core</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#hasCreator"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator">has Creator</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Agent"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/resource/#isAgentOf"
+                  title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf">Is Agent Of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="hasCharacter">
       <h3>has Character<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1925,9 +1976,9 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"
-                  target="_blank"
-                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole">has role</a>
+               <a href="#hasAgent"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent">has agent</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
             <dd>
@@ -1948,6 +1999,12 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
                <a href="#CreatorRole"
                   title="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">Creator Role</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/resource/#isCreatorOf"
+                  title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf">Is Creator Of</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -2013,8 +2070,8 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#Person"
-                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Person">Person</a>
+               <a href="#Agent"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Agent">Agent</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -2331,6 +2388,114 @@ Eg.: The palaeographic edition of A solis ortu usque ad occidua preserved in Lat
             <dd>
                <a href="#isInvolvedIn"
                   title="http://postdata.linhd.uned.es/ontology/postdata-core#isInvolvedIn">is Involved In</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://postdata.linhd.uned.es/resource/#isAgentOf">
+      <h3>Is Agent Of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf</p>
+      <div class="comment">
+         <span class="markdown">This property points to the PoeticWork, Redaction or Ensemble which depicts the Role at hand in relation to its contents. When the Role at hand is related to the agents that participated in the transmission of the work (e.g. sponsor), this property points to the entity affected by the current function.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://postdata.linhd.uned.es/ontology/postdata-core</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/resource/#isCreatorOf"
+                  title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf">Is Creator Of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"
+                  target="_blank"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role">role</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Ensemble"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble">Ensemble</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#PoeticWork"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork">Poetic Work</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Redaction"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">Redaction</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasAgent"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#hasAgent">has agent</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://postdata.linhd.uned.es/resource/#isCreatorOf">
+      <h3>Is Creator Of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isCreatorOf</p>
+      <div class="comment">
+         <span class="markdown">This property points to the PoeticWork, Redaction or Ensemble which  the Role at hand is related to the agents that participated in the creation of the Opus or Redaction</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://postdata.linhd.uned.es/ontology/postdata-core</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://postdata.linhd.uned.es/resource/#isAgentOf"
+                  title="http://postdata.linhd.uned.es/resource/http://postdata.linhd.uned.es/ontology/postdata-core#isAgentOf">Is Agent Of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#CreatorRole"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#CreatorRole">Creator Role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Ensemble"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Ensemble">Ensemble</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#PoeticWork"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#PoeticWork">Poetic Work</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Redaction"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">Redaction</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasCreator"
+                  title="http://postdata.linhd.uned.es/ontology/postdata-core#hasCreator">has Creator</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
