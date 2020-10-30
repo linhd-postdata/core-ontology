@@ -238,10 +238,13 @@ up to his death in 1597 at the age of 63""";
     <p>
         The most relevant object properties for this example can be visualize in the following diagram:
     </p>
-    <figure style="display: block; text-align: center; padding: 30px">
-        <img src="./resources/herrera_graph.jpg" style="max-width: 90%; max-height: 90%"/>
-        <figcaption>Graphical representation of the Object Properties for the generic example</figcaption>
-    </figure>
+
+<figure style="display: block; text-align: center; padding: 30px">
+    <object data="./resources/herrera_graph.svg" type="image/svg+xml" style="position: relative; top:0; left:0; height:100%; width:100%">
+        <img src="./resources/herrera_graph.png" />
+    </object>
+    <figcaption>Graphical Representation of Object Properties for the generic example I</figcaption>
+</figure>
 
     </span>
 
@@ -283,13 +286,15 @@ postdata:Role_2 a pdcore:Role;
         pdcore:isRoleOf postdata:libreria-VS.
         </pre>
 
-        <figure style="display: block; text-align: center; padding: 30px">
-            <img src="./resources/menendez_1.jpg" style="max-width: 90%; max-height: 90%"/>
-            <figcaption>Graphic example for the first triplets of Example II</figcaption>
-        </figure>
+<figure style="display: block; text-align: center; padding: 30px">
+    <object data="./resources/menendez_1.svg" type="image/svg+xml" style="position: relative; top:0; left:0; height:100%; width:100%">
+        <img src="./resources/menendez_1.png" />
+    </object>
+    <figcaption>Graphic Representation of of the first triplets for example II</figcaption>
+</figure>
 
         <p>
-            As we can see, the ensemble was created by "Menendez Pelayo", but the publisher referes to another Agent. Here, we consider the publishing organisation as the publishing agent. Hence, we include further information about the Agents involved in the example.
+            As we can see, the ensemble was created by "Menendez Pelayo", but the publisher referes to another Agent. Here, we consider the publishing organisation as the publishing agent. Hence, we include further information about the Agents involved in the example, including the definition of author's birth date according to imported ontology classes from POSTDATA Dates Ontology:
         </p>
 
         <pre>
@@ -308,12 +313,21 @@ postdata:Santander a pdcore:Place;
         pdcore:name "Santander";
         pdcore:typeOfPlace "Ciudad";
         owl:sameAs <https://www.wikidata.org/wiki/Q12233>.
+
+postdata:BD-M-Menendez-Pelayo a pddates:DateEntity;
+	pddates:isExpressedAs postdata:Date1;
+	pdcore:certainty pdskos:definitely.
+
+postdata:Date1 a pddates:ExactDateExpression;
+	pddates:dateExpressionAsdate "1856-11-3"^^xsd:date.
         </pre>
 
-        <figure style="display: block; text-align: center; padding: 30px">
-            <img src="./resources/menendez_2.jpg" style="max-width: 90%; max-height: 90%"/>
-            <figcaption>Description of Agents involved in example II</figcaption>
-        </figure>
+<figure style="display: block; text-align: center; padding: 30px">
+    <object data="./resources/menendez_2.svg" type="image/svg+xml" style="position: relative; top:0; left:0; height:100%; width:100%">
+        <img src="./resources/menendez_2.png" />
+    </object>
+    <figcaption>Description of Agents involved in example II</figcaption>
+</figure>
 
     </span>
 
@@ -378,10 +392,12 @@ postdata:Redaction_Trans_2 a pdcore:Redaction;
         </p>
 
 
-        <figure style="display: block; text-align: center; padding: 30px">
-            <img src="./resources/marques_reduced_1.jpg" style="max-width: 100%; max-height: 100%"/>
-            <figcaption>Graphical depiction of Example III</figcaption>
-        </figure>
+<figure style="display: block; text-align: center; padding: 30px">
+    <object data="./resources/marques_reduced_1.svg" type="image/svg+xml" style="position: relative; top:0; left:0; height:100%; width:100%">
+        <img src="./resources/marques_reduced_1.png" />
+    </object>
+    <figcaption>Graphical Depiction of Example III</figcaption>
+</figure>
 
     </span>
 
